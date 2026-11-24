@@ -10,9 +10,8 @@ Católica de Santa María (UCSM) sobre dos documentos oficiales:
 
 El agente se construye en **Microsoft Copilot Studio**. Este repositorio
 contiene la preparación del corpus (Python), el protocolo conversacional,
-los artefactos que se cargan en el agente, la evaluación y la especificación
-del proyecto (OpenSpec). Es un proyecto académico de la Maestría (curso de
-Herramientas de IA).
+los artefactos que se cargan en el agente y la evaluación. Es un proyecto
+académico de la Maestría (curso de Herramientas de IA).
 
 > **Aviso:** es un asistente de orientación, no un canal oficial de la
 > UCSM. El texto vinculante es el de los documentos publicados en
@@ -50,9 +49,6 @@ flowchart LR
 | Banco de preguntas, métricas, rúbrica y SUS | Preparado; se ejecuta con el agente publicado |
 | Agente en Copilot Studio | Pendiente de verificar el acceso con la cuenta del autor |
 | Evaluación y paper | Pendiente |
-
-El detalle de tareas está en
-[`openspec/changes/add-chatbot-normatividad-ucsm/tasks.md`](openspec/changes/add-chatbot-normatividad-ucsm/tasks.md).
 
 ## Requisitos
 
@@ -111,8 +107,6 @@ docs/                  alcance, revisión de literatura, matriz, protocolo,
 eval/                  banco de preguntas, métricas, rúbrica, usabilidad
 tests/                 pruebas de limpieza, segmentación, campos y evaluación
 paper/                 paper (plantilla TAF)
-openspec/              especificación del proyecto (propuesta, diseño,
-                       requisitos y tareas)
 ```
 
 ## Documentación
