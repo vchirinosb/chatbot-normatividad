@@ -1,0 +1,22 @@
+flowchart TD
+    A([Usuario abre el chat]) --> B[Bienvenida + aviso de alcance<br/>y carácter no oficial]
+    B --> C[Menú de 7 temas]
+    C --> D{¿Qué escribe<br/>el usuario?}
+    D -->|Ayuda / menú| C
+    D -->|DNI o código| P[Advertencia de privacidad<br/>sin guardar el dato] --> D
+    D -->|Insulto u ofensa| M[Mensaje de respeto] --> D
+    D -->|Fuera de alcance| F[Explica el alcance y deriva a<br/>ucsm.edu.pe/normatividad] --> D
+    D -->|Trámite| T{¿Se reconoce<br/>el trámite?}
+    T -->|No| T1[Pide el nombre del trámite] --> T
+    T -->|Varias variantes| T2[Pregunta única:<br/>Escuela Profesional o Postgrado] --> T3
+    T -->|Sí| T3[Adaptive Card: costo, plazo,<br/>dónde, contacto, páginas]
+    T3 --> T4[¿Detallar requisitos?] --> R
+    D -->|Consulta normativa| N{¿Depende de nivel<br/>o modalidad?}
+    N -->|Sí| N1[Pregunta única con opciones] --> R
+    N -->|No| R{¿Hay evidencia<br/>en el corpus?}
+    R -->|Sí| R1[Respuesta breve + pasos +<br/>Fuentes: Art. o código + aviso]
+    R -->|No| R2[No encontré... + derivación]
+    R1 --> D
+    R2 --> D
+    D -->|Gracias / adiós| E[Despedida + encuesta<br/>¿Te fue útil?]
+    E --> Z([Fin])

@@ -1,0 +1,320 @@
+# Banco de preguntas de referencia (tarea 6.1).
+# category: reglamento | tupa | combinada | fuera_alcance | sin_respuesta
+# sources: artículos (article) del Reglamento o códigos (code) del TUPA.
+# expected_fee y expected_term se comprueban contra data/processed/tupa.json
+# con: .venv/bin/python eval/check_questions.py
+# subset: true marca las ~15 preguntas usadas en las iteraciones (6.2).
+version: 1
+questions:
+  # --- Reglamento de Estudiantes ------------------------------------------
+  - id: REG-01
+    category: reglamento
+    subset: true
+    question: ¿Qué pasa si desapruebo la misma asignatura tres veces?
+    expected_answer: >-
+      Se le separa temporalmente por un año; al volver solo puede matricularse
+      en esa asignatura y, si la desaprueba por cuarta vez, procede el retiro
+      definitivo de la Escuela Profesional.
+    sources: [{article: 83}]
+  - id: REG-02
+    category: reglamento
+    subset: true
+    question: ¿Con qué nota se aprueba una asignatura?
+    expected_answer: >-
+      Nota mínima de doce (12) tanto en el componente conceptual (teoría) como
+      en el procedimental (práctica), más 100 % de asistencia a la actividad
+      práctica; si una dimensión no se aprueba, no se aprueba la asignatura.
+    sources: [{article: 82}]
+  - id: REG-03
+    subset: true
+    category: reglamento
+    question: ¿Cuántas evaluaciones parciales tiene cada asignatura?
+    expected_answer: Tres (3) evaluaciones parciales.
+    sources: [{article: 73}]
+  - id: REG-04
+    category: reglamento
+    question: ¿Cuántas semanas dura un semestre académico?
+    expected_answer: Dieciocho (18) semanas, divididas en tres fases de aprendizaje y evaluación.
+    sources: [{article: 18}]
+  - id: REG-05
+    category: reglamento
+    subset: true
+    question: ¿Cuáles son las sanciones que se pueden aplicar a los estudiantes?
+    expected_answer: >-
+      Amonestación escrita, suspensión hasta por dos semestres académicos y
+      separación definitiva previo proceso disciplinario; se registran en la
+      ficha récord del estudiante.
+    sources: [{article: 24}]
+  - id: REG-06
+    category: reglamento
+    question: ¿Cuál es el canal oficial de comunicación entre la universidad y los estudiantes?
+    expected_answer: >-
+      El correo electrónico institucional; una disposición se entiende
+      notificada al depositarse en ese correo.
+    sources: [{article: 21}]
+  - id: REG-07
+    category: reglamento
+    question: ¿Por cuántos semestres puedo reservar mi matrícula?
+    expected_answer: Reserva automática hasta por cinco (05) semestres.
+    sources: [{article: 28}]
+  - id: REG-08
+    category: reglamento
+    question: ¿Puedo anular mi matrícula por tercera vez?
+    expected_answer: >-
+      No; es improcedente la anulación de matrícula por tercera vez o más. El
+      trámite se inicia en la plataforma de matrícula.
+    sources: [{article: 41}]
+  - id: REG-09
+    category: reglamento
+    question: ¿Cuántas asignaturas puedo llevar en la nivelación académica?
+    expected_answer: >-
+      Como máximo dos (2), sin incompatibilidad horaria y con los
+      prerrequisitos aprobados; la asistencia es obligatoria.
+    sources: [{article: 47}]
+  - id: REG-10
+    category: reglamento
+    subset: true
+    question: ¿En qué casos puedo pedir un examen de suficiencia con jurado?
+    expected_answer: >-
+      Entre otros: asignaturas desaparecidas del plan sin equivalente, y una o
+      dos asignaturas teóricas o teórico-prácticas que se adeuden para
+      completar el plan de estudios.
+    sources: [{article: 57}]
+    note: Artículo con notas de modificación (has_changes).
+  - id: REG-11
+    category: reglamento
+    question: ¿Qué sanción recibe un estudiante que comete una falta en una evaluación por primera vez?
+    expected_answer: >-
+      Suspensión por un año (dos semestres), previo procedimiento
+      administrativo; además no puede recibir premios, becas, intercambio,
+      cartas de recomendación ni ser representante estudiantil.
+    sources: [{article: 86}]
+  - id: REG-12
+    category: reglamento
+    question: ¿Quiénes pueden recibir el Premio Anual a la Excelencia Académica?
+    expected_answer: >-
+      Egresados de pregrado que ingresaron y culminaron en la misma Escuela
+      Profesional y registran el rendimiento más alto; quienes pidieron
+      convalidaciones o examen de suficiencia no acceden (salvo el Art. 57°
+      literal g).
+    sources: [{article: 97}]
+  - id: REG-13
+    category: reglamento
+    question: ¿Qué beneficio recibe un ayudante de cátedra?
+    expected_answer: >-
+      Una rebaja del 50 % de las tasas educativas; la asignación es hasta por
+      un año.
+    sources: [{article: 101}]
+  - id: REG-14
+    category: reglamento
+    question: ¿Mis estudios prescriben si me demoro en sacar el grado?
+    expected_answer: >-
+      No; los estudios concluidos no prescriben y el derecho a graduarse o
+      titularse sigue vigente si se cumplen los requisitos de los reglamentos
+      de grados y títulos.
+    sources: [{article: 108}]
+  - id: REG-15
+    category: reglamento
+    question: ¿La universidad tiene un seguro para los estudiantes?
+    expected_answer: Sí, la Universidad contrata un seguro contra accidentes.
+    sources: [{article: 114}]
+  - id: REG-16
+    category: reglamento
+    question: ¿Se puede tomar alcohol dentro de la universidad fuera del horario de clases?
+    expected_answer: >-
+      No; está totalmente prohibido dentro de las instalaciones, en horario de
+      estudio o fuera de él.
+    sources: [{article: 123}]
+  - id: REG-17
+    category: reglamento
+    subset: true
+    question: En la modalidad semipresencial, ¿qué porcentaje de asignaturas me pueden exonerar?
+    expected_answer: >-
+      Hasta un máximo del 20 % de las asignaturas del plan, del Área de
+      Formación Profesional.
+    sources: [{article: 136}]
+  - id: REG-18
+    category: reglamento
+    question: ¿Cuántos créditos tiene como mínimo el plan de estudios semipresencial?
+    expected_answer: 200 créditos académicos como mínimo.
+    sources: [{article: 130}]
+
+  # --- TUPA ---------------------------------------------------------------
+  - id: TUPA-01
+    category: tupa
+    subset: true
+    question: ¿Cuánto cuesta y cuánto demora la copia autenticada de la resolución de mi título?
+    sources: [{code: PA113073E0FC}]
+    expected_fee: S/ 44.00
+    expected_term: 7 días hábiles
+  - id: TUPA-02
+    category: tupa
+    subset: true
+    question: ¿Cuánto cuesta anular mi matrícula y en cuánto tiempo responden?
+    sources: [{code: PA113073C401}]
+    expected_fee: Gratuito
+    expected_term: 30 días hábiles
+  - id: TUPA-03
+    category: tupa
+    question: ¿Cuánto cuesta el grado de bachiller?
+    sources: [{code: PA113073650B}]
+    expected_fee: S/ 2200.00
+    expected_term: 30 días hábiles
+  - id: TUPA-04
+    category: tupa
+    subset: true
+    question: ¿Cuánto pago por convalidar asignaturas?
+    sources: [{code: PA11307347AE}]
+    expected_fee: S/ 160.00
+    expected_term: 30 días hábiles
+  - id: TUPA-05
+    category: tupa
+    question: Perdí mi carné universitario, ¿cuánto cuesta el duplicado?
+    sources: [{code: SE11307302CD}]
+    expected_fee: S/ 75.00
+    expected_term: 30 días hábiles
+  - id: TUPA-06
+    category: tupa
+    question: ¿Cuánto cuesta un certificado de estudios?
+    sources: [{code: SE11307355BF}]
+    expected_fee: S/ 49.50
+    expected_term: 7 días hábiles
+  - id: TUPA-07
+    category: tupa
+    subset: true
+    question: ¿Cuánto cuesta el grado de maestro y el de doctor?
+    sources: [{code: PA113073970F}]
+    expected_fee: "Maestro: S/ 2970.00; Doctor: S/ 4433.00"
+    expected_term: 30 días hábiles
+  - id: TUPA-08
+    category: tupa
+    question: ¿Cuánto cuesta el duplicado de mi diploma de título?
+    sources: [{code: PA1130736147}]
+    expected_fee: S/ 825.00
+    expected_term: 15 días hábiles
+  - id: TUPA-09
+    category: tupa
+    question: ¿Cuánto cuesta la constancia de no adeudo?
+    sources: [{code: SE113073D224}]
+    expected_fee: S/ 11.00
+    expected_term: 2 días hábiles
+  - id: TUPA-10
+    category: tupa
+    question: ¿Cuánto demora la autorización de matrícula extemporánea?
+    sources: [{code: PA113073291A}]
+    expected_fee: Gratuito
+    expected_term: 4 días hábiles
+  - id: TUPA-11
+    subset: true
+    category: tupa
+    question: ¿Cuánto cuesta matricularme en un curso de otra Escuela Profesional?
+    sources: [{code: PA113073A4C4}]
+    expected_fee: S/ 35.00
+    expected_term: 1 día hábil
+  - id: TUPA-12
+    category: tupa
+    question: ¿Cuánto cuesta el levantamiento de prerrequisitos?
+    sources: [{code: PA1130737252}]
+    expected_fee: S/ 30.00
+    expected_term: 1 día hábil
+  - id: TUPA-13
+    category: tupa
+    question: ¿Cuánto cuesta el título de segunda especialidad?
+    sources: [{code: PA1130732473}]
+    expected_fee: S/ 2750.00
+    expected_term: 30 días hábiles
+
+  # --- Combinadas (Reglamento + TUPA) ------------------------------------
+  - id: COMB-01
+    category: combinada
+    subset: true
+    question: Falté a un examen por enfermedad, ¿qué dice el reglamento y qué trámite hago en pregrado?
+    expected_answer: >-
+      Justificar ante el Decano dentro de los 5 días hábiles siguientes por el
+      UCSM-ERP con certificado médico visado; el trámite de la Escuela
+      Profesional es gratuito y se atiende en 5 días hábiles.
+    sources: [{article: 74}, {code: PA1130732571}]
+    expected_fee: Gratuito
+    expected_term: 5 días hábiles
+  - id: COMB-02
+    category: combinada
+    subset: true
+    question: Quiero cambiarme de sección, ¿puedo hacerlo y cuánto cuesta?
+    expected_answer: >-
+      Sí, la rectificación de matrícula permite cambio de sección dentro del
+      cronograma, en la plataforma de matrícula; cuesta S/ 13.00 y se atiende
+      en 1 día hábil.
+    sources: [{article: 40}, {code: PA113073BF13}]
+    expected_fee: S/ 13.00
+    expected_term: 1 día hábil
+  - id: COMB-03
+    category: combinada
+    question: ¿Cuándo procede la anulación de matrícula y cuánto demora el trámite?
+    expected_answer: >-
+      Se inicia en la plataforma de matrícula dentro del plazo del semestre y
+      no procede por tercera vez; el trámite es gratuito y demora 30 días
+      hábiles.
+    sources: [{article: 41}, {code: PA113073C401}]
+    expected_fee: Gratuito
+    expected_term: 30 días hábiles
+  - id: COMB-04
+    category: combinada
+    question: ¿En qué casos puedo pedir examen de suficiencia y cuánto demora la solicitud?
+    expected_answer: >-
+      En los casos del Art. 57° (asignaturas desaparecidas o una o dos
+      adeudadas para completar el plan); la solicitud es gratuita y se
+      atiende en 15 días hábiles.
+    sources: [{article: 57}, {code: PA1130735C82}]
+    expected_fee: Gratuito
+    expected_term: 15 días hábiles
+
+  # --- Fuera de alcance ---------------------------------------------------
+  - id: OUT-01
+    category: fuera_alcance
+    subset: true
+    question: ¿Cuál es mi nota del curso de Cálculo?
+    expected_answer: Rechazo con derivación (no consulta datos personales).
+    sources: []
+  - id: OUT-02
+    category: fuera_alcance
+    question: ¿Cuándo es el próximo examen de admisión?
+    expected_answer: Rechazo con derivación (admisión no está en el corpus).
+    sources: []
+  - id: OUT-03
+    category: fuera_alcance
+    subset: true
+    question: ¿Cuál es la capital de Francia?
+    expected_answer: Rechazo; no responde "París".
+    sources: []
+  - id: OUT-04
+    category: fuera_alcance
+    question: ¿Qué dice el reglamento de docentes sobre la carga horaria?
+    expected_answer: Rechazo con derivación a ucsm.edu.pe/normatividad.
+    sources: []
+  - id: OUT-05
+    category: fuera_alcance
+    question: Págame la cuota de este mes con mi tarjeta.
+    expected_answer: Rechazo; el asistente no realiza pagos ni trámites.
+    sources: []
+
+  # --- Sin respuesta en el corpus ----------------------------------------
+  - id: NOANS-01
+    category: sin_respuesta
+    question: ¿Cuánto cuesta la pensión mensual de Ingeniería de Sistemas?
+    expected_answer: No encontrado en el corpus; derivación.
+    sources: []
+  - id: NOANS-02
+    category: sin_respuesta
+    question: ¿Qué día empieza el semestre 2027-I?
+    expected_answer: No encontrado en el corpus; derivación.
+    sources: []
+  - id: NOANS-03
+    category: sin_respuesta
+    question: ¿Qué docentes dictan Cálculo I en Ingeniería Civil?
+    expected_answer: No encontrado en el corpus; derivación.
+    sources: []
+  - id: NOANS-04
+    category: sin_respuesta
+    question: ¿Cuál es el horario del comedor universitario?
+    expected_answer: No encontrado en el corpus; derivación.
+    sources: []

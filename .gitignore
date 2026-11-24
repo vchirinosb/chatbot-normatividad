@@ -1,0 +1,13 @@
+# Entorno
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Sistema y editores
+.DS_Store
+.idea/
+.vscode/
+
+# Temporales de Office
+~$*

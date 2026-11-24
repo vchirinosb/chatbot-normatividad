@@ -1,0 +1,163 @@
+# Fuente única de los mensajes fijos del protocolo conversacional.
+# Los Topics de Copilot Studio se configuran copiando estos textos.
+# Cualquier cambio se hace aquí primero y luego se copia al agente.
+version: 1
+idioma: es-PE
+
+avisos:
+  no_oficial: >-
+    Soy un asistente académico de orientación. No reemplazo a las instancias
+    oficiales de la UCSM; el texto vinculante es el del documento oficial.
+  alcance: >-
+    Respondo solo sobre el Reglamento de Estudiantes (TUO, Res. 9814-CU-2026)
+    y el TUPA de la UCSM (Res. 9888-CU-2026). No consulto notas, pagos ni
+    datos personales.
+  fuentes_titulo: "Fuentes:"
+
+menu:
+  pregunta: "¿Sobre qué tema quieres consultar?"
+  opciones:
+    - id: matricula
+      etiqueta: Matrícula y convalidaciones
+    - id: evaluacion
+      etiqueta: Evaluación y notas
+    - id: deberes
+      etiqueta: Deberes, derechos y sanciones
+    - id: becas
+      etiqueta: Becas y bienestar
+    - id: grados
+      etiqueta: Grados, títulos y certificados
+    - id: modalidades
+      etiqueta: Modalidades semipresencial y a distancia
+    - id: tramites
+      etiqueta: Trámites (requisitos, costos y plazos)
+
+intenciones:
+  - id: saludo
+    topic: Conversation Start (sistema)
+    ejemplos: ["hola", "buenos días", "inicio"]
+    mensaje: >-
+      ¡Hola! Soy el asistente de normatividad estudiantil de la UCSM. Puedo
+      explicarte el Reglamento de Estudiantes y los trámites del TUPA
+      (requisitos, costos y plazos). No consulto notas, pagos ni datos
+      personales.
+    siguiente: menu
+
+  - id: menu
+    topic: Menú de temas
+    ejemplos: ["ayuda", "¿qué puedes hacer?", "menú", "temas"]
+    mensaje: "Estos son los temas que puedo ayudarte a consultar:"
+    siguiente: menu
+
+  - id: consulta_normativa
+    topic: Respuesta generativa (conocimiento del Reglamento)
+    ejemplos:
+      - "¿Cuántas veces puedo desaprobar un curso?"
+      - "¿Qué pasa si falto a más del 30 % de clases?"
+      - "¿Cuáles son mis derechos como estudiante?"
+    mensaje: null  # respuesta generativa con cita del artículo
+    formato: respuesta_normativa
+
+  - id: consulta_tramite
+    topic: Consulta de trámite
+    ejemplos:
+      - "¿Cuánto cuesta la constancia de estudios?"
+      - "¿Cómo anulo mi matrícula?"
+      - "¿Qué necesito para el duplicado de carné?"
+    pregunta_si_no_reconoce: >-
+      ¿Qué trámite deseas consultar? Escribe su nombre, por ejemplo
+      "anulación de matrícula" o "constancia de estudios".
+    tarjeta:
+      titulo: "{Name}"
+      campos:
+        - {etiqueta: "Código", valor: "{Code}"}
+        - {etiqueta: "Costo", valor: "{Fee}"}
+        - {etiqueta: "Plazo de atención", valor: "{Term}"}
+        - {etiqueta: "Dónde se presenta", valor: "{Office}"}
+        - {etiqueta: "Contacto", valor: "{Contact}"}
+        - {etiqueta: "Fuente", valor: "TUPA UCSM, págs. {Pages}"}
+    mensaje_despues: "¿Quieres que te detalle los requisitos de este trámite?"
+
+  - id: desambiguacion_evaluacion_extemporanea
+    topic: Evaluación extemporánea
+    ejemplos:
+      - "¿Cómo pido una evaluación extemporánea?"
+      - "falté a mi examen por enfermedad"
+    pregunta: >-
+      El TUPA tiene un trámite distinto según tu escuela. ¿Para cuál es la
+      evaluación extemporánea?
+    opciones:
+      - etiqueta: Escuela Profesional (pregrado)
+        codigo_tupa: PA1130732571
+      - etiqueta: Escuela de Postgrado
+        codigo_tupa: PA1130731912
+
+  - id: desambiguacion_general
+    topic: Respuesta generativa (instrucción del agente)
+    regla: >-
+      Si la respuesta cambia según el nivel (pregrado/postgrado) o la
+      modalidad (presencial, semipresencial, a distancia), hacer una sola
+      pregunta de aclaración con esas opciones antes de responder.
+    pregunta_nivel: "¿Tu consulta es para pregrado o para postgrado?"
+    opciones_nivel: [Pregrado, Postgrado]
+    pregunta_modalidad: "¿En qué modalidad estudias?"
+    opciones_modalidad: [Presencial, Semipresencial, A distancia]
+
+  - id: datos_personales
+    topic: Datos personales
+    ejemplos: ["mi DNI es 45678912", "mi código es 2020123456"]
+    patron_dni: "\\b\\d{8}\\b"
+    patron_codigo: "\\b\\d{10}\\b"
+    mensaje: >-
+      Por tu seguridad, no compartas datos personales como tu DNI, código de
+      estudiante, notas o contraseñas. No los necesito para responder: puedo
+      orientarte con la normativa general. ¿Cuál es tu consulta?
+
+  - id: fuera_de_alcance
+    topic: Fallback (sistema)
+    ejemplos:
+      - "¿Cuál es mi nota del curso?"
+      - "¿Cuándo es el examen de admisión?"
+      - "¿Qué dice el reglamento de docentes?"
+    mensaje: >-
+      Esa consulta está fuera de mi alcance: solo respondo sobre el
+      Reglamento de Estudiantes y el TUPA de la UCSM. Para otros temas,
+      revisa https://ucsm.edu.pe/normatividad/ o comunícate con la oficina
+      correspondiente.
+
+  - id: sin_evidencia
+    topic: Respuesta generativa (sin resultados)
+    mensaje: >-
+      No encontré esa información en el Reglamento de Estudiantes ni en el
+      TUPA. Te sugiero consultar con tu Escuela Profesional o con Secretaría
+      General, o revisar https://ucsm.edu.pe/normatividad/.
+
+  - id: contenido_inapropiado
+    topic: Moderación de contenido (sistema)
+    mensaje: >-
+      Prefiero mantener una conversación respetuosa. Si tienes una consulta
+      sobre el Reglamento de Estudiantes o los trámites del TUPA, con gusto
+      te ayudo.
+
+  - id: despedida
+    topic: End of Conversation (sistema)
+    ejemplos: ["gracias, eso es todo", "adiós", "chau"]
+    mensaje: >-
+      ¡Gracias por consultar! Si tienes otra duda sobre el Reglamento o los
+      trámites, vuelve cuando quieras.
+    encuesta: "¿Te fue útil esta conversación?"
+    opciones_encuesta: ["Sí", "No"]
+
+formatos:
+  respuesta_normativa:
+    max_palabras: 150
+    estructura:
+      - respuesta directa en 1–2 frases
+      - viñetas o pasos numerados si hay requisitos o pasos
+      - "Fuentes: Reglamento de Estudiantes, Art. N° (pág. P)"
+      - aviso de carácter no oficial (breve)
+    regla_combinada: >-
+      Si el tema aparece en ambos documentos, dar primero la regla del
+      Reglamento y luego el trámite del TUPA.
+    regla_cambios: >-
+      Si el artículo tiene una nota de modificación, mencionarla.

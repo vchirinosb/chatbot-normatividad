@@ -1,0 +1,2797 @@
+[
+  {
+    "unit_id": "tupa-001",
+    "code": "PE123299E43",
+    "name": "Acceso a la Información Pública creada u obtenida por la entidad, que se encuentre en su posesión o bajo su control",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      6,
+      7
+    ],
+    "description": "Procedimiento a través del cual toda persona, natural o jurídica, solicita información pública (información creada, obtenida, en posesión o bajo control de una entidad pública), sin expresar la causa de su pedido, y la recibe en la forma o medio solicitado, siempre que asuma el costo de su reproducción física o de manera gratuita cuando se solicite que esta sea entregada por medio virtual. El plazo de atención es de 10 días hábiles, sin embargo, cuando sea materialmente imposible cumplir con el plazo señalado debido a causas justificadas, por única vez la entidad comunica al solicitante la fecha en que proporcionará la información solicitada de forma debidamente fundamentada, en un plazo máximo de dos (2) días hábiles de recibido el pedido de información.",
+    "requirements": [
+      "1.- Solicitud presentada vía formulario o documento que contenga la misma información.",
+      "2.- De corresponder indicar número y fecha de comprobante de pago, en caso el pago se haya efectuado en la entidad. Si el pago se realizó en el Banco de la Nación, adjuntar copia del comprobante de pago*. * Este requisito se presenta posteriormente al ingreso de la solicitud. La entidad notifica al solicitante la liquidación del costo de reproducción que contiene la información requerida, como máximo, hasta el noveno (9) día hábil de recibida la solicitud."
+    ],
+    "notes": [
+      "1.- La solicitud de información debe ser dirigida al Funcionario Responsable de atender las solicitudes de Acceso a la Información. En caso de que este no hubiese sido designado, la solicitud se dirige al funcionario que tiene en su poder la información requerida o al superior inmediato.",
+      "2.- La solicitud de acceso a la información pública puede ser presentada por cualquier persona natural o jurídica ante la unidad de recepción documentaria de la entidad, a través de un formulario digital, un correo electrónico establecido para tal fin o a través de cualquier otro medio idóneo que para tales efectos establezcan las entidades.",
+      "3.- La liquidación del costo de reproducción que contiene la información requerida se notifica al solicitante como máximo, hasta el noveno (9) día hábil de recibida la solicitud. En tal supuesto, el solicitante debe cancelar dicho monto acercándose a la entidad o través de los mecanismos de pago a distancia o pagos digitales que cada entidad ponga a disposición. El pago efectuado debe ponerse en conocimiento de la entidad, a efectos que la entidad efectúe la reproducción correspondiente y pueda entregar la información dentro del plazo.",
+      "4.- No se puede negar información cuando se solicite que esta sea entregada en una determinada forma o medio, siempre que el solicitante asuma el costo que suponga el pedido.",
+      "5.- En caso de presentación de Recurso de Apelación, el plazo máximo de presentación es de 15 días hábiles. De haber una denegatoria tácita, no existe un plazo perentorio. El plazo máximo de respuesta es de diez (10) días hábiles, contados a partir de la admisibilidad del recurso por el Tribunal de Transparencia y Acceso a la Información Pública. El plazo para declarar la admisibilidad del recurso es de siete (7) días hábiles, contados a partir del siguiente día hábil de su recepción por el Tribunal. Si el Tribunal declara la inadmisibilidad del recurso requiere al/a la apelante que subsane en un plazo máximo de dos (2) días hábiles contados a partir del día siguiente hábil de su notificación. De no subsanar en este plazo, se tiene por no presentado el recurso."
+    ],
+    "forms": "Formulario PDF: A1 Ubicación: http://sut.pcm.gob.pe/sutArchivos/file_113073_20220719_041515.pdf",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: oinformatica@ucsm.edu.pe",
+      "Atención telefónica: 054 382038 anexo 1009"
+    ],
+    "fees": [
+      {
+        "concept": "Copia simple formato A4 (por unidad)",
+        "amount": "S/ 0.10"
+      },
+      {
+        "concept": "Información en CD (por unidad)",
+        "amount": "S/ 1.00"
+      },
+      {
+        "concept": "Información por Correo Electrónico",
+        "amount": "S/ 0.00"
+      }
+    ],
+    "fee_display": "Copia simple formato A4 (por unidad): S/ 0.10; Información en CD (por unidad): S/ 1.00; Información por Correo Electrónico: S/ 0.00",
+    "payment_methods": "Agencia Bancaria: Generar código de pago por la Plataforma del Sistema ERP",
+    "term": "10 días hábiles",
+    "qualification": "Evaluación previa- Silencio Administrativo Negativo: Si vencido el plazo de atención, no obtiene respuesta, puede interponer los recursos administrativos.",
+    "offices": "Dirección de Informática Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Dirección de Informática",
+    "approval_unit": "Dirección de Informática",
+    "contact": {
+      "phone": "054 382038",
+      "extension": "1009",
+      "email": "oinformatica@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente No aplica - No aplica Tribunal de Transparencia y Acceso a la Información Pública - Tribunal de Transparencia y Acceso a la Información Pública Plazo máximo de No aplica 15 días hábiles presentación Plazo máximo de No aplica 10 días hábiles respuesta",
+    "legal_basis": "Artículo Denominación Tipo Número Fecha 10, 11, 12, 13, 14, 15, 16, Texto Único Ordenado de la Ley N° 27806, Ley de Decreto Supremo N° 021-2019-JUS 11/12/2019 17, 18, 19 y 20 Transparencia y Acceso a la Información Pública 13, 15, 17, 21, 22, 25, 26, Reglamento de la Ley de Transparencia y Acceso a la Decreto Supremo N° 007-2024-JUS 16/05/2024 28, 29 y 30 Información Pública 6, 7, 9 y Primera Decreto Legislativo que crea la Autoridad Nacional de Decreto Legislativo N° 1353 07/01/2017 disposición Transparencia y Acceso a la Información Pública, fortalece el complementaria Régimen de Protección de Datos Personales y la regulación de modificatoria la gestión de intereses",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-002",
+    "code": "PA113073E0FC",
+    "name": "Copia autenticada de Resolución que aprueba el Grado Académico o Título Profesional",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      8,
+      9
+    ],
+    "description": "Dar fe de que la copia de un documento es igual al original",
+    "requirements": [
+      "1.- Ingresar al Portal Web de Trámites en Línea y seleccionar el servicio de autenticación requerida.",
+      "2.- Realizar el pago",
+      "3.- Llenar el formulario según indicaciones del sistema ERP"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: osecgen@ucsm.edu.pe",
+      "Atención telefónica: 054-382038 Anexo 1003, 6000, 6001 ó 6002"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "S/ 44.00"
+      }
+    ],
+    "fee_display": "S/ 44.00",
+    "payment_methods": "Agencia Bancaria: Generar código por plataforma del sistema ERP",
+    "term": "7 días hábiles",
+    "qualification": "Evaluación previa – Silencio Administrativo Positivo: Si vencido el plazo de atención, no obtiene respuesta, la petición se considera aprobada.",
+    "offices": "Secretaría General Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Secretaría General",
+    "approval_unit": "Secretaría General",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1003, 6000, 6001 ó 6002",
+      "email": "osecgen@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Secretaria General - Secretaría General No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "73 Ley Universitaria Ley 30220 09/07/2014",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-003",
+    "code": "PA1130737036",
+    "name": "Lacrado de sobre con documentos expedidos por la Universidad para su remisión a Instituciones del extranjero (en caso de copias, deben de estar autenticadas por la Universidad)",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      10,
+      11
+    ],
+    "description": "Enviar documentos expedidos por la UCSM a Instituciones del extranjero",
+    "requirements": [
+      "1.- Ingresar al Portal Web de Trámites en Línea y seleccionar el servicio de autenticación requerida/Lacrado de sobre.",
+      "2.- Realizar el pago.",
+      "3.- Llenar el formulario según indicaciones del sistema ERP."
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: osecgen@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "S/ 49.50"
+      }
+    ],
+    "fee_display": "S/ 49.50",
+    "payment_methods": "Agencia Bancaria: Generar código de pago por plataforma del Sistema ERP",
+    "term": "7 días hábiles",
+    "qualification": "Evaluación previa – Silencio Administrativo Positivo: Si vencido el plazo de atención, no obtiene respuesta, la petición se considera aprobada.",
+    "offices": "Secretaría General Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Secretaría General",
+    "approval_unit": "Secretaría General",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1003",
+      "email": "osecgen@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Secretaria General - Secretaría General No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "Artículo Denominación Tipo Número Publicación 73 Ley Universitaria Ley 30220 03/07/2014",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-004",
+    "code": "PA1130732C99",
+    "name": "Autenticación de Constancia expedida por la Universidad",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      12,
+      13
+    ],
+    "description": "Dar fe de que la copia de un documento es igual al original",
+    "requirements": [
+      "1.- Ingresar al Portal Web de Trámites en Línea y seleccionar el servicio de autenticación requerida.",
+      "2.- Realizar el pago.",
+      "3.- Llenar el formulario según indicaciones del sistema ERP"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: osecgen@ucsm.edu.pe",
+      "Atención telefónica: 054-382038 Anexo 1003, 6000, 6001 ó 6002"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "S/ 27.50"
+      }
+    ],
+    "fee_display": "S/ 27.50",
+    "payment_methods": "Agencia Bancaria: Generar código por plataforma del sistema ERP",
+    "term": "7 días hábiles",
+    "qualification": "Evaluación previa – Silencio Administrativo Positivo: Si vencido el plazo de atención, no obtiene respuesta, la petición se considera aprobada.",
+    "offices": "Secretaría General Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Secretaría General",
+    "approval_unit": "Secretaría General",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1003, 6000, 6001 ó 6002",
+      "email": "osecgen@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Secretaria General - Secretaría General No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "73 Ley Universitaria Ley 30220 09/07/2014",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-005",
+    "code": "PA113073FEBA",
+    "name": "Movilidad Académica Estudiantil",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      14,
+      15
+    ],
+    "description": "Es el desplazamiento presencial o virtual de estudiantes o docentes de otra institución educativa hacia la UCSM con la cual existen o no convenios suscritos para realizar actividades académicas de formación, investigación y extensión.",
+    "requirements": [
+      "1.- Solicitud dirigida al Señor Rectorado, indicando el número de Autorización de reconocimiento académico expedida por el Decano o Director de la Escuela Profesional",
+      "2.- Formato de postulación PAME-UCSM",
+      "3.- Carta de motivación",
+      "4.- Copia legalizada del certificado que acredite dominio del idioma correspondiente con nivel mínimo B1.",
+      "5.- Póliza de seguro internacional de cobertura total",
+      "6.- Copia simple de pasaporte",
+      "7.- Certificado de salud física (Expedido Clínica Aliviari-UCSM)",
+      "8.- Certificado psicológico (Expedido Clínica Aliviari-UCSM)",
+      "9.- Autorización de viaje padres o apoderados (notarial en caso de menor de edad)",
+      "10.- Curriculum vitae no documentado",
+      "12.- Certificado de vacunación COVID-19 (03) dosis"
+    ],
+    "notes": [
+      "1.- Condiciones que debe cumplir el estudiante: a). Ser alumno regular, b). Haber culminado 4 semestres académicos, c).Tener rendimiento académico satisfactorio (Promedio Ponderado) Tercio o Quinto Superior). d). Estar matriculado durante el semestre de movilidad, e). No adeudar tasas educativas, f). No se contabilizarán los días de trámite con las Universidades del extranjero. Presentar el expediente completo en PDF sin exceder 2Mb, a través del siguiente enlace: http://apps.ucsm.edu.pe/UCSMMTA/index.php"
+    ],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: ocai@ucsm.edu.pe",
+      "Atención telefónica: 054-382038 anexo 1010"
+    ],
+    "fees": [
+      {
+        "concept": "Movilidad de entrada",
+        "amount": "Gratuito"
+      },
+      {
+        "concept": "Movilidad de salida",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Movilidad de entrada: Gratuito; Movilidad de salida: Gratuito",
+    "payment_methods": "",
+    "term": "30 días hábiles",
+    "qualification": "Evaluación previa – Silencio Administrativo Positivo: Si vencido el plazo de atención, no obtiene respuesta, la petición se considera aprobada.",
+    "offices": "Dirección de Cooperación y Relaciones Internacionales Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Mesa de Partes Virtual : Dirección de Cooperación y Relaciones Internacionales",
+    "approval_unit": "Rectorado",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1010",
+      "email": "ocai@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Rector - Rectorado No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "Artículo Denominación Tipo Número Publicación 4 Aprueba la Tercera Edición Oficial del Texto Único Ordenado Otros Resolución N°312-AU- 11/01/2022 del Estatuto de la UCSM 2022",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-006",
+    "code": "PA113073DAC3",
+    "name": "Carta de presentación del empleador con fines académicos",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      16,
+      17
+    ],
+    "description": "Documento que acredita la condición de estudiante calificado para acceder a la movilidad académica como estudiante o docentes de la UCSM o con fines de obtener su visa",
+    "requirements": [
+      "1.- Solicitud dirigida al señor Rector",
+      "2.- Documentación sustentatoria"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb San José s/n",
+      "Atención Virtual: ocai@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Gratuito",
+    "payment_methods": "",
+    "term": "5 días hábiles",
+    "qualification": "Evaluación previa – Silencio Administrativo Positivo: Si vencido el plazo de atención, no obtiene respuesta, la petición se considera aprobada.",
+    "offices": "Dirección de Cooperación y Relaciones Internacionales Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Mesa de Partes Virtual : Dirección de Cooperación y Relaciones Internacionales",
+    "approval_unit": "Rectorado",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1010",
+      "email": "ocai@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Director - Dirección de Cooperación y Relaciones Rector - Rectorado Internacionales Plazo máximo de 15 días hábiles 15 días hábiles presentación Plazo máximo de 15 días hábiles 30 días hábiles respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "Primero Aprueba proyecto para optimizar la gestión de los procesos y Otros Resolución N°6564- 02/11/2017 procedimiento académico y administrativo efectuados, con fines CU-2017 de Movilidad Académica, en la Oficina de Cooperación y Relaciones Internacionales",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-007",
+    "code": "PA11307381E0",
+    "name": "Financiamiento de Publicación Científica externa",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      18,
+      19
+    ],
+    "description": "Solicitud presentada por el personal docente para inscribir sus artículos en revistas indexadas",
+    "requirements": [
+      "1.- Constancia de Autorización de la Publicación Científica en Revista indizada de impacto",
+      "2.- Solicitud",
+      "3.- Carta de Aceptación de Publicación (Dónde se indique el valor del Derecho)",
+      "4.- Información sobre la Revista",
+      "5.- Articulo por publicar"
+    ],
+    "notes": [
+      "1.- Ser miembro de la UCSM"
+    ],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb San José s/n",
+      "Atención Virtual: vrinvestigacion@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Gratuito",
+    "payment_methods": "",
+    "term": "30 días hábiles",
+    "qualification": "Evaluación previa – Silencio Administrativo Positivo: Si vencido el plazo de atención, no obtiene respuesta, la petición se considera aprobada.",
+    "offices": "Vicerrectorado de Investigación Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Mesa de Partes Virtual : Vicerrectorado de Investigación",
+    "approval_unit": "Vicerrectorado de Investigación",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1601",
+      "email": "vrinvestigacion@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Vicerrector - Vicerrectorado de Investigación No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "48, 49, 50 Ley Universitaria Ley 30220 09/07/2014",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-008",
+    "code": "PA113073C259",
+    "name": "Publicación en Revistas Científicas Indizada UCSM",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      20
+    ],
+    "description": "Es la autorización de publicación en la revista VERITAS",
+    "requirements": [
+      "1.- Contar con la Investigación Concluida",
+      "2.- Solicitud",
+      "3.- Demás requisitos según Bases Publicadas: Artículo Científico, Declaración de Transferencia de Derechos de Autor, Política de Conflicto de Intereses)"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: vrinvestigacion@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Gratuito",
+    "payment_methods": "",
+    "term": "30 días hábiles",
+    "qualification": "Evaluación previa – Silencio Administrativo Positivo: Si vencido el plazo de atención, no obtiene respuesta, la petición se considera aprobada.",
+    "offices": "Vicerrectorado de Investigación Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Mesa de Partes Virtual : Vicerrectorado de Investigación",
+    "approval_unit": "Vicerrectorado de Investigación",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1601",
+      "email": "vrinvestigacion@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Vicerrector - Vicerrectorado de Investigación No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "Artículo Denominación Tipo Número Fecha 37, 48, 49, 50 Ley Universitaria Ley 30220 09/07/2014",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-009",
+    "code": "PA11307324B1",
+    "name": "Inscripción en el Registro de Propiedad Intelectual",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      21,
+      22
+    ],
+    "description": "Es la acreditación que realiza la UCSM para el registro de propiedad intelectual ante INDECOPI",
+    "requirements": [
+      "1.- Solicitud",
+      "2.- Resumen Técnico de la Invención o Producto a registrar"
+    ],
+    "notes": [
+      "1.- Ser miembro de la UCSM, de ser nacional: sujeto a regulación INDECOPI, de ser internacional: sujeto a regulación de la Dirección de Patentes correspondiente"
+    ],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb San José s/n",
+      "Atención Virtual: vrinvestigacion@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Gratuito",
+    "payment_methods": "",
+    "term": "30 días hábiles",
+    "qualification": "Evaluación previa – Silencio Administrativo Positivo: Si vencido el plazo de atención, no obtiene respuesta, la petición se considera aprobada.",
+    "offices": "Vicerrectorado de Investigación Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Mesa de Partes Virtual : Vicerrectorado de Investigación",
+    "approval_unit": "Vicerrectorado de Investigación",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1601",
+      "email": "vrinvestigacion@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Vicerrector - Vicerrectorado de Investigación No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "1° Reglamento de Propiedad Intelectual de la UCSM Otros Resolución N°6420- 06/06/2017 CU-2017",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-010",
+    "code": "PA113073B540",
+    "name": "Participación en eventos científicos externos nacionales e internacionales",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      23
+    ],
+    "description": "Es la autorización para docentes y alumnos de financiamiento de participación en eventos científicos",
+    "requirements": [
+      "1.- Solicitud dirigida al Vicerrector de Investigación detallando fechas, lugar y presupuesto",
+      "2.- Carta de Aceptación de la Presentación (Bajo la modalidad de Poster, Ponencia, Ponencia Oral o Conferencia)"
+    ],
+    "notes": [
+      "1.- Ser miembro de la UCSM y Publicación en Revista Indizada"
+    ],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb San José s/n",
+      "Atención Virtual: vrinvestigacion@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Gratuito",
+    "payment_methods": "",
+    "term": "7 días hábiles",
+    "qualification": "Evaluación previa – Silencio Administrativo Positivo: Si vencido el plazo de atención, no obtiene respuesta, la petición se considera aprobada.",
+    "offices": "Vicerrectorado de Investigación Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Mesa de Partes Virtual : Vicerrectorado de Investigación",
+    "approval_unit": "Vicerrectorado de Investigación",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1601",
+      "email": "vrinvestigacion@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Vicerrector - Vicerrectorado de Investigación No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "Artículo Denominación Tipo Número Publicación 48, 50 Ley Universitaria Ley 30220 09/07/2014",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-011",
+    "code": "PA113073A9AC",
+    "name": "Devolución de pagos por concepto de tasas educativas",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      24,
+      25
+    ],
+    "description": "Devolución de pagos realizados a la UCSM cuando existe saldo a favor",
+    "requirements": [
+      "1.- Solicitud motivada indicando detalles del pago materia de devolución, presentada por el titular, consignando un número de cuenta bancaria y CCI, indicando el número de Auto de Anulación de matrícula del Vicerrector Académico. La devolución procede cuando se haya realizado un pago adelantado del semestre del cual se obtiene la anulación de matrícula y los meses a devolver correspondan a los posteriores indicados en la Resolución de anulación. La devolución también procede en los casos que no se haya hecho registro de matrícula o la UCSM no haya dado el servicio."
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: direccionadministrativa@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Gratuito",
+    "payment_methods": "",
+    "term": "15 días hábiles",
+    "qualification": "Evaluación previa – Silencio Administrativo Positivo: Si vencido el plazo de atención, no obtiene respuesta, la petición se considera aprobada.",
+    "offices": "Dirección Administrativa Lunes a Viernes de 08:00 a 16:00.",
+    "submission_unit": "Portal web Trámites en Línea : Dirección Administrativa",
+    "approval_unit": "Vicerrectorado Administrativo",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1203",
+      "email": "direccionadministrativa@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Director - Dirección Administrativa Vicerrector - Vicerrectorado Administrativo Plazo máximo de 15 días hábiles 15 días hábiles presentación Plazo máximo de 15 días hábiles 30 días hábiles respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "Artículo Denominación Tipo Número Fecha Cap. IV, literal Art. 9 y Reglamento para la gestión del cobro de las tasas educativas Otros Resolución N°6680- 17/04/2018 10) de los estudiantes de la UCSM CU-2018 y modificatorias",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-012",
+    "code": "PA1130739222",
+    "name": "Devolución de pagos por concepto de servicios",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      26,
+      27
+    ],
+    "description": "Devolución de pagos realizados a la UCSM cuando existe saldo a favor",
+    "requirements": [
+      "1.- Solicitud motivada indicando detalles del pago materia de devolución, presentada por el titular, consignando un número de cuenta bancaria y CCI, indicando que no haya hecho uso del servicio o que la UCSM no haya brindado el servicio. En caso de devolución de pago de cursos por jurado deberá contar con el Decreto de Anulación correspondiente. No procede devoluciones en caso de inscripción a Examen de Admisión o Pre Católica. Las devoluciones procede por: a) Por pago indebido. b) Por error administrativo. c) Por no haber hecho uso del servicio cuando no haya sido otorgado por la UCSM."
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: direccionadministrativa@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Gratuito",
+    "payment_methods": "",
+    "term": "15 días hábiles",
+    "qualification": "Evaluación previa – Silencio Administrativo Positivo: Si vencido el plazo de atención, no obtiene respuesta, la petición se considera aprobada.",
+    "offices": "Dirección Administrativa Lunes a Viernes de 08:00 a 16:00.",
+    "submission_unit": "Portal web Trámites en Línea : Dirección Administrativa",
+    "approval_unit": "Dirección Administrativa",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1203",
+      "email": "direccionadministrativa@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Director - Dirección Administrativa Vicerrector - Vicerrectorado Administrativo Plazo máximo de 15 días hábiles 15 días hábiles presentación Plazo máximo de 15 días hábiles 30 días hábiles respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "Artículo Denominación Tipo Número Publicación Cap. IV, literal Art. 9 y Reglamento para la gestión del cobro de las tasas educativas Otros Resolución N°6680- 17/04/2018 10) de los estudiantes de la UCSM CU-2018 y modificatorias",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-013",
+    "code": "PA1130730F8C",
+    "name": "Rectificación de Nombres y/o Apellidos, número de DNI por error u Omisión Administrativa, por orden judicial o por error u omisión del estudiante",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      28
+    ],
+    "description": "Procedimiento Administrativo que autoriza el cambio o rectificación de nombres y/o apellidos del estudiante o egresado",
+    "requirements": [
+      "1.- Solicitud presentada por la Plataforma virtual, adjuntando copia del DNI y Partida de Nacimiento actualizada."
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: vracademico2@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Gratuito",
+    "payment_methods": "",
+    "term": "5 días hábiles",
+    "qualification": "Evaluación previa – Silencio Administrativo Positivo: Si vencido el plazo de atención, no obtiene respuesta, la petición se considera aprobada.",
+    "offices": "Vicerrectorado Académico Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Mesa de Partes Virtual : Vicerrectorado Académico",
+    "approval_unit": "Rectorado",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1101",
+      "email": "vracademico2@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Rector - Rectorado No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "Artículo Denominación Tipo Número Publicación 89, c) Aprueba el Texto Único Ordenado del Esetatuto de la UCSM Otros Resolución N°312-AU- 11/01/2022 2022",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-014",
+    "code": "PA113073291A",
+    "name": "Autorización de matrícula extemporánea",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      29
+    ],
+    "description": "Procedimiento administrativo que autoriza la matrícula extemporánea a estudiantes de pre y pos grado",
+    "requirements": [
+      "1.- Solicitud por Mesa de Partes Virtual"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: vracademico2@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Gratuito",
+    "payment_methods": "",
+    "term": "4 días hábiles",
+    "qualification": "Evaluación previa- Silencio Administrativo Negativo: Si vencido el plazo de atención, no obtiene respuesta, puede interponer los recursos administrativos.",
+    "offices": "Vicerrectorado Académico Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Mesa de Partes Virtual : Vicerrectorado Académico",
+    "approval_unit": "Vicerrectorado Académico",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1101",
+      "email": "vracademico2@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Vicerrector - Vicerrectorado Académico No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "92, a) Aprueba el TUO del Estatuto de la UCSM Otros Resolución N°312-AU- 11/01/2022 2022",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-015",
+    "code": "PA11307347AE",
+    "name": "Convalidación de asignaturas",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      30,
+      31
+    ],
+    "description": "La convalidación es el procedimiento administrativo mediante el cual se establece equivalencia de carácter curricular, entre dos o más asignaturas cursadas en distintas escuelas profesionales de UCSM o entre una escuela profesional de la UCSM y otra universidad del país y/o extranjero, entre otros, con rango universitario; lo que permite cumplir con el currículo de una escuela profesional determinado de la UCSM",
+    "requirements": [
+      "1.- Solicitud en el sistema ERP",
+      "2.- Copia del Silabo",
+      "3.- Copia del Certificado de Estudios en caso de estudiantes que provienen de otras Universidades",
+      "4.- Una vez aprobada la solicitud para la convalidación, indicar el número del recibo de pago"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "S/ 160.00"
+      }
+    ],
+    "fee_display": "S/ 160.00",
+    "payment_methods": "Agencia Bancaria: Generar código por plataforma del sistema ERP",
+    "term": "30 días hábiles",
+    "qualification": "Evaluación previa- Silencio Administrativo Negativo: Si vencido el plazo de atención, no obtiene respuesta, puede interponer los recursos administrativos.",
+    "offices": "Departamento Académico de Facultad Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Mesa de Partes Virtual : Departamento Académico de Facultad",
+    "approval_unit": "Vicerrectorado Académico",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "6000, 6001 ó 6002",
+      "email": ""
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Vicerrector - Vicerrectorado Académico No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "Artículo Denominación Tipo Número Publicación 92, a) Resolución que aprueba la Tercera Edición Oficial del TUO del Otros Resolución N°312-AU- 11/01/2022 Estatuto de la UCSM 2022",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-016",
+    "code": "PA113073C401",
+    "name": "Anulación de Matrícula",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      32
+    ],
+    "description": "Es el procedimiento administrativo que autoriza el retiro de la totalidad de asignaturas en un semestre académico",
+    "requirements": [
+      "1.- Solicitud dirigida al Vicerrector Académico"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: vracademico2@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Gratuito",
+    "payment_methods": "",
+    "term": "30 días hábiles",
+    "qualification": "Evaluación previa – Silencio Administrativo Positivo: Si vencido el plazo de atención, no obtiene respuesta, la petición se considera aprobada.",
+    "offices": "Vicerrectorado Académico Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Mesa de Partes Virtual : Vicerrectorado Académico",
+    "approval_unit": "Vicerrectorado Académico",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1101",
+      "email": "vracademico2@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Vicerrector - Vicerrectorado Académico No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "92, a) Aprueba la tercera edición del TUO del Estatuto Otros Resolución N°312-AU- 11/01/2022 2022",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-017",
+    "code": "PA1130736147",
+    "name": "Duplicado de Diploma de Grado Académico y/o Título Profesional:",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      33,
+      34
+    ],
+    "description": "Es el procedimiento administrativo que autoriza la emisión de un Diploma de Grado Académico o Título profesional por pérdida, deterioro o modificación de datos",
+    "requirements": [
+      "1.- Generación de la deuda provisional en la Web opción TRÁMITES EN LÍNEA o mediante el Link: http://apps.ucsm.edu.pe/UCSMMTA/",
+      "2.- Solicitud dirigida al Rector de la Universidad, adjuntando copia del DNI de ambas caras",
+      "4.- Indicar el número de Auto Rectoral, en caso de cambio de nombres y apellidos"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: oraa@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "S/ 825.00"
+      }
+    ],
+    "fee_display": "S/ 825.00",
+    "payment_methods": "Agencia Bancaria: Generar código por Plataforma del Sistema ERP",
+    "term": "15 días hábiles",
+    "qualification": "Evaluación previa – Silencio Administrativo Positivo: Si vencido el plazo de atención, no obtiene respuesta, la petición se considera aprobada.",
+    "offices": "Dirección de Registro y Archivo Académico Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Dirección de Registro y Archivo Académico",
+    "approval_unit": "Rectorado",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1450",
+      "email": "oraa@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Rector - Rectorado No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "1° Se dictan medidas de simplificación administrativa en los Resolución del Titular Resolución Nro 7411- 30/06/2020 procedimientos de duplicado de Diploma, graduación y CU-2020 titulación en la UCSM. 1° Aprueba normas para la emisión de grados y títulos Otros Resolución N°6482- 01/09/2017 CU-2017",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-018",
+    "code": "PA113073650B",
+    "name": "Grado Académico de Bachiller",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      35,
+      36
+    ],
+    "description": "Es el primer grado académico que se obtiene al terminar los cinco años de estudios universitarios",
+    "requirements": [
+      "1.- Generación de la deuda provisional en la Web opción TRÁMITES EN LÍNEA o mediante el Link: http://apps.ucsm.edu.pe/UCSMMTA",
+      "4.- Certificado de Informática proveniente de certificación internacional, de ser el caso",
+      "5.- De haber ingresado por la modalidad de traslado externo a la Universidad, se requiere la constancia de primera matricula de la Universidad de origen, especificando día, mes y año, a fin de lograr la inscripción de su Grado Académico en la SUNEDU.",
+      "6.- En el caso de Complementación Pedagógica indicar el nombre de la Universidad de procedencia",
+      "7.- En el caso de Complementación Académica, certificado original de estudios del Instituto Superior y copia del Título, a Nombre de la Nación, otorgado por el Instituto debidamente autenticado por la UGEL (Unidad de Gestión Educativa Local).",
+      "7.- Constancia otorgada por la Facultad que acredite tener 10.0 créditos por participación en Eventos Académicos (congresos, cursos especiales o fines) organizados por Instituciones Académicas, se aceptará la sumatoria de los mismos hasta completar el valor de 10.0 créditos; siendo un (1.0) crédito igual a dieciocho (18) horas académicas. El presente requisito será aplicado para los ingresantes a partir del 2018. (Resolución No. 7535-CU-2020).",
+      "8.- Certificado de dominio a nivel intermedio de un idioma extranjero, o una lengua nativa, acreditado por el Centro de Idiomas de la Universidad o por otras instituciones de reconocimiento internacional, validadas por la Dirección del Centro de Idiomas de la Universidad y emitido por la Sección de Certificados y Constancia de Dirección de Registro y Archivo Académico. En el caso de exámenes internacionales éstos serán validados evaluados por el Centro de Idiomas de la Universidad. Excepto para el caso del examen internacional TOEFL (ITP y otros) que será administrado y validado por la Dirección de Cooperación y Relaciones Internacionales."
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "S/ 2200.00"
+      }
+    ],
+    "fee_display": "S/ 2200.00",
+    "payment_methods": "Agencia Bancaria: Generar código de pago a través de la plataforma del sistema ERP",
+    "term": "30 días hábiles",
+    "qualification": "Evaluación previa – Silencio Administrativo Positivo: Si vencido el plazo de atención, no obtiene respuesta, la petición se considera aprobada.",
+    "offices": "Escuela Profesional Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Escuela Profesional",
+    "approval_unit": "Consejo Universitario",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "6000,6001 ó 6002",
+      "email": ""
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Rector - Consejo Universitario No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "Artículo Denominación Tipo Número Publicación 45, 45.1 Ley Universitaria Ley 30220 09/07/2014 61, a) Aprueba la Tercera Edición oficial del TUO del Estatuto de la Otros Resolución N°312-AU- 11/01/2022 UCSM 2022",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-019",
+    "code": "PA1130730700",
+    "name": "Título Profesional de Primera Especialidad",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      37,
+      38
+    ],
+    "description": "Es el procedimiento administrativo que avala que el bachiller a través de una Tesis o trabajo de suficiencia profesional opta el Título Profesional",
+    "requirements": [
+      "1.- Generación de la deuda provisional en la Web opción TRÁMITES EN LÍNEA o mediante el Link: http://apps.ucsm.edu.pe/UCSMMTA.",
+      "3.- De haber ingresado por la modalidad de traslado externo a la Universidad, se requiere la constancia de primera matrícula de la Universidad de origen especificando día, mes y año, para lograr la inscripción de su Título Profesional ante SUNEDU.",
+      "3.- Copia del certificado de trabajo y copia de boletas de pago por 2 años de servicio, sólo para el caso de la modalidad de \"Trabajo de suficiencia profesional\"."
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención telefónica: 054-382038 anexo: 6000, 6001 ó 6002"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "S/ 2530.00"
+      }
+    ],
+    "fee_display": "S/ 2530.00",
+    "payment_methods": "Agencia Bancaria: Generar código a través de la plataforma del sistema ERP",
+    "term": "30 días hábiles",
+    "qualification": "Evaluación previa – Silencio Administrativo Positivo: Si vencido el plazo de atención, no obtiene respuesta, la petición se considera aprobada.",
+    "offices": "Escuela Profesional Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Escuela Profesional",
+    "approval_unit": "Consejo Universitario",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "6000, 6001 ó 6002",
+      "email": ""
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Rector - Consejo Universitario No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "Artículo Denominación Tipo Número Publicación 45, 45.2 Ley Universitaria Ley 30220 09/07/2014",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-020",
+    "code": "PA1130735156",
+    "name": "Renuncia a vacante o a segundo ingreso",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      39
+    ],
+    "description": "Es el procedimiento administrativo que autoriza la renuncia a la vacante o al segundo o más ingresos",
+    "requirements": [
+      "1.- Solicitud de renuncia dirigida al Rector de la UCSM indicando los motivos de la renuncia, adjuntando copia del DNI."
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: admision@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Gratuito",
+    "payment_methods": "",
+    "term": "15 días hábiles",
+    "qualification": "Evaluación previa – Silencio Administrativo Positivo: Si vencido el plazo de atención, no obtiene respuesta, la petición se considera aprobada.",
+    "offices": "Dirección de Admisión Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Mesa de Partes Virtual : Dirección de Admisión",
+    "approval_unit": "Rectorado",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1108",
+      "email": "admision@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Rector - Rectorado No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "34,93 Aprueba el TUO del Reglamento de Admisión Otros Resolución N°9104- 14/04/2025 CU-2025",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-021",
+    "code": "PA113073D8EB",
+    "name": "Solicitud de Apoyo",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      40
+    ],
+    "description": "Es el procedimiento administrativo que autoriza el apoyo de campañas de proyección social hacia poblaciones vulnerables",
+    "requirements": [
+      "1.- Solicitud motivada dirigida al Señor Rector"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb San José s/n",
+      "Atención Virtual: rcu@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Gratuito",
+    "payment_methods": "",
+    "term": "5 días hábiles",
+    "qualification": "Evaluación previa- Silencio Administrativo Negativo: Si vencido el plazo de atención, no obtiene respuesta, puede interponer los recursos administrativos.",
+    "offices": "Dirección de Responsabilidad Social Universitaria Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Mesa de Partes Virtual : Dirección de Responsabilidad Social Universitaria",
+    "approval_unit": "Rectorado",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1110",
+      "email": "rcu@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Rector - Rectorado No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "124, 125 Ley Universitaria Ley 30220 09/07/2014",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-022",
+    "code": "PA1130739201",
+    "name": "Autorización de Auspicios Académicos",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      41,
+      42
+    ],
+    "description": "Es el procedimiento administrativo que otorga la UCSM a eventos académicos, culturales y ambientales organizados por instituciones académicas, científicas, culturales, Instituciones educativas de nivel superior, colegios profesionales y gremios",
+    "requirements": [
+      "1.- Solicitud de auspicio de evento académico, cultural o ambiental, adjuntando copia de la partida registral.",
+      "2.- Compromiso de entrega de Informe Final",
+      "3.- Presentación de Proyecto (Según Espeficicaciones Res. 5788-CU-2015)"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: rsu@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "S/ 176.00"
+      }
+    ],
+    "fee_display": "S/ 176.00",
+    "payment_methods": "Agencia Bancaria: Generar código de pago por Plataforma del Sistema ERP",
+    "term": "7 días hábiles",
+    "qualification": "Evaluación previa- Silencio Administrativo Negativo: Si vencido el plazo de atención, no obtiene respuesta, puede interponer los recursos administrativos.",
+    "offices": "Dirección de Responsabilidad Social Universitaria Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Mesa de Partes Virtual : Dirección de Responsabilidad Social Universitaria",
+    "approval_unit": "Vicerrectorado Académico",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1110",
+      "email": "rsu@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Vicerrector - Vicerrectorado Académico No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "Artículo Denominación Tipo Número Publicación 5 Aprueba el nuevo procedimiento: Auspicio de eventos Otros Resolución N°5788- 20/08/2015 Académicos, culturales y ambientales CU-2015",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-023",
+    "code": "PA113073E2E6",
+    "name": "Becas por Situación Económica, por número hermanos o por participación Deportiva, Cultural o Artística",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      43,
+      44
+    ],
+    "description": "Es el procedimiento administrativo que consiste en el otorgamiento de un beneficio económico a los estudiantes que lo requieran",
+    "requirements": [
+      "1.- Solicitud dirigida el Vicerrector Administrativo, consignando el tipo de Beca, datos personales de ambos estudiantes como número del DNI, Escuela Profesional, código de estudiante o indicar a qué grupo integra en caso de Beca deportiva, cultural o artística",
+      "2.- Documentos que acrediten la situación económica: copias de las boletas de ingreso familiar, recibo de servicios básicos, autovaluo de la vivienda, contrato de alquiler, indicar el número del DNI de padres y de hijos dependientes, y otros documentos que acrediten como enfermedad, deudas, problemas judiciales, entre otros; sólo para el caso de Beca por Situación Económica.",
+      "3.- En caso de Beca por número de hermanos, adjuntar copia de Partida de Nacimiento de hermanos; en caso de Beca por situación económica, adjuntar DNI de estudiante y padres y Partida de Nacimiento del estudiante."
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Calle Samuel Velarde N°305",
+      "Atención Virtual: ofss@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "Por Situación Económica",
+        "amount": "Gratuito"
+      },
+      {
+        "concept": "Por hermanos",
+        "amount": "Gratuito"
+      },
+      {
+        "concept": "Por participación deportiva, cultural o artística",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Por Situación Económica: Gratuito; Por hermanos: Gratuito; Por participación deportiva, cultural o artística: Gratuito",
+    "payment_methods": "",
+    "term": "30 días hábiles",
+    "qualification": "Evaluación previa- Silencio Administrativo Negativo: Si vencido el plazo de atención, no obtiene respuesta, puede interponer los recursos administrativos.",
+    "offices": "Dirección de Bienestar Universitario Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Dirección de Bienestar Universitario",
+    "approval_unit": "Rectorado",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1208",
+      "email": "ofss@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Rector - Rectorado No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "166 Aprueba la tercera edición del TUO del Estatuto de la UCSM Otros Resolución N°312-AU- 11/01/2022 2022 1 al 31 Aprueba el Reglamento de Becas y Beneficios para estudiantes Resolución del Titular Resolución N°7580- 12/01/2021 de la UCSM CU-2021",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-024",
+    "code": "PA113073AE4D",
+    "name": "Carta de Presentación para Prácticas Pre-Profesionales y Profesionales",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      45
+    ],
+    "description": "Es el documento que entrega la UCSM y que acredita la información solicitada por el estudiante y/o egresado, previa evaluación.",
+    "requirements": [
+      "1.- Solicitud dirigida al Director de la Escuela"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención telefónica: 054-382038 anexo: 6000,6001 ó 6002"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Gratuito",
+    "payment_methods": "",
+    "term": "5 días hábiles",
+    "qualification": "Evaluación previa – Silencio Administrativo Positivo: Si vencido el plazo de atención, no obtiene respuesta, la petición se considera aprobada.",
+    "offices": "Escuelas Profesionales Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Mesa de Partes Virtual : Escuelas Profesionales",
+    "approval_unit": "Escuelas Profesionales",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "6000,6001 ó 6002",
+      "email": ""
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Director - Facultad No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "Artículo Denominación Tipo Número Publicación 118 TUO de la Ley 27444 Ley del Procedimiento Administrativo Decreto Supremo 004-2019-JUS 25/01/2019 General",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-025",
+    "code": "PA1130732571",
+    "name": "Autorización para rendir evaluaciones extemporáneas por motivo de enfermedad u otros dentro de los cinco (05) días siguientes a la omisión - Escuelas Profesionales",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      46
+    ],
+    "description": "Es el procedimiento administrativo que autoriza para rendir evaluaciones",
+    "requirements": [
+      "1.- Solicitud dirigida al Director de la Escuela acompañado de certificado médico o documento sustentario, indicando número de comprobante de pago"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención telefónica: 054-382038 anexo: 6000, 6001 ó 6002"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Gratuito",
+    "payment_methods": "",
+    "term": "5 días hábiles",
+    "qualification": "Evaluación previa- Silencio Administrativo Negativo: Si vencido el plazo de atención, no obtiene respuesta, puede interponer los recursos administrativos.",
+    "offices": "Escuelas Profesionales Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Mesa de Partes Virtual : Escuelas Profesionales",
+    "approval_unit": "Escuelas Profesionales",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "6000, 6001 ó 6002",
+      "email": ""
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Director - Escuelas Profesionales No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "61 Aprueba el Reglamento de Estudiantes Otros Resolución N°7286- 07/01/2020 CU-2020",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-026",
+    "code": "PA113073FB9F",
+    "name": "Convalidación de Estudios para Complementación Pedagógica- Escuela de Educación",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      47,
+      48
+    ],
+    "description": "Es el procedimiento administrativo que convalida las asignatura aprobadas en la primera carrera previo Dictamen de convalidación favorable de la Escuela",
+    "requirements": [
+      "1.- Solicitud indicando el número de comprobante de pago",
+      "2.- Certificados de estudios originales de la Universidad de procedencia, sólo para egresados de otras universidades"
+    ],
+    "notes": [
+      "1.- Para obtener la Convalidación deberá contar con Título Profesional inscrito en SUNEDU"
+    ],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: educacion@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "Profesionales egresados de otras universidades",
+        "amount": "S/ 1210.00"
+      },
+      {
+        "concept": "Profesionales egresados de la UCSM",
+        "amount": "S/ 1210.00"
+      }
+    ],
+    "fee_display": "Profesionales egresados de otras universidades: S/ 1210.00; Profesionales egresados de la UCSM: S/ 1210.00",
+    "payment_methods": "Agencia Bancaria: Generar código de pago por Plataforma del Profesionales egresados de la UCSM Sistema ERP",
+    "term": "30 días hábiles",
+    "qualification": "Evaluación previa- Silencio Administrativo Negativo: Si vencido el plazo de atención, no obtiene respuesta, puede interponer los recursos administrativos.",
+    "offices": "Escuela Profesional de Educación Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Escuela Profesional de Educación",
+    "approval_unit": "Escuelas Profesionales",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1169",
+      "email": "educacion@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Vicerrector - Vicerrectorado Académico No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "1° al 5° Aprueba el cambio de denominación del Programa de Otros Resolución N°4162- 26/05/2010 Complementación Pedagógica en Educación por el de CU-2010",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-027",
+    "code": "PA1130732473",
+    "name": "Título Profesional de Segunda Especialidad",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      49,
+      50
+    ],
+    "description": "Es el Título Profesional que otorga la UCSM a quien opte previamente el grado de Bachiller y Título profesional de primera especialidad, luego de la aprobación de una tesis o un trabajo académico.",
+    "requirements": [
+      "1.- Generación de la deuda provisional en la Web opción TRAMITES EN LINEA o mediante el link: http://apps.ucsm.edu.pe/UCSMMTA/",
+      "2.- Copia simple del Diploma de Grado Académico de Bachiller y del Título Profesional de Primera Especialidad, en el caso que el interesado sea egresado de otra Universidad, las mismas deberán ser verificadas por las Escuelas Profesionales."
+    ],
+    "notes": [
+      "1.- Para el resto de requisitos se deberá tomar en cuenta el Reglamento Específico de Grados y Títulos de Cada Facultad."
+    ],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención telefónica: 054-382038 anexo: 6000, 6001 ó 6002"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "S/ 2750.00"
+      }
+    ],
+    "fee_display": "S/ 2750.00",
+    "payment_methods": "Agencia Bancaria: Generar código de pago por Plataforma en el Sistema ERP.",
+    "term": "30 días hábiles",
+    "qualification": "Evaluación previa – Silencio Administrativo Positivo: Si vencido el plazo de atención, no obtiene respuesta, la petición se considera aprobada.",
+    "offices": "Escuela Profesional Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Escuela Profesional",
+    "approval_unit": "Consejo Universitario",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "6000, 6001 ó 6002",
+      "email": ""
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Rector - Consejo Universitario No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "Artículo Denominación Tipo Número Publicación 45, 45.3 Ley Universitaria Ley 30220 08/07/2014",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-028",
+    "code": "PA113073B89A",
+    "name": "Presentación de Queja, Reclamo y Denuncia",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      51,
+      52
+    ],
+    "description": "Es la comunicación de los miembros de la comunidad universitaria respecto de defectos de tramitación de baja complejidad y se encuentran referidos únicamente a demoras en plazos de atención y tramitación de solicitudes, deficiencias en los horarios de atención y errores o deficiencias de tramitación de carácter material o formal; de controversias suscitadas entre los miembros de la comunidad universitaria o entre la Universidad y uno de los miembros de la comunidad, de mayor complejidad de las quejas o existencia de casos de reiteración de problemas ya atendidos de forma no satisfactoria; y; la denuncia, es la comunicación remitida por uno de los miembros de la comunidad universitaria conducente a la determinación de responsabilidad de otro miembro de la comunidad universitaria o personal administrativo o de servicios e incluso de terceros que presten servicios a la UCSM.",
+    "requirements": [
+      "1.- Explicación sumaria de la Queja, Reclamo o Denuncia"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Calle Samuel Velarde N°305",
+      "Atención Virtual: defensoria@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Gratuito",
+    "payment_methods": "",
+    "term": "5 días hábiles",
+    "qualification": "Evaluación previa – Silencio Administrativo Positivo: Si vencido el plazo de atención, no obtiene respuesta, la petición se considera aprobada.",
+    "offices": "Defensoría Universitaria Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Defensoría Universitaria",
+    "approval_unit": "Defensoría Universitaria",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1056",
+      "email": "defensoria@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Defensor - Defensoría Universitaria Rector - Rectorado Plazo máximo de 15 días hábiles 15 días hábiles presentación Plazo máximo de 15 días hábiles 30 días hábiles respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "133 Ley Universitaria Ley 30220 09/07/2014",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-029",
+    "code": "PA113073569F",
+    "name": "Carta de Presentación",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      53
+    ],
+    "description": "Es un documento que acredita a un estudiante ante una entidad",
+    "requirements": [
+      "1.- Solicitud dirigida al Director de la Escuela de Postgrado por Mesa de Partes Virtual"
+    ],
+    "notes": [
+      "1.- Tener proyecto de Tesis Aprobado en el sistema virtual ERP, adjuntar dictamen del Comité de Ética si se trabaja con personas o animales"
+    ],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José C-12",
+      "Atención Virtual: gjimenez@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Gratuito",
+    "payment_methods": "",
+    "term": "4 días hábiles",
+    "qualification": "Evaluación previa- Silencio Administrativo Negativo: Si vencido el plazo de atención, no obtiene respuesta, puede interponer los recursos administrativos.",
+    "offices": "Escuela de Postgrado Lunes a Viernes de 08:00 a 18:15.",
+    "submission_unit": "Mesa de Partes Virtual : Escuela de Postgrado",
+    "approval_unit": "Escuela de Postgrado",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1120",
+      "email": "gjimenez@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Director - Escuela de Postgrado No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "118 TUO de la Ley 27444 Ley del Procedimiento Administrativo Decreto Supremo 004-2019-JUS 25/01/2019 General",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-030",
+    "code": "PA1130733D4E",
+    "name": "Aprobación del Proyecto de Tesis - Postgrado",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      54,
+      55
+    ],
+    "description": "Es la presentación y asignación de jurado dictaminador para proyecto de tesis",
+    "requirements": [
+      "1.- Ingreso del Proyecto de Tesis por el Sistema ERP",
+      "2.- Solicitud de asignación de dictaminadores del proyecto de tesis por Mesa de Partes Virtual"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José C-12",
+      "Atención Virtual: gjimenez@ucsn.edu.pe, caepg@ucsm.edu.pe, caepg.esp@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "Maestría",
+        "amount": "Gratuito"
+      },
+      {
+        "concept": "Doctorado",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Maestría: Gratuito; Doctorado: Gratuito",
+    "payment_methods": "Agencia Bancaria: Generar código de pago por Plataforma del Doctorado Sistema ERP. Gratuito",
+    "term": "7 días hábiles",
+    "qualification": "Evaluación previa- Silencio Administrativo Negativo: Si vencido el plazo de atención, no obtiene respuesta, puede interponer los recursos administrativos.",
+    "offices": "Escuela de Postgrado Lunes a Viernes de 08:00 a 18:15.",
+    "submission_unit": "Mesa de Partes Virtual : Escuela de Postgrado",
+    "approval_unit": "Escuela de Postgrado",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1120, 1181, 1167",
+      "email": "gjimenez@ucsn.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Director - Escuela de Postgrado - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "10 Aprueba el Reglamento de Grados Académicos de la Escuela Otros Resolución N°8103- 31/08/2022 de Postgrado CU-2022",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-031",
+    "code": "PA113073E80A",
+    "name": "Dictamen del Borrador de Tesis - Postgrado",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      56,
+      57
+    ],
+    "description": "Es el procedimiento administrativo de aprobación del borrador de Tesis de la Escuela de Postgrado",
+    "requirements": [
+      "1.- Ingreso del Borrador de Tesis por el Sistema ERP",
+      "2.- Solicitud de asignación de dictaminadores del borrador de tesis por Mesa de Partes Virtual/Portal web trámites en línea (tener todo el Plan de Estudios aprobado)"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José C-12",
+      "Atención Virtual: gjimenez@ucsm.edu.pe: caepg@ucsm.edu.pe; caepg.esp@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "Maestría",
+        "amount": "Gratuito"
+      },
+      {
+        "concept": "Doctorado",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Maestría: Gratuito; Doctorado: Gratuito",
+    "payment_methods": "Agencia Bancaria: Generar código de pago por Plataforma del Doctorado Sistema ERP. Gratuito",
+    "term": "15 días hábiles",
+    "qualification": "Evaluación previa- Silencio Administrativo Negativo: Si vencido el plazo de atención, no obtiene respuesta, puede interponer los recursos administrativos.",
+    "offices": "Escuela de Postgrado Lunes a Viernes de 08:00 a 18:15.",
+    "submission_unit": "Mesa de Partes Virtual : Escuela de Postgrado",
+    "approval_unit": "Escuela de Postgrado",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1120, 1167, 1181",
+      "email": "gjimenez@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Director de la Escuela de Postgrado - Escuela de Postgrado No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "Artículo Denominación Tipo Número Publicación 13 Aprueba Reglamento de Grados Académicos de la Escuela de Otros Resolución N°8103- 31/08/2022 Postgrado CU-2022 37 Aprueba actualización y modificación del Reglamento de Otros Resolución N°7878- 10/11/2021 Grados y Títulos de la UCSM CU-2021",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-032",
+    "code": "PA1130734CCD",
+    "name": "Nombramiento de Asesor de Tesis - Postgrado",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      58,
+      59
+    ],
+    "description": "Es el procedimiento administrativo de asignación de un Asesor de Tesis",
+    "requirements": [
+      "1.- Tener el proyecto de Tesis Aprobado y Carta de Compromiso de Asesoría firmada por el Docente, remitirla por Mesa de Partes virtual"
+    ],
+    "notes": [
+      "1.- El Asesor deberá tener el Grado de Magister para optar el Grado de Magister y de Doctor para optar el grado de Doctor, de preferencia de la especialidad"
+    ],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: gjimenez@ucsm.edu.pe; paepg@ucsm.edu.pe; paepg.esp@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Gratuito",
+    "payment_methods": "",
+    "term": "3 días hábiles",
+    "qualification": "Evaluación previa- Silencio Administrativo Negativo: Si vencido el plazo de atención, no obtiene respuesta, puede interponer los recursos administrativos.",
+    "offices": "Escuela de Postgrado Lunes a Viernes de 08:00 a 18:15.",
+    "submission_unit": "Mesa de Partes Virtual : Escuela de Postgrado",
+    "approval_unit": "Escuela de Postgrado",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1120",
+      "email": "gjimenez@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Director de Pregrado o Postgrado - Escuela de Postgrado No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "10, 10, d) Aprueba el Reglamento de Grados Académicos de la Escuela Otros Resolución N°8047- 06/06/2022 de Postgrado CU-2022 35, 35 a) Aprueba actualización y modificación del Reglamento de Otros Resolución N°7878- 10/11/2021 Grados y Títulos de la UCSM CU-2021",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-033",
+    "code": "PA1130731912",
+    "name": "Autorización para rendir evaluaciones extemporáneas por motivo de enfermedad u otros dentro de los cinco (05) días siguientes a la fecha del examen - Escuela de Postgrado",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      60
+    ],
+    "description": "Es el procedimiento administrativo que autoriza la evaluación en nueva fecha",
+    "requirements": [
+      "1.- Solicitud adjuntando documentos probatorios"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José C-12",
+      "Atención Virtual: caepg@ucsm.edu.pe; caepg.esp@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Gratuito",
+    "payment_methods": "",
+    "term": "3 días hábiles",
+    "qualification": "Evaluación previa- Silencio Administrativo Negativo: Si vencido el plazo de atención, no obtiene respuesta, puede interponer los recursos administrativos.",
+    "offices": "Escuela de Postgrado Lunes a Viernes de 08:00 a 18:15.",
+    "submission_unit": "Mesa de Partes Virtual : Escuela de Postgrado",
+    "approval_unit": "Escuela de Postgrado",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1181, 1167",
+      "email": "caepg@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Coordinador Académico - Escuela de Postgrado Director - Escuela de Postgrado Plazo máximo de 15 días hábiles 15 días hábiles presentación Plazo máximo de 15 días hábiles 30 días hábiles respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "Artículo Denominación Tipo Número Publicación 61 Aprueba el Reglamento de Estudiantes de la UCSM Otros Resolución N°7286- 07/01/2020 CU-2020",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-034",
+    "code": "PA113073970F",
+    "name": "Grado Académico de Maestro o Doctor",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      61,
+      62
+    ],
+    "description": "Es el procedimiento administrativo mediante el cual se proporciona el diploma del grado de Maestro o Doctor a los Bachilleres o Magister respectivamente, que hayan aprobado su plan de estudios y sustentado una Tesis satisfactoriamente.",
+    "requirements": [
+      "1.- Ingresar al enlace correspondiente a través de la Página Web de la Universidad, seleccionar la opción de Maestría Online o Doctorado Online y generar la deuda provisional de derechos de sustentación (la deuda es generada antes de pasar la evaluación turnitin), cancelar la deuda generada con el código de pago, en cualquier entidad del sistema bancario y financiero que tenga contrato con la Universidad.",
+      "3.- Llenar el formulario requerido para la emisión del certificado de estudios y el certificado del idioma.",
+      "4.- Diploma de Bachiller para Maestría o Diploma de Magister / Maestro para Doctorado, escaneado del original.",
+      "5.- De ser el caso, certificado que acredite el dominio a nivel intermedio de un idioma extranjero o nativo para Maestría y de dos idiomas extranjeros (uno de los cuales puede ser sustituido por una lengua nativa) uno a nivel básico y otro a nivel intermedio para Doctorado, emitidos por otras instituciones reconocidas por el Ministerio de Educación o a nombre de la Nación, los cuales serán validados por la Escuela de Postgrado. En el caso de exámenes internacionales éstos serán validados o evaluados por el Centro de Idiomas de la Universidad. Excepto para el caso del examen internacional TOEFL (ITP y otros) que será administrado y validado por la Dirección de Cooperación y Relaciones Internacionales.",
+      "5.- Anexar un artículo científico publicado en revistas indizadas: Scielo, Scopus, o Web of Science, relacionado con su tesis, solo para el caso de Doctorado."
+    ],
+    "notes": [
+      "1.- Para sustentar debe haber pasado el TURNITIN, contar con expediente revisado completo y estar en el 80% del avance de la Tesis en el Sistema ERP."
+    ],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José C-12",
+      "Atención Virtual: caepg@ucsm.edu.pe; caepg.esp@ucsm.edu.pe",
+      "Atención telefónica: 054-382038 anexo: 1120, 1181, 1167"
+    ],
+    "fees": [
+      {
+        "concept": "Maestro",
+        "amount": "S/ 2970.00"
+      },
+      {
+        "concept": "Doctor",
+        "amount": "S/ 4433.00"
+      }
+    ],
+    "fee_display": "Maestro: S/ 2970.00; Doctor: S/ 4433.00",
+    "payment_methods": "Agencia Bancaria: Generar código de pago a través de la plataforma Doctor del sistema ERP",
+    "term": "30 días hábiles",
+    "qualification": "Evaluación previa- Silencio Administrativo Negativo: Si vencido el plazo de atención, no obtiene respuesta, puede interponer los recursos administrativos.",
+    "offices": "Escuela de Postgrado Lunes a Viernes de 08:00 a 18:15.",
+    "submission_unit": "Portal web Trámites en Línea : Escuela de Postgrado",
+    "approval_unit": "Consejo Universitario",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1120, 1181, 1167",
+      "email": "caepg@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Director - Escuela de Postgrado No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "Artículo Denominación Tipo Número Publicación 44 Ley Universitaria Ley 30220 09/07/2014 9, 15 Aprueba Reglamento de Grados Académicos de la Escuela de Otros Resolución N°8780- 12/06/2024 Postgrado CU-2024",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-035",
+    "code": "PA1130738BFA",
+    "name": "Traslado Interno o Externo a un Programa de Maestría o Doctorado",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      63,
+      64
+    ],
+    "description": "Es el procedimiento administrativo que autoriza el traslado de un programa de Maestría o Doctorado, a otro Programa; de la misma Universidad o de otra Universidad.",
+    "requirements": [
+      "1.- Tener el grado de Bachiller o de Maestría y haber registrado matrícula en la Escuela de Postgrado y tener aprobadas dos (02) asignaturas como mínimo en la Maestría o Doctorado de origen; para el caso de traslado interno.",
+      "2.- Tener el grado de Bachiller o de Maestría, haber registrado matrícula en la Escuela de Postgrado de procedencia, tener aprobadas dos (02) asignaturas como mínimo en la Maestría o Doctorado de origen; y, aceptar las disposiciones específicas de la Escuela para estudios de Maestría o Doctorado; para el caso de traslado externo.",
+      "3.- Copia de los Certificados de estudios de postgrado visado por el Rector de la Universidad de Procedencia. Si los estudios fueron realizados en el extranjero, los certificados deberán ser autenticados por el Consulado Peruano en el país de procedencia y por el Ministerio de Relaciones Exteriores del Perú.",
+      "4.- Solicitud de traslado dirigida al Director de la Escuela de Postgrado, indicando el número y fecha del comprobante de pago"
+    ],
+    "notes": [
+      "1.- Deberá tener su grado de Bachiller o de Maestría registrado en SUNEDU"
+    ],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José C-12",
+      "Atención Virtual: epg@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "S/ 660.00"
+      }
+    ],
+    "fee_display": "S/ 660.00",
+    "payment_methods": "Agencia Bancaria: Generar código de pago por Plataforma del Sistema ERP.",
+    "term": "30 días hábiles",
+    "qualification": "Evaluación previa- Silencio Administrativo Negativo: Si vencido el plazo de atención, no obtiene respuesta, puede interponer los recursos administrativos.",
+    "offices": "Escuela de Postgrado Lunes a Viernes de 08:00 a 18:15.",
+    "submission_unit": "Portal web Trámites en Línea : Escuela de Postgrado",
+    "approval_unit": "Escuela de Postgrado",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1120",
+      "email": "epg@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Consejo de Escuela - Escuela de Postgrado No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "3, 4, 5. Aprueba Reglamento para Traslado y Convalidaciones de la Otros Resolución N°1043- 31/10/1994 Escuela de Postgrado CU-1994",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-036",
+    "code": "PA1130735C82",
+    "name": "Solicitud examen de suficiencia con Jurado",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      65
+    ],
+    "description": "Es el procedimiento administrativo que autoriza rendir una evaluación con la finalidad de ofrecer al estudiante la oportunidad de culminar su carrera",
+    "requirements": [
+      "1.- Solicitud mediante el sistema ERP"
+    ],
+    "notes": [
+      "1.- Sólo procede en caso de: Asignaturas que se deban para completar el Plan de Estudios (máximo 2 asignaturas), Asignaturas cuya convalidación haya sido denegada o declarada improcedente, Asignaturas de semestres superiores que se desee adelantar (máximo 1 asignatura), Asignaturas descontinuadas."
+    ],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: oraa@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Gratuito",
+    "payment_methods": "",
+    "term": "15 días hábiles",
+    "qualification": "Evaluación previa- Silencio Administrativo Negativo: Si vencido el plazo de atención, no obtiene respuesta, puede interponer los recursos administrativos.",
+    "offices": "Dirección de Registro y Archivo Académico Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Dirección de Registro y Archivo Académico",
+    "approval_unit": "Dirección de Registro y Archivo Académico-DRAA",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1113",
+      "email": "oraa@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Director - Dirección de Registro y Archivo Académico-DRAA Vicerrector - Vicerrectorado Académico Plazo máximo de 15 días hábiles 15 días hábiles presentación Plazo máximo de 15 días hábiles 30 días hábiles respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "1° Modifica el art. 69° del Reglamento del Estudiante de la UCSM Otros Resolución N°7659- 04/05/2021 CU-2021",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-037",
+    "code": "PA113073DE79",
+    "name": "Aprobación de Proyecto de Tesis - Pregrado",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      66
+    ],
+    "description": "Es un procedimiento administrativo que aprueba una propuesta de un trabajo de investigación",
+    "requirements": [
+      "1.- Subir Plan de tesis según el esquema en el Portal web trámites en línea"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención telefónica: 054-382038 anexo: 6000,6001 ó 6002"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Gratuito",
+    "payment_methods": "",
+    "term": "10 días hábiles",
+    "qualification": "Evaluación previa- Silencio Administrativo Negativo: Si vencido el plazo de atención, no obtiene respuesta, puede interponer los recursos administrativos.",
+    "offices": "Escuela Profesional Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Escuela Profesional",
+    "approval_unit": "Escuelas Profesionales",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "6000,6001 ó 6002",
+      "email": ""
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Director - Escuelas Profesionales Decano - Facultad Plazo máximo de 15 días hábiles 15 días hábiles presentación Plazo máximo de 15 días hábiles 30 días hábiles respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "Artículo Denominación Tipo Número Publicación 45, 45.2 Ley 30220 Ley 30220 09/07/2014",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-038",
+    "code": "PA1130732A3B",
+    "name": "Cambio del Jurado Dictaminador del Proyecto de Tesis - Postgrado",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      67
+    ],
+    "description": "Es el procedimiento que autoriza el cambio de uno o más integrantes del jurado dictaminador, a solicitud del estudiante, por causas establecidas en el Reglamento.",
+    "requirements": [
+      "1.- Solicitud dirigida al Director de la Escuela de Postgrado por Mesa de Partes Virtual, indicando los motivos"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José C-12",
+      "Atención Virtual: caepg@ucsm.edu.pe, caepg.esp@ucm.edu.pe",
+      "Atención telefónica: 054 382038 anexo: 1120, 1181 y 1167"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Gratuito",
+    "payment_methods": "",
+    "term": "3 días hábiles",
+    "qualification": "Evaluación previa- Silencio Administrativo Negativo: Si vencido el plazo de atención, no obtiene respuesta, puede interponer los recursos administrativos.",
+    "offices": "Escuela de Postgrado Lunes a Viernes de 08:00 a 18:15.",
+    "submission_unit": "Mesa de Partes Virtual : Escuela de Postgrado",
+    "approval_unit": "Escuela de Postgrado",
+    "contact": {
+      "phone": "054 382038",
+      "extension": "1120, 1181 y 1167",
+      "email": "caepg@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Director - Escuela de Postgrado No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "118 TUO de la Ley del Procedimiento Administrativo General Decreto Supremo 004-2019-JUS 25/01/2019",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-039",
+    "code": "PA113073E369",
+    "name": "Nombramiento de Asesor de Tesis - Pregrado",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      68
+    ],
+    "description": "Es el procedimiento administrativo de asignación de un Asesor de Tesis",
+    "requirements": [
+      "1.- Tener el proyecto de Tesis Aprobado y Carta de Compromiso de Asesoría firmada por el Docente, remitirla por Mesa de Partes virtual"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención telefónica: 054-382038 anexo: 6000, 6001, 6002"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Gratuito",
+    "payment_methods": "",
+    "term": "15 días hábiles",
+    "qualification": "Evaluación previa- Silencio Administrativo Negativo: Si vencido el plazo de atención, no obtiene respuesta, puede interponer los recursos administrativos.",
+    "offices": "Escuela Profesional Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Mesa de Partes Virtual : Escuela Profesional",
+    "approval_unit": "Escuelas Profesionales",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "6000, 6001, 6002",
+      "email": ""
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Director - Escuelas Profesionales No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "Artículo Denominación Tipo Número Publicación 23-A Aprueba actualización y modificación del Reglamento general Otros Resolución N°7878- 10/11/2021 de Grados y Títulos de la UCSM CU-2021",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-040",
+    "code": "PA113073ABDE",
+    "name": "Dictamen de Borrador de Tesis - Pregrado",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      69
+    ],
+    "description": "Es el procedimiento administrativo de aprobación del borrador de Tesis de Pregrado",
+    "requirements": [
+      "1.- Ingreso del Borrador de Tesis por el Sistema ERP",
+      "2.- Solicitud de asignación de dictaminadores del borrador de tesis por Mesa de Partes Virtual/Portal web trámites en línea (tener todo el Plan de Estudios aprobado)"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención telefónica: 054-382038 anexo: 6000, 6001, 6002"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Gratuito",
+    "payment_methods": "",
+    "term": "15 días hábiles",
+    "qualification": "Evaluación previa- Silencio Administrativo Negativo: Si vencido el plazo de atención, no obtiene respuesta, puede interponer los recursos administrativos.",
+    "offices": "Escuela Profesional Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Escuela Profesional",
+    "approval_unit": "Escuelas Profesionales",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "6000, 6001, 6002",
+      "email": ""
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Decano - Facultad No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "25 Aprueba Actualización y modificación del Reglamento General Otros Resolución N°7878- 10/11/2021 de CU-2021 Grados y Títulos de la UCSM",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-041",
+    "code": "PA113073A50F",
+    "name": "Copia autenticada de Resolución expedida por la Universidad (Únicamente solicitada por el Titular de la misma)",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      70,
+      71
+    ],
+    "description": "Dar fe de que la copia de un documento es igual al original",
+    "requirements": [
+      "1.- Ingresar al Portal Web de Trámites en Línea y seleccionar el servicio de autenticación requerida.",
+      "2.- Realizar el pago.",
+      "3.- Llenar el formulario según indicaciones del sistema ERP."
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: osecgen@ucsm.edu.pe",
+      "Atención telefónica: 054-382038 anexo: 1003, 6000, 6001 ó 6002"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "S/ 55.00"
+      }
+    ],
+    "fee_display": "S/ 55.00",
+    "payment_methods": "Agencia Bancaria: Generar código de pago por plataforma del sistema ERP",
+    "term": "7 días hábiles",
+    "qualification": "Evaluación previa – Silencio Administrativo Positivo: Si vencido el plazo de atención, no obtiene respuesta, la petición se considera aprobada.",
+    "offices": "Secretaría General Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Secretaría General",
+    "approval_unit": "Secretaría General",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1003, 6000, 6001 ó 6002",
+      "email": "osecgen@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Secretaria General - Secretaría General No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "Artículo Denominación Tipo Número Publicación 73 Ley Universitaria Ley 30220 09/07/2014",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-042",
+    "code": "PA113073BCE9",
+    "name": "Copia autenticada del Acta de Grados Académicos y Títulos Profesionales",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      72,
+      73
+    ],
+    "description": "Dar fe de que la copia de un documento es igual al original",
+    "requirements": [
+      "1.- Ingresar al Portal Web de Trámites en Línea y seleccionar el servicio de autenticación requerida.",
+      "2.- Realizar el pago.",
+      "3.- Llenar el formulario según indicaciones del sistema ERP."
+    ],
+    "notes": [
+      "1.- Las Escuelas Profesionales contarán con un plazo máximo de tres (03) días hábiles para remitir el expediente a Secretaría General"
+    ],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: osecgen@ucsm.edu.pe",
+      "Atención telefónica: 054-382038 anexo:1003, 6000, 6001 ó 6002"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "S/ 55.00"
+      }
+    ],
+    "fee_display": "S/ 55.00",
+    "payment_methods": "Agencia Bancaria: Generar código de pago por Plataforma del Sistema ERP",
+    "term": "5 días hábiles",
+    "qualification": "Evaluación previa – Silencio Administrativo Positivo: Si vencido el plazo de atención, no obtiene respuesta, la petición se considera aprobada.",
+    "offices": "Secretaría General Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Secretaría General",
+    "approval_unit": "Secretaría General",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1003, 6000, 6001 ó 6002",
+      "email": "osecgen@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Secretaria General - Secretaría General No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "73 Ley Universitaria Ley 30220 09/07/2014",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-043",
+    "code": "PA1130730648",
+    "name": "Autenticación de Diplomas de Grados Académicos y Títulos Profesionales expedidos por la Universidad",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      74,
+      75
+    ],
+    "description": "Dar fe de que la copia de un documento es igual al original",
+    "requirements": [
+      "1.- Ingresar al Portal Web de Trámites en Línea y seleccionar el servicio de autenticación requerida/Lacrado de sobre.",
+      "2.- Realizar el pago.",
+      "3.- Llenar el formulario según indicaciones del sistema ERP."
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: osecgen@ucsm.edu.pe",
+      "Atención telefónica: 054-382038 anexo: 1003, 6000, 6001 ó 6002"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "S/ 38.50"
+      }
+    ],
+    "fee_display": "S/ 38.50",
+    "payment_methods": "Agencia Bancaria: Generar código por plataforma del sistema ERP",
+    "term": "7 días hábiles",
+    "qualification": "Evaluación previa – Silencio Administrativo Positivo: Si vencido el plazo de atención, no obtiene respuesta, la petición se considera aprobada.",
+    "offices": "Secretaría General Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Secretaría General",
+    "approval_unit": "Secretaría General",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1003, 6000, 6001 ó 6002",
+      "email": "osecgen@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Secretaria General - Secretaría General No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "73 Ley Universitaria Ley 30230 09/07/2014",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-044",
+    "code": "PA113073BDF0",
+    "name": "Autenticación de Certificado de Estudios/de Idiomas/de Informática, expedidos por la Universidad",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      76,
+      77
+    ],
+    "description": "Dar fe de que la copia de un documento es igual al original",
+    "requirements": [
+      "1.- Ingresar al Portal Web de Trámites en Línea y seleccionar el servicio de autenticación requerida/Lacrado de sobre.",
+      "2.- Realizar el pago.",
+      "3.- Llenar el formulario según indicaciones del sistema ERP"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: osecgen@ucsm.edu.pe",
+      "Atención telefónica: 054-382038 anexo:1003, 6000, 6001 ó 6002"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "S/ 27.50"
+      }
+    ],
+    "fee_display": "S/ 27.50",
+    "payment_methods": "Agencia Bancaria: Generar código por plataforma del sistema ERP",
+    "term": "7 días hábiles",
+    "qualification": "Evaluación previa – Silencio Administrativo Positivo: Si vencido el plazo de atención, no obtiene respuesta, la petición se considera aprobada.",
+    "offices": "Secretaría General Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Secretaría General",
+    "approval_unit": "Secretaría General",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1003, 6000, 6001 ó 6002",
+      "email": "osecgen@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Secretaria General - Secretaría General No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "73 Ley Universitaria Ley 30220 09/07/2014",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-045",
+    "code": "PA11307350AC",
+    "name": "Autenticación de acervos, expedidos por la Universidad",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      78,
+      79
+    ],
+    "description": "Dar fe de que la copia de un documento es igual al original",
+    "requirements": [
+      "1.- Ingresar al Portal Web de Trámites en Línea y seleccionar el servicio de autenticación requerida/Autenticación de acervos",
+      "2.- Realizar el pago.",
+      "3.- LLenar el formulario según indicaciones del sistema ERP"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: sgtramites@ucsm.edu.pe",
+      "Atención telefónica: 054-382038 anexo:1003, 6000, 6001 ó 6002"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "S/ 44.00"
+      }
+    ],
+    "fee_display": "S/ 44.00",
+    "payment_methods": "Agencia Bancaria: Generar código por plataforma del sistema ERP",
+    "term": "7 días hábiles",
+    "qualification": "Evaluación previa – Silencio Administrativo Positivo: Si vencido el plazo de atención, no obtiene respuesta, la petición se considera aprobada.",
+    "offices": "Secretaría General Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Secretaría General",
+    "approval_unit": "Secretaría General",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1003, 6000, 6001 ó 6002",
+      "email": "sgtramites@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Secretaría General - Secretaría General No aplica - No aplica Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba. El recurso de apelación se interpondrá cuando la impugnación se sustente en diferente interpretación de las pruebas producidas o cuando se trate de cuestiones de puro derecho, debiendo dirigirse a la misma autoridad que expidió el acto que se impugna para que eleve lo actuado al superior jerárquico.",
+    "legal_basis": "73 Ley Universitaria Ley 30220 03/07/2014",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-046",
+    "code": "PA113073BF13",
+    "name": "Rectificación de Matrícula",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      80
+    ],
+    "description": "Procedimiento que permite al alumno rectificar su matrícula a través del Sistema Web",
+    "requirements": [
+      "1.- Estar matriculado en el semestre actual"
+    ],
+    "notes": [
+      "1.- Los estudiantes podrán realizar su rectificación de matrícula vía sistema web, dentro del cronograma establecido para los Semestres Impar y Par, generándose el pago por los derechos administrativos en su siguiente cuota."
+    ],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "S/ 13.00"
+      }
+    ],
+    "fee_display": "S/ 13.00",
+    "payment_methods": "",
+    "term": "1 día hábil",
+    "qualification": "Evaluación previa- Silencio Administrativo Negativo: Si vencido el plazo de atención, no obtiene respuesta, puede interponer los recursos administrativos.",
+    "offices": "Dirección de Informática Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Dirección de Informática",
+    "approval_unit": "Dirección de Informática",
+    "contact": {
+      "phone": "054 382038",
+      "extension": "1009",
+      "email": "dinformatica2@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Vicerrector Académico - Vicerrectorado Académico Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba",
+    "legal_basis": "Artículo Denominación Tipo Número Fecha 40 Se aprueba el Reglamento de Estudiantes de la Universidad Otros Resolución 7286-CU- 07/01/2020 Católica de Santa María 2020",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-047",
+    "code": "PA1130737252",
+    "name": "Levantamiento de Pre-requisitos",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      81
+    ],
+    "description": "Procedimiento que se realiza a través del sistema web, en el cual se determina si un estudiante puede llevar asignaturas sin aprobar el requisito",
+    "requirements": [
+      "1.- Los estudiantes que en el año académico estén en condiciones de concluir su plan de estudios, es decir, que para iniciar el Semestre Impar posean el 75% de créditos aprobados o para iniciar el Semestre Par presenten el 85% de créditos aprobados, hallándose incursos o no en alguna restricción vinculada a la cantidad de créditos o pre-requisitos."
+    ],
+    "notes": [
+      "1.- Se cargará el costo por el concepto del Levantamiento de Pre-requisitos en la cuota de la pensión del estudiante"
+    ],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "S/ 30.00"
+      }
+    ],
+    "fee_display": "S/ 30.00",
+    "payment_methods": "",
+    "term": "1 día hábil",
+    "qualification": "Evaluación previa- Silencio Administrativo Negativo: Si vencido el plazo de atención, no obtiene respuesta, puede interponer los recursos administrativos.",
+    "offices": "Dirección de Informática Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Dirección de Informática",
+    "approval_unit": "Dirección de Informática",
+    "contact": {
+      "phone": "054 382038",
+      "extension": "1009",
+      "email": "dinformatica2@ucsm.edu.pe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Vicerrector Académico - Vicerrectorado Académico Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba",
+    "legal_basis": "32 Se aprueba el Reglamento de Estudiantes de la UCSM Otros Resolución 7286-CU- 07/01/2020 2020",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-048",
+    "code": "PA113073A4C4",
+    "name": "Matrícula en otra Escuela Profesional (por crédito)",
+    "kind": "procedimiento",
+    "section": "Procedimientos Administrativos",
+    "pages": [
+      82
+    ],
+    "description": "Procedimiento que permite al estudiante llevar asignaturas equivalentes en otros programas profesionales",
+    "requirements": [
+      "1.- Estar matriculado en la Escuela Profesional Base por lo menos en 12 créditos y no exceder el número de créditos del semestre base, según su Plan de Estudios."
+    ],
+    "notes": [
+      "1.- Se cargará el costo por el concepto de Matrícula en otra Escuela Profesional en la cuota de la pensión del estudiante"
+    ],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "S/ 35.00"
+      }
+    ],
+    "fee_display": "S/ 35.00",
+    "payment_methods": "",
+    "term": "1 día hábil",
+    "qualification": "Evaluación previa- Silencio Administrativo Negativo: Si vencido el plazo de atención, no obtiene respuesta, puede interponer los recursos administrativos.",
+    "offices": "Dirección de Informática Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Dirección de Informática",
+    "approval_unit": "Dirección de Informática",
+    "contact": {
+      "phone": "054 382038",
+      "extension": "1009",
+      "email": "dinformatica2@ucsm.edu.oe"
+    },
+    "appeals": "Reconsideración Apelación Autoridad competente Vicerrector Académico - Vicerrectorado Académico Plazo máximo de 15 días hábiles No aplica presentación Plazo máximo de 15 días hábiles No aplica respuesta El recurso de reconsideración se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba",
+    "legal_basis": "Artículo Denominación Tipo Número Fecha 42 Se aprueba el Reglamento de Estudiantes de la UCSM Otros Resolución 7286-CU- 07/01/2020 2020",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-049",
+    "code": "SE1130738B85",
+    "name": "Constancias por Desarrollo y Ejecución de Proyectos de Investigación",
+    "kind": "servicio",
+    "section": "Servicios Prestados En Exclusividad",
+    "pages": [
+      84
+    ],
+    "description": "Acreditar la participación en un proyecto de investigación",
+    "requirements": [
+      "1.- Solicitud detallando datos del Proyecto de Investigación del interesado y periodo"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: vrinvestigacion@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Gratuito",
+    "payment_methods": "",
+    "term": "2 días hábiles",
+    "qualification": "",
+    "offices": "Vicerrectorado de Investigación Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Mesa de Partes Virtual : Vicerrectorado de Investigación",
+    "approval_unit": "Vicerrectorado de Investigación",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1601",
+      "email": "vrinvestigacion@ucsm.edu.pe"
+    },
+    "appeals": "",
+    "legal_basis": "20 TUO de la Ley 27444 Ley del Procedimiento Administrativo Decreto Supremo 004-2019-JUS General",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-050",
+    "code": "SE113073FE95",
+    "name": "Carta de Presentación de Investigadores",
+    "kind": "servicio",
+    "section": "Servicios Prestados En Exclusividad",
+    "pages": [
+      85
+    ],
+    "description": "Es la acreditación de los investigadores hacia instituciones externas",
+    "requirements": [
+      "1.- Solicitud",
+      "2.- Formato de Carta con los datos del remitente y el motivo"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: vrinvestigacion@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Gratuito",
+    "payment_methods": "",
+    "term": "2 días hábiles",
+    "qualification": "",
+    "offices": "Vicerrectorado de Investigación Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Vicerrectorado de Investigación",
+    "approval_unit": "Vicerrectorado de Investigación",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1601",
+      "email": "vrinvestigacion@ucsm.edu.pe"
+    },
+    "appeals": "",
+    "legal_basis": "48, 50 Ley Universitaria Decreto Supremo 30220 09/07/2014",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-051",
+    "code": "SE113073D224",
+    "name": "Constancia de no adeudar suma alguna a la Universidad, de pagos realizados por tasas o servicios educativos",
+    "kind": "servicio",
+    "section": "Servicios Prestados En Exclusividad",
+    "pages": [
+      86
+    ],
+    "description": "Es un servicio exclusivo que acredita la realización de un pago anterior",
+    "requirements": [
+      "1.- Solicitud indicando detalles del pago"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: of.contabilidad02@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "S/ 11.00"
+      }
+    ],
+    "fee_display": "S/ 11.00",
+    "payment_methods": "Agencia Bancaria: Generar código de pago por Plataforma del Sistema ERP",
+    "term": "2 días hábiles",
+    "qualification": "",
+    "offices": "Dirección de Contabilidad Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Dirección de Contabilidad",
+    "approval_unit": "Dirección de Contabilidad",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1210",
+      "email": "of.contabilidad02@ucsm.edu.pe"
+    },
+    "appeals": "",
+    "legal_basis": "118 TUO de la Ley del Procedimiento Administrativo General Decreto Supremo 004-2019-JUS 25/01/2019",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-052",
+    "code": "SE11307388D5",
+    "name": "Constancia de Beca",
+    "kind": "servicio",
+    "section": "Servicios Prestados En Exclusividad",
+    "pages": [
+      87
+    ],
+    "description": "Es el servicio exclusivo que presta la UCSM que acredita que el estudiante es beneficiario de una beca universitaria",
+    "requirements": [
+      "1.- Solicitud indicando número de comprobante de pago y fecha"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: ofss@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Gratuito",
+    "payment_methods": "Agencia Bancaria: Generar código de pago por Plataforma del Sistema ERP",
+    "term": "2 días hábiles",
+    "qualification": "",
+    "offices": "Dirección de Bienestar Universitario Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Mesa de Partes Virtual : Dirección de Bienestar Universitario",
+    "approval_unit": "Vicerrectorado Administrativo",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1208",
+      "email": "ofss@ucsm.edu.pe"
+    },
+    "appeals": "",
+    "legal_basis": "1° Aprueba el Reglamento de Becas y Beneficios que se otorga a Otros Resolución N°7580- 21/01/2021 los estudiantes de la UCSM CU-2021",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-053",
+    "code": "SE1130737868",
+    "name": "CONSTANCIAS",
+    "kind": "servicio",
+    "section": "Servicios Prestados En Exclusividad",
+    "pages": [
+      88
+    ],
+    "description": "Es el servicio exclusivo que consiste en emitir información académica y administrativa",
+    "requirements": [
+      "1.- Formulario web http://apps.ucsm.edu.pe/UCSMMTA/"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: constancias.draa@ucsm.edu.pe",
+      "Atención telefónica: 054-382038 anexo 1451"
+    ],
+    "fees": [
+      {
+        "concept": "Constancia de Estudios - Matrícula actual, Egreso, Bachiller, Título, Orden de Mérito, Promedio Ponderado, Escala de Calificación, Reconocimiento Legal de la Universidad, Ranking, Equivalencia de Promedio Ponderado, Constancia especial de estudios no regulares, Actas de Grados y Títulos, Constancia Beca PRONABEC y otras",
+        "amount": "S/ 44.00"
+      },
+      {
+        "concept": "Plan de Estudios con carga horaria",
+        "amount": "S/ 71.50"
+      },
+      {
+        "concept": "Internado Rotatorio",
+        "amount": "S/ 71.50"
+      },
+      {
+        "concept": "Constancia de Ingreso, de Escuela de Postgrado, de oficina de Admisión o de Escuelas Profesionales, Conducta, constancia de Modalidad de Titulación",
+        "amount": "S/ 44.00"
+      }
+    ],
+    "fee_display": "Constancia de Estudios - Matrícula actual, Egreso, Bachiller, Título, Orden de Mérito, Promedio Ponderado, Escala de Calificación, Reconocimiento Legal de la Universidad, Ranking, Equivalencia de Promedio Ponderado, Constancia especial de estudios no regulares, Actas de Grados y Títulos, Constancia Beca PRONABEC y otras: S/ 44.00; Plan de Estudios con carga horaria: S/ 71.50; Internado Rotatorio: S/ 71.50; Constancia de Ingreso, de Escuela de Postgrado, de oficina de Admisión o de Escuelas Profesionales, Conducta, constancia de Modalidad de Titulación: S/ 44.00",
+    "payment_methods": "Agencia Bancaria: Generar código de pago a través de la plataforma Constancia especial de estudios no regulares, Actas de Grados y Títulos, del sistema ERP Constancia Beca PRONABEC y otras",
+    "term": "7 días hábiles",
+    "qualification": "",
+    "offices": "Dirección de Registro y Archivo Académico Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Dirección de Registro y Archivo Académico",
+    "approval_unit": "Dirección de Registro y Archivo Académico-DRAA",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1451",
+      "email": "constancias.draa@ucsm.edu.pe"
+    },
+    "appeals": "",
+    "legal_basis": "7, g) Aprueba el ROF de la UCSM Otros Resolución N°8005- 22/04/2022 CU-2022",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-054",
+    "code": "SE11307355BF",
+    "name": "Certificado de Estudios (por semestre)",
+    "kind": "servicio",
+    "section": "Servicios Prestados En Exclusividad",
+    "pages": [
+      89
+    ],
+    "description": "Es un servicio exclusivo que acredita las calificaciones de los estudios realizados",
+    "requirements": [
+      "1.- Generación de la deuda provisional en la Web opción TRÁMITES EN LÍNEA o mediante el Link: http://apps.ucsm.edu.pe/UCSMMTA/",
+      "2.- Concluir su solicitud con el Llenado de formulario nuevamente en la página Web."
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: certificados.draa@ucsm.edu.pe",
+      "Atención telefónica: 054-382038 anexo 1199"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "S/ 49.50"
+      }
+    ],
+    "fee_display": "S/ 49.50",
+    "payment_methods": "Agencia Bancaria: Generar código de pago a través de la plataforma del sistema ERP",
+    "term": "7 días hábiles",
+    "qualification": "",
+    "offices": "Dirección de Registro y Archivo Académico Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Dirección de Registro y Archivo Académico",
+    "approval_unit": "Dirección de Registro y Archivo Académico-DRAA",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1199",
+      "email": "certificados.draa@ucsm.edu.pe"
+    },
+    "appeals": "",
+    "legal_basis": "7, g) Aprueba el Reglamento de Organización y Funciones de la Otros Resolución N°8005- 22/04/2022 UCSM CU-2022",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-055",
+    "code": "SE1130736626",
+    "name": "Copia de sílabo certificada",
+    "kind": "servicio",
+    "section": "Servicios Prestados En Exclusividad",
+    "pages": [
+      90
+    ],
+    "description": "Es el servicio exclusivo de certificación de la programación curricular de una asignatura",
+    "requirements": [
+      "1.- Solicitud dirigida al Director por el portal web Trámites en línea"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención telefónica: 054-382038 anexo: 6000,6001 ó 6002"
+    ],
+    "fees": [
+      {
+        "concept": "Escuelas de Postgrado",
+        "amount": "S/ 44.00"
+      },
+      {
+        "concept": "Departamento Académico",
+        "amount": "S/ 44.00"
+      }
+    ],
+    "fee_display": "Escuelas de Postgrado: S/ 44.00; Departamento Académico: S/ 44.00",
+    "payment_methods": "Agencia Bancaria: Generar código de pago a través de la plataforma Departamento Académico del Sistema ERP",
+    "term": "7 días hábiles",
+    "qualification": "",
+    "offices": "Escuela de Postgrado Lunes a Viernes de 08:00 a 18:15. Escuela Profesional Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Escuela de Postgrado, Escuela Profesional",
+    "approval_unit": "Dirección de Informática",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "6000,6001 ó 6002",
+      "email": ""
+    },
+    "appeals": "",
+    "legal_basis": "118 TUO de la Ley 27444 Ley del Procedimiento Administrativo Decreto Supremo 004-2019-JUS 25/01/2019 General",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-056",
+    "code": "SE1130736663",
+    "name": "Autenticación de Certificados de estudios de graduados o Postgraduados, existentes en los Archivos de la UCSM",
+    "kind": "servicio",
+    "section": "Servicios Prestados En Exclusividad",
+    "pages": [
+      91
+    ],
+    "description": "Es la copia autenticada del consolidado de notas o certificado de estudios del graduado o postgraduado, que se encuentra en el archivo central de la UCSM",
+    "requirements": [
+      "1.- Generación de la deuda provisional en el Portal web de la UCSM, realizar pago de los derechos de trámite, concluir su solicitud con el llenado del formulario."
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: certificados.draa@ucsm.edu.pe",
+      "Atención telefónica: 054-382038 anexo:1199"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "S/ 38.50"
+      }
+    ],
+    "fee_display": "S/ 38.50",
+    "payment_methods": "Agencia Bancaria: Generar código de pago a través de la plataforma del sistema ERP",
+    "term": "7 días hábiles",
+    "qualification": "",
+    "offices": "Dirección de Registro y Archivo Académico Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Dirección de Registro y Archivo Académico",
+    "approval_unit": "Secretaría General",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1199",
+      "email": "certificados.draa@ucsm.edu.pe"
+    },
+    "appeals": "",
+    "legal_basis": "73 Ley Universitaria Ley 30220 09/07/2014",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-057",
+    "code": "SE1130735668",
+    "name": "Constancia Especial Programa Especial de Estudios para Guías Oficiales de Turismo",
+    "kind": "servicio",
+    "section": "Servicios Prestados En Exclusividad",
+    "pages": [
+      92
+    ],
+    "description": "Es el documento que acredita la información académica",
+    "requirements": [
+      "1.- Llenar formulario web http://apps.ucsm.edu.pe/UCSMMTA/"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: constancias.draa@ucsm.edu.pe",
+      "Atención telefónica: 054-382038 anexo: 1451"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "S/ 44.00"
+      }
+    ],
+    "fee_display": "S/ 44.00",
+    "payment_methods": "Agencia Bancaria: Generar código de pago por plataforma del sistema ERP",
+    "term": "7 días hábiles",
+    "qualification": "",
+    "offices": "Dirección de Registro y Archivo Académico Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Dirección de Registro y Archivo Académico",
+    "approval_unit": "Dirección de Registro y Archivo Académico-DRAA",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1451",
+      "email": "constancias.draa@ucsm.edu.pe"
+    },
+    "appeals": "",
+    "legal_basis": "118 TUO de la Ley del Procedimiento Administrativo General Decreto Supremo 004-2019-JUS 25/01/2019",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-058",
+    "code": "SE113073D14C",
+    "name": "Llenado de formularios para trámites académicos",
+    "kind": "servicio",
+    "section": "Servicios Prestados En Exclusividad",
+    "pages": [
+      93
+    ],
+    "description": "Es un servicio requerido por los egresados a fin de continuar sus estudios en instituciones nacionales y/o extranjeras",
+    "requirements": [
+      "1.- Ingresar al Portal Web de Trámites en Línea y seleccionar el servicio",
+      "2.- Solicitud dirigida a la Dirección de Registro y Archivo Académico",
+      "3.- Subir el formulario según indicaciones del sistema ERP",
+      "4.- Realizar el pago"
+    ],
+    "notes": [
+      "1.- De requerir el formulario información exclusiva de la Escuela Profesional, será derivado a la misma, a fin de proceder con el llenado y remisión"
+    ],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: oraa@ucsm.edu.pe",
+      "Atención telefónica: 054 382038 anexo 1103"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "S/ 33.00"
+      }
+    ],
+    "fee_display": "S/ 33.00",
+    "payment_methods": "Agencia Bancaria: Generar código por plataforma del sistema ERP",
+    "term": "15 días hábiles",
+    "qualification": "",
+    "offices": "Dirección de Registro y Archivo Académico Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Dirección de Registro y Archivo Académico",
+    "approval_unit": "Dirección de Registro y Archivo Académico-DRAA",
+    "contact": {
+      "phone": "054 382038",
+      "extension": "1103",
+      "email": "oraa@ucsm.edu.pe"
+    },
+    "appeals": "",
+    "legal_basis": "9 g) Aprueba el ROF de la UCSM Otros Resolución N°8005- 22/04/2022 CU-2022",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-059",
+    "code": "SE1130736AE2",
+    "name": "Duplicado de Carné de Egresado",
+    "kind": "servicio",
+    "section": "Servicios Prestados En Exclusividad",
+    "pages": [
+      94
+    ],
+    "description": "Emisión de una copia oficial del carné de egresado para quienes hayan extraviado, deteriorado o necesiten renovar su documento original.",
+    "requirements": [
+      "1.- Generar la deuda provisional en la Web opción TRAMITES EN LINEA o mediante el link: http://apps.ucsm.edu.pe/UCSMMTA",
+      "2.- Ser egresado de la UCSM",
+      "3.- Haber obtenido el carné anteriormente"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: bempleo@ucsm.edu.pe",
+      "Atención telefónica: 054 382038 anexo 1032"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "S/ 25.00"
+      }
+    ],
+    "fee_display": "S/ 25.00",
+    "payment_methods": "Agencia Bancaria: Generar código por plataforma del sistema ERP",
+    "term": "10 días hábiles",
+    "qualification": "",
+    "offices": "Dirección del Empleabilidad y Alumni Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Dirección del Empleabilidad y Alumni",
+    "approval_unit": "Dirección de Informática",
+    "contact": {
+      "phone": "054 382038",
+      "extension": "1032",
+      "email": "bempleo@ucsm.edu.pe"
+    },
+    "appeals": "",
+    "legal_basis": "118 TUO de la Ley del Procedimiento Administrativo General Decreto Supremo 004-2019-JUS 25/01/2019",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-060",
+    "code": "SE113073DA8C",
+    "name": "Duplicado de Fotocheck- Ciencias Salud",
+    "kind": "servicio",
+    "section": "Servicios Prestados En Exclusividad",
+    "pages": [
+      95
+    ],
+    "description": "Emisión de una copia oficial del fotockeck para los alumnos (áreas de ciencias de la salud) quienes hayan extraviado, deteriorado o necesiten renovar su documento original, siendo indispensable para la identificación dentro de los centros de salud donde realizan su internado, prácticas etc.",
+    "requirements": [
+      "1.- Generación de la deuda provisional en la Web opción TRAMITES EN LINEA o mediante el link: http://apps.ucsm.edu.pe/UCSMMTA",
+      "2.- Estar matriculado en el semestre actual",
+      "3.- Haber obtenido el fotocheck anteriormente"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención telefónica: 054 382038 anexo: 6000,6001,6002"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "S/ 25.00"
+      }
+    ],
+    "fee_display": "S/ 25.00",
+    "payment_methods": "Agencia Bancaria: Generar código por plataforma del sistema ERP",
+    "term": "5 días hábiles",
+    "qualification": "",
+    "offices": "Escuela Profesional Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Escuela Profesional",
+    "approval_unit": "Dirección de Informática",
+    "contact": {
+      "phone": "054 382038",
+      "extension": "6000,6001,6002",
+      "email": ""
+    },
+    "appeals": "",
+    "legal_basis": "118 TUO de la Ley del Procedimiento Administrativo General Decreto Supremo 004-2019-JUS 25/01/2019",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-061",
+    "code": "SE11307302CD",
+    "name": "Duplicado de Carné Universitario",
+    "kind": "servicio",
+    "section": "Servicios Prestados En Exclusividad",
+    "pages": [
+      96
+    ],
+    "description": "Emisión de una copia oficial del carné de universitario para quienes hayan extraviado, deteriorado o necesiten renovar su documento original.",
+    "requirements": [
+      "1.- Generar la deuda provisional en la Web opción TRAMITES EN LINEA o mediante el link: http://apps.ucsm.edu.pe/UCSMMTA",
+      "2.- Estar matriculado en el semestre actual",
+      "3.- Haber obtenido el carné anteriormente"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: dinformatica2@ucsm.edu.pe",
+      "Atención telefónica: 054 382038 anexo: 1009"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "S/ 75.00"
+      }
+    ],
+    "fee_display": "S/ 75.00",
+    "payment_methods": "Agencia Bancaria: Generar código por plataforma del sistema ERP",
+    "term": "30 días hábiles",
+    "qualification": "",
+    "offices": "Dirección de Informática Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Dirección de Informática",
+    "approval_unit": "Dirección de Informática",
+    "contact": {
+      "phone": "054 382038",
+      "extension": "1009",
+      "email": "dinformatica2@ucsm.edu.pe"
+    },
+    "appeals": "",
+    "legal_basis": "130 Se aprueba la cuarta edición del Texto único ordenado del Resolución del Titular Resolución N°353-AU- 22/08/2024 Estatuto de la UCSM 2024",
+    "missing_fields": []
+  },
+  {
+    "unit_id": "tupa-062",
+    "code": "SE1130730F26",
+    "name": "Duplicado de Carné de Representante Estudiantil",
+    "kind": "servicio",
+    "section": "Servicios Prestados En Exclusividad",
+    "pages": [
+      97
+    ],
+    "description": "Emisión de una copia oficial del carné de representante estudiantil para quienes hayan extraviado, deteriorado o necesiten renovar su documento original.",
+    "requirements": [
+      "1.- Ser representante estudiantil",
+      "2.- Haber obtenido el carné anteriormente"
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención telefónica: 054 382038 anexo:1020"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "Gratuito"
+      }
+    ],
+    "fee_display": "Gratuito",
+    "payment_methods": "",
+    "term": "5 días hábiles",
+    "qualification": "",
+    "offices": "Secretaría General Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "",
+    "approval_unit": "Dirección de Informática",
+    "contact": {
+      "phone": "",
+      "extension": "1020",
+      "email": "osecgen3@ucsm.edu.pe"
+    },
+    "appeals": "",
+    "legal_basis": "132 Se aprueba la cuarta edición del Texto único ordenado del Otros Resolución N°353-AU- 22/08/2024 Estatuto de la UCSM 2024",
+    "missing_fields": [
+      "submission_unit"
+    ]
+  },
+  {
+    "unit_id": "tupa-063",
+    "code": "SE113073D0B2",
+    "name": "Búsqueda con ubicación y escaneo de documentos del Archivo Central - UCSM",
+    "kind": "servicio",
+    "section": "Servicios Prestados En Exclusividad",
+    "pages": [
+      98
+    ],
+    "description": "Ubicación y escaneo del documento requerido por el usuario",
+    "requirements": [
+      "1.- Subir la solicitud al sistema ERP, indicando nombres completos, escuela, universidad de origen, año de ingreso, modalidad de ingreso y documento requerido.",
+      "2.- Generar la deuda provisional en la Web opción TRAMITES EN LINEA o mediante el link: http://apps.ucsm.edu.pe/UCSMMTA."
+    ],
+    "notes": [],
+    "forms": "",
+    "channels": [
+      "Atención Presencial: Urb. San José s/n",
+      "Atención Virtual: oraa@ucsm.edu.pe"
+    ],
+    "fees": [
+      {
+        "concept": "",
+        "amount": "S/ 11.50"
+      }
+    ],
+    "fee_display": "S/ 11.50",
+    "payment_methods": "Agencia Bancaria: Generar código por plataforma del sistema ERP",
+    "term": "7 días hábiles",
+    "qualification": "",
+    "offices": "Dirección de Registro y Archivo Académico Lunes a Viernes de 08:00 a 16:15.",
+    "submission_unit": "Portal web Trámites en Línea : Dirección de Registro y Archivo Académico",
+    "approval_unit": "Dirección de Registro y Archivo Académico-DRAA",
+    "contact": {
+      "phone": "054-382038",
+      "extension": "1103 ó 1104",
+      "email": "oraa@ucsm.edu.pe"
+    },
+    "appeals": "",
+    "legal_basis": "118 TUO de la Ley 27444 Ley del Procedimiento Administrativo Ley 004-2019-JUS 25/01/2019 General",
+    "missing_fields": []
+  }
+]
