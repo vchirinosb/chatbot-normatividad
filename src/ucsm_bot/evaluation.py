@@ -13,6 +13,8 @@ import csv
 import json
 import math
 import re
+import zipfile
+import xml.etree.ElementTree as ET
 from collections import Counter
 from pathlib import Path
 
@@ -64,6 +66,7 @@ SUS_LABELS = {
     "totalmente de acuerdo": 5,
 }
 PARTICIPANT_COLUMN = "identificador"
+XLSX_NS = "{http://schemas.openxmlformats.org/spreadsheetml/2006/main}"
 REFUSAL_MARKERS = (
     "fuera de mi alcance", "no encontré", "no encontre",
     "ucsm.edu.pe/normatividad", "solo respondo",
@@ -555,6 +558,66 @@ def convert_forms_export(rows: list[dict]) -> list[dict]:
             for i, column in enumerate(columns, start=1)}}
         for row in rows
     ]
+
+
+def column_index(reference: str) -> int:
+    """Convertir la referencia de una celda (``"AB12"``) en índice de columna.
+
+    :param reference: referencia de la celda.
+    :return: índice desde 0.
+    """
+    index = 0
+    for letter in re.match(r"[A-Z]+", reference).group():
+        index = index * 26 + ord(letter) - ord("A") + 1
+    return index - 1
+
+
+def read_xlsx(path: Path) -> list[dict]:
+    """Leer la primera hoja de un ``.xlsx`` como lista de diccionarios.
+
+    Usa solo la biblioteca estándar; la primera fila es el encabezado.
+    Basta para la exportación de Microsoft Forms (texto y números).
+
+    :param path: ruta del ``.xlsx``.
+    :return: filas.
+    """
+    with zipfile.ZipFile(path) as archive:
+        shared = []
+        if "xl/sharedStrings.xml" in archive.namelist():
+            root = ET.fromstring(archive.read("xl/sharedStrings.xml"))
+            shared = ["".join(t.text or "" for t in item.iter(f"{XLSX_NS}t"))
+                      for item in root.iter(f"{XLSX_NS}si")]
+        sheet = ET.fromstring(archive.read("xl/worksheets/sheet1.xml"))
+    table = []
+    for row in sheet.iter(f"{XLSX_NS}row"):
+        values: dict[int, str] = {}
+        for cell in row.iter(f"{XLSX_NS}c"):
+            value = cell.find(f"{XLSX_NS}v")
+            if cell.get("t") == "inlineStr":
+                text = "".join(t.text or "" for t in cell.iter(f"{XLSX_NS}t"))
+            elif value is None:
+                text = ""
+            elif cell.get("t") == "s":
+                text = shared[int(value.text)]
+            else:
+                text = value.text or ""
+            values[column_index(cell.get("r"))] = text
+        width = max(values, default=-1) + 1
+        table.append([values.get(i, "") for i in range(width)])
+    if not table:
+        return []
+    headers = table[0]
+    return [dict(zip(headers, row + [""] * (len(headers) - len(row))))
+            for row in table[1:]]
+
+
+def read_table(path: Path) -> list[dict]:
+    """Leer un ``.xlsx`` o un ``.csv`` según su extensión.
+
+    :param path: ruta del archivo.
+    :return: filas.
+    """
+    return read_xlsx(path) if path.suffix.lower() == ".xlsx" else read_csv(path)
 
 
 def read_csv(path: Path) -> list[dict]:

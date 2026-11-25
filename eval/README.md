@@ -13,7 +13,7 @@
 | `rubrica.md` | 7.3 | Criterios para la columna `rubric` |
 | `tareas_usabilidad.md` | 7.4 | Preparación, invitación, guion de la sesión y tareas |
 | `formulario_sus.md` | 7.4 | Cómo crear el cuestionario SUS en Microsoft Forms y exportarlo |
-| `forms_to_sus.py` | 7.4 | Exportación de Forms (CSV) → `sus.csv` |
+| `forms_to_sus.py` | 7.4 | Exportación de Forms (`.xlsx` o CSV) → `sus.csv` |
 | `sus_template.csv`, `tareas_template.csv` | 7.4 | `tareas.csv` se llena en la sesión; `sus.csv` sale de `forms_to_sus.py` (o a mano); calcular con `eval/compute_sus.py` |
 | `usabilidad.md` | 7.4 | Resultados de la prueba (por completar) |
 

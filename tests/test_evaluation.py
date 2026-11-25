@@ -15,6 +15,7 @@ from ucsm_bot.evaluation import (
     load_article_titles,
     load_questions,
     load_tupa,
+    read_xlsx,
     percentile,
     render_report,
     SUS_ITEMS,
@@ -165,3 +166,24 @@ def test_convert_forms_export_maps_labels_and_numbers():
     assert convert_forms_export([numbered])[0]["q10"] == "4"
     with pytest.raises(ValueError):
         convert_forms_export([{"Identificador": "P4"}])
+
+
+def test_read_xlsx_with_shared_and_inline_strings(tmp_path):
+    import zipfile
+    ns = 'xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"'
+    shared = (f'<sst {ns}><si><t>Identificador</t></si>'
+              f'<si><t>De acuerdo</t></si></sst>')
+    sheet = (f'<worksheet {ns}><sheetData>'
+             '<row r="1"><c r="A1" t="s"><v>0</v></c>'
+             '<c r="B1" t="inlineStr"><is><t>Nota</t></is></c>'
+             '<c r="C1" t="inlineStr"><is><t>Vacía</t></is></c></row>'
+             '<row r="2"><c r="A2" t="inlineStr"><is><t>P1</t></is></c>'
+             '<c r="B2" t="s"><v>1</v></c><c r="C2" t="s"/></row>'
+             '</sheetData></worksheet>')
+    path = tmp_path / "export.xlsx"
+    with zipfile.ZipFile(path, "w") as archive:
+        archive.writestr("xl/sharedStrings.xml", shared)
+        archive.writestr("xl/worksheets/sheet1.xml", sheet)
+    assert read_xlsx(path) == [
+        {"Identificador": "P1", "Nota": "De acuerdo", "Vacía": ""}
+    ]

@@ -296,8 +296,19 @@ detienen los grupos 5 y 6 hasta que el autor decida cómo continuar.
   `eval/forms_to_sus.py` (prueba nueva; 41 pruebas OK; verificada con una
   exportación simulada); plantilla de resultados en `eval/usabilidad.md`.
   Las 5 tareas se probaron en el agente con redacción informal y llegan al
-  criterio de éxito. **Pendiente:** crear el formulario y hacer la prueba
-  con ≥ 5 participantes.
+  criterio de éxito.
+- Formulario SUS creado en Microsoft Forms (2026-11-25) con la cuenta de
+  trabajo, según `eval/formulario_sus.md`: 6 preguntas, escala Likert de
+  5 opciones y los 10 ítems con el texto de `SUS_ITEMS`; *Cualquiera puede
+  responder* (anónimo, sin registrar nombre), sin mezclar preguntas. El
+  link no se guarda en el repositorio (incluye identificadores del
+  inquilino). Prueba de punta a punta: respuesta `PRUEBA` con el patrón
+  5,1,4,2,3,3,4,2,5,1 → exportación `.xlsx` → `forms_to_sus.py` →
+  `compute_sus.py` = SUS 80,0 (esperado). La exportación es anónima
+  (*Email* = "anonymous", *Name* vacío). `forms_to_sus.py` ahora lee el
+  `.xlsx` directamente (`read_xlsx`, solo biblioteca estándar; 42 pruebas
+  OK). La respuesta de prueba se borró (el formulario quedó en 0
+  respuestas). **Pendiente:** la prueba con ≥ 5 participantes.
 - 7.5: **pendiente.** La analítica del agente (*Monitor*) seguía en cero
   sesiones después del banco; Copilot Studio tarda en procesarlas, y el
   periodo de pruebas debe incluir la prueba de usabilidad.

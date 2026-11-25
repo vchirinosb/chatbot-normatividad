@@ -54,19 +54,26 @@ Eliminar todas las respuestas*.
 
 ## Exportar y calcular
 
-1. *Respuestas → Abrir en Excel* descarga un `.xlsx`.
-2. Abrirlo en Excel o Numbers y guardarlo como **CSV UTF-8**, por ejemplo
-   `~/Downloads/sus_forms.csv`. No guardar la exportación en el
-   repositorio: incluye la hora de cada respuesta.
-3. Convertir y calcular:
+1. *Ver respuestas → Abrir resultados en Excel → ⌄ → Descargar una copia*
+   descarga un `.xlsx` en `~/Downloads`. No guardarlo en el repositorio:
+   incluye la hora de cada respuesta.
+2. Convertir y calcular (acepta el `.xlsx` directamente, o un CSV guardado
+   desde Excel):
 
    ```bash
-   .venv/bin/python eval/forms_to_sus.py ~/Downloads/sus_forms.csv
+   .venv/bin/python eval/forms_to_sus.py ~/Downloads/<exportación>.xlsx
    .venv/bin/python eval/compute_sus.py
    ```
 
    El primer comando escribe `eval/sus.csv`; el segundo muestra el SUS por
    participante, el promedio (meta ≥ 68) y, si existe `eval/tareas.csv`, el
    éxito y el tiempo por tarea.
-4. Copiar los comentarios de las preguntas 5 y 6 a
+3. Copiar los comentarios de las preguntas 5 y 6 a
    `eval/usabilidad.md`, sin datos que identifiquen a nadie.
+
+**Verificado el 2026-11-25:** una respuesta `PRUEBA` con el patrón
+5,1,4,2,3,3,4,2,5,1 se exportó y `forms_to_sus.py` + `compute_sus.py`
+dieron SUS 80,0, el valor esperado. La exportación trae las columnas
+*Email* = "anonymous" y *Name* vacía (no se registran datos personales);
+cada ítem del SUS es una columna con el texto de la afirmación. La
+respuesta de prueba se borró después.
