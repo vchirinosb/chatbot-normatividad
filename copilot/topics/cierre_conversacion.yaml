@@ -1,0 +1,33 @@
+kind: AdaptiveDialog
+modelDisplayName: Cierre de la conversación
+modelDescription: Se activa cuando el usuario se despide o indica que terminó su consulta, por ejemplo "gracias, eso es todo", "adiós", "chau" o "ya no tengo más preguntas". Muestra la despedida y la encuesta de satisfacción.
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent: {}
+  actions:
+    - kind: SendActivity
+      id: sendMessage_despedida
+      activity:
+        text:
+          - ¡Gracias por consultar! Si tienes otra duda sobre el Reglamento o los trámites, vuelve cuando quieras.
+    - kind: Question
+      id: question_encuesta
+      conversationOutcome: ResolvedImplied
+      alwaysPrompt: true
+      variable: init:Topic.SurveyResponse
+      prompt: ¿Te fue útil esta conversación?
+      entity: BooleanPrebuiltEntity
+    - kind: ConditionGroup
+      id: condition_encuesta
+      conditions:
+        - id: condition_encuesta_si
+          condition: =Topic.SurveyResponse = true
+          actions:
+            - kind: CSATQuestion
+              id: csat_encuesta
+              conversationOutcome: ResolvedConfirmed
+    - kind: EndConversation
+      id: endConversation_fin
+    - kind: CancelAllDialogs
+      id: cancelAllDialogs_fin

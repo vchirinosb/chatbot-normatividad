@@ -38,6 +38,22 @@ def test_regulation_docx_has_one_heading_per_article():
     assert all(re.match(r"^Art\. \d+°.* · págs?\. ", h) for h in headings)
 
 
+
+def test_regulation_paragraphs_start_with_their_article():
+    docx = DocxDocument(KNOWLEDGE_DIR / "reglamento_estudiantes.docx")
+    article = None
+    checked = 0
+    for paragraph in docx.paragraphs:
+        heading = re.match(r"^Art\. (\d+)°", paragraph.text)
+        if paragraph.style.name == "Heading 2" and heading:
+            article = heading.group(1)
+        elif paragraph.style.name.startswith("Heading"):
+            article = None
+        elif article and not paragraph.text.startswith("Fuente:"):
+            assert paragraph.text.startswith(f"Art. {article}°: "), paragraph.text
+            checked += 1
+    assert checked >= EXPECTED_ARTICLES
+
 def test_tupa_docx_has_one_heading_per_entry():
     headings = heading_2_texts(KNOWLEDGE_DIR / "tupa_fichas.docx")
     assert len(headings) == EXPECTED_TUPA_ENTRIES
@@ -68,3 +84,21 @@ def test_powerfx_table_fees_match_json(tupa_json):
     assert [f.replace('""', '"') for f in fees] == [
         " ".join(e["fee_display"].split()) for e in tupa_json
     ]
+
+
+def test_procedure_lookup_normalizes_text():
+    from ucsm_bot.copilot_dialogs import STEM_LENGTH, normalize_formula
+
+    assert normalize_formula("Name").startswith(
+        'Substitute(Substitute(Substitute(Substitute(Substitute('
+        'Substitute(Substitute(Substitute(Lower(Name), "á", "a")'
+    )
+    assert normalize_formula("Name").endswith('"-", ""), "rr", "r")')
+    dialog = yaml.safe_load(
+        (TOPICS_DIR / "consulta_tramite.yaml").read_text("utf-8"))
+    lookup = next(
+        action["value"] for action in dialog["beginDialog"]["actions"]
+        if action.get("id") == "setVariable_ficha"
+    )
+    assert f"Left(Value, {STEM_LENGTH}) in Key" in lookup
+    assert "Score, SortOrder.Descending" in lookup

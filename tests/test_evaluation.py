@@ -11,11 +11,13 @@ from ucsm_bot.evaluation import (
     cited_sources,
     compute_metrics,
     compute_sus,
+    convert_forms_export,
     load_article_titles,
     load_questions,
     load_tupa,
     percentile,
     render_report,
+    SUS_ITEMS,
     sus_score,
     term_matches,
 )
@@ -49,6 +51,13 @@ def test_check_bank_detects_wrong_fee(questions):
 def test_cited_sources():
     text = "Fuentes: Reglamento, Art. 83° (pág. 24); TUPA PA113073C401"
     assert cited_sources(text) == {"art:83", "code:PA113073C401"}
+
+
+def test_cited_sources_with_article_lists():
+    text = ("Fuentes: Reglamento, artículos 136° y 137° (pág. 33); "
+            "Arts. 96° (pág. 26) y 97° (pág. 27); Arts. 47° y 48°.")
+    assert cited_sources(text) == {"art:47", "art:48", "art:96", "art:97",
+                                   "art:136", "art:137"}
 
 
 def test_amount_and_term_matching():
@@ -137,3 +146,22 @@ def test_sus_score_and_summary():
     assert result["mean"] == 75.0
     assert result["tasks"]["T1"] == {"success_rate": 0.5,
                                      "mean_seconds": 90.0}
+
+
+def test_convert_forms_export_maps_labels_and_numbers():
+    row = {"Id": "1", "Identificador del participante": " p1 "}
+    labels = ["Totalmente de acuerdo", "Totalmente en desacuerdo"] * 5
+    for item, label in zip(SUS_ITEMS, labels):
+        row[f"Cuestionario SUS.{item}"] = label
+    other = dict(row, **{"Identificador del participante": "P2"})
+    for item in SUS_ITEMS:
+        other[f"Cuestionario SUS.{item}"] = "Ni de acuerdo ni en desacuerdo"
+    converted = convert_forms_export([row, other])
+    assert converted[0]["participant"] == "P1"
+    assert compute_sus(converted, [])["scores"] == {"P1": 100.0, "P2": 50.0}
+    numbered = {"Identificador": "P3",
+                **{f"{i}. {item}": "4" for i, item in
+                   enumerate(SUS_ITEMS, start=1)}}
+    assert convert_forms_export([numbered])[0]["q10"] == "4"
+    with pytest.raises(ValueError):
+        convert_forms_export([{"Identificador": "P4"}])

@@ -9,6 +9,7 @@ INVENTORY_PATH = ROOT_DIR / "data" / "inventory.csv"
 PROCESSED_DIR = ROOT_DIR / "data" / "processed"
 KNOWLEDGE_DIR = ROOT_DIR / "copilot" / "knowledge"
 TOPICS_DIR = ROOT_DIR / "copilot" / "topics"
+PROTOCOL_PATH = ROOT_DIR / "docs" / "protocolo.yaml"
 
 REGULATION_ID = "reglamento-estudiantes"
 TUPA_ID = "tupa"

@@ -1,0 +1,15 @@
+kind: AdaptiveDialog
+modelDisplayName: Datos personales
+modelDescription: Se activa cuando el usuario escribe datos personales como su DNI (8 dígitos), su código de estudiante (10 dígitos), sus notas o una contraseña. Advierte que no es necesario compartirlos y no los procesa.
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent: {}
+  actions:
+    - kind: SendActivity
+      id: sendMessage_datos_personales
+      activity:
+        text:
+          - 'Por tu seguridad, no compartas datos personales como tu DNI, código de estudiante, notas o contraseñas. No los necesito para responder: puedo orientarte con la normativa general. ¿Cuál es tu consulta?'
+    - kind: CancelAllDialogs
+      id: cancelAllDialogs_fin

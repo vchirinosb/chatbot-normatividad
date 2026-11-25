@@ -72,6 +72,23 @@ def quote_powerfx(text: str) -> str:
     return '"' + " ".join(text.split()).replace('"', '""') + '"'
 
 
+def build_card_fields(entry: dict) -> dict[str, str]:
+    """Reunir los campos que muestra la tarjeta de un trámite.
+
+    :param entry: campos de la ficha.
+    :return: código, denominación, costo, plazo, oficina, contacto y páginas.
+    """
+    return {
+        "Code": entry["code"],
+        "Name": entry["name"],
+        "Fee": entry["fee_display"],
+        "Term": entry["term"],
+        "Office": entry["submission_unit"] or entry["approval_unit"],
+        "Contact": format_contact(entry["contact"]),
+        "Pages": ", ".join(str(page) for page in entry["pages"]),
+    }
+
+
 def build_powerfx_table(entries: list[dict]) -> str:
     """Construir la tabla Power Fx con los campos de cada ficha.
 
@@ -80,17 +97,9 @@ def build_powerfx_table(entries: list[dict]) -> str:
     """
     rows = []
     for entry in entries:
-        fields = {
-            "Code": entry["code"],
-            "Name": entry["name"],
-            "Fee": entry["fee_display"],
-            "Term": entry["term"],
-            "Office": entry["submission_unit"] or entry["approval_unit"],
-            "Contact": format_contact(entry["contact"]),
-            "Pages": ", ".join(str(page) for page in entry["pages"]),
-        }
         body = ", ".join(
-            f"{key}: {quote_powerfx(value)}" for key, value in fields.items()
+            f"{key}: {quote_powerfx(value)}"
+            for key, value in build_card_fields(entry).items()
         )
         rows.append(f"    {{{body}}}")
     return "Table(\n" + ",\n".join(rows) + "\n)\n"

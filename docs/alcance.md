@@ -73,6 +73,6 @@ Las consultas fuera de alcance se responden con el mensaje de derivación de
     exactos;
   - la publicación sin autenticación depende de la política del inquilino y
     del tipo de licencia de la cuenta usada; una prueba puede vencer, por lo
-    que se respalda con video y exportación de la solución;
+    que se respalda con capturas y exportación de la solución;
   - con pago por uso, cada respuesta generativa consume créditos.
 - **Idioma:** solo español.

@@ -5,6 +5,8 @@
 - ``compute_metrics``: calcula acierto de fuente, exactitud de montos y
   plazos, rechazo correcto, rúbrica y latencias desde ``results.csv``.
 - ``compute_sus``: calcula el puntaje SUS por participante y el promedio.
+- ``convert_forms_export``: convierte la exportación de Microsoft Forms al
+  formato de ``sus.csv``.
 """
 
 import csv
@@ -37,12 +39,44 @@ RUBRIC_LEVELS = ("correcta", "parcial", "incorrecta", "alucinada")
 RUBRIC_TARGET = 0.80
 LATENCY_TARGET_P90 = 10.0
 SUS_TARGET = 68.0
+# Ítems del SUS en español (Brooke, 1996), en el orden original: impares en
+# positivo, pares en negativo. El formulario de Forms usa este mismo texto.
+SUS_ITEMS = (
+    "Creo que me gustaría usar este asistente con frecuencia.",
+    "Encontré el asistente innecesariamente complejo.",
+    "Pensé que el asistente era fácil de usar.",
+    "Creo que necesitaría ayuda de una persona con conocimientos técnicos "
+    "para usar este asistente.",
+    "Encontré que las funciones del asistente estaban bien integradas.",
+    "Pensé que había demasiada inconsistencia en el asistente.",
+    "Imagino que la mayoría de las personas aprendería a usar este "
+    "asistente muy rápidamente.",
+    "Encontré el asistente muy difícil de usar.",
+    "Me sentí con mucha confianza al usar el asistente.",
+    "Necesité aprender muchas cosas antes de poder usar el asistente.",
+)
+# Opciones de la escala Likert del formulario y su valor.
+SUS_LABELS = {
+    "totalmente en desacuerdo": 1,
+    "en desacuerdo": 2,
+    "ni de acuerdo ni en desacuerdo": 3,
+    "de acuerdo": 4,
+    "totalmente de acuerdo": 5,
+}
+PARTICIPANT_COLUMN = "identificador"
 REFUSAL_MARKERS = (
     "fuera de mi alcance", "no encontré", "no encontre",
     "ucsm.edu.pe/normatividad", "solo respondo",
 )
-ARTICLE_CITATION = re.compile(r"Art(?:ículo|iculo|\.)?\s*(\d{1,3})\s*°?",
-                              re.IGNORECASE)
+# Cita de uno o varios artículos: "Art. 83°", "artículos 136° y 137°",
+# "Arts. 96° (pág. 26) y 97°". El grupo captura la lista completa.
+ARTICLE_CITATION = re.compile(
+    r"\bArt(?:ículos?|iculos?|s?\.)?\s*"
+    r"(\d{1,3}\s*°?(?:\s*\([^)]*\))?"
+    r"(?:\s*(?:,|y|e)\s*\d{1,3}\s*°?(?:\s*\([^)]*\))?)*)",
+    re.IGNORECASE,
+)
+PARENTHETICAL = re.compile(r"\([^)]*\)")
 CODE_CITATION = re.compile(r"\b(?:PA|PE|SE)[0-9A-F]{8,10}\b")
 AMOUNT = re.compile(r"S/\s?([\d,]+\.\d{2})")
 TERM_NUMBER = re.compile(r"(\d+)\s+d[ií]as?\s+h[áa]bil", re.IGNORECASE)
@@ -175,7 +209,11 @@ def cited_sources(text: str) -> set[str]:
     :param text: respuesta y fuentes citadas.
     :return: conjunto como ``{"art:83", "code:PA113073C401"}``.
     """
-    sources = {f"art:{int(n)}" for n in ARTICLE_CITATION.findall(text)}
+    sources = {
+        f"art:{int(n)}"
+        for group in ARTICLE_CITATION.findall(text)
+        for n in re.findall(r"\d{1,3}", PARENTHETICAL.sub("", group))
+    }
     sources |= {f"code:{code}" for code in CODE_CITATION.findall(text)}
     return sources
 
@@ -458,11 +496,72 @@ def compute_sus(sus_rows: list[dict], task_rows: list[dict]) -> dict:
     }
 
 
+def normalize_label(text: str) -> str:
+    """Normalizar un texto para comparar: minúsculas, sin tildes ni espacios
+    repetidos.
+
+    :param text: texto original.
+    :return: texto normalizado.
+    """
+    table = str.maketrans("áéíóúüñ", "aeiouun")
+    return " ".join(text.lower().translate(table).split())
+
+
+def likert_value(answer: str) -> int:
+    """Convertir una respuesta de la escala Likert a un valor de 1 a 5.
+
+    Acepta la etiqueta ("De acuerdo") o el número ("4").
+
+    :param answer: respuesta exportada.
+    :return: valor de 1 a 5.
+    :raises ValueError: si la respuesta no es una opción de la escala.
+    """
+    text = normalize_label(answer)
+    if text in SUS_LABELS:
+        return SUS_LABELS[text]
+    if text[:1].isdigit() and 1 <= int(text[:1]) <= 5:
+        return int(text[:1])
+    raise ValueError(f"Respuesta fuera de la escala: {answer!r}")
+
+
+def convert_forms_export(rows: list[dict]) -> list[dict]:
+    """Convertir la exportación de Microsoft Forms al formato de ``sus.csv``.
+
+    Cada ítem se ubica por su texto dentro del encabezado de la columna, así
+    que funciona con la pregunta Likert ("SUS.Creo que…") o con preguntas
+    separadas ("1. Creo que…").
+
+    :param rows: filas de la exportación (CSV guardado desde Excel).
+    :return: filas con ``participant`` y ``q1``…``q10``.
+    :raises ValueError: si falta la columna de algún ítem o del
+        identificador.
+    """
+    if not rows:
+        return []
+    headers = list(rows[0])
+    columns = []
+    for item in SUS_ITEMS:
+        key = normalize_label(item).rstrip(".")
+        found = [h for h in headers if key in normalize_label(h)]
+        if len(found) != 1:
+            raise ValueError(f"Columna no encontrada o repetida: {item}")
+        columns.append(found[0])
+    ids = [h for h in headers if PARTICIPANT_COLUMN in normalize_label(h)]
+    if not ids:
+        raise ValueError("Falta la columna del identificador (P1, P2…)")
+    return [
+        {"participant": row[ids[0]].strip().upper(),
+         **{f"q{i}": str(likert_value(row[column]))
+            for i, column in enumerate(columns, start=1)}}
+        for row in rows
+    ]
+
+
 def read_csv(path: Path) -> list[dict]:
     """Leer un CSV como lista de diccionarios.
 
     :param path: ruta del CSV.
     :return: filas.
     """
-    with path.open(encoding="utf-8", newline="") as handle:
+    with path.open(encoding="utf-8-sig", newline="") as handle:
         return list(csv.DictReader(handle))

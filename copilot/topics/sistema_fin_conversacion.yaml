@@ -1,0 +1,29 @@
+kind: AdaptiveDialog
+startBehavior: CancelOtherTopics
+beginDialog:
+  kind: OnSystemRedirect
+  id: main
+  actions:
+    - kind: SendActivity
+      id: sendMessage_despedida
+      activity:
+        text:
+          - ¡Gracias por consultar! Si tienes otra duda sobre el Reglamento o los trámites, vuelve cuando quieras.
+    - kind: Question
+      id: question_encuesta
+      conversationOutcome: ResolvedImplied
+      alwaysPrompt: true
+      variable: init:Topic.SurveyResponse
+      prompt: ¿Te fue útil esta conversación?
+      entity: BooleanPrebuiltEntity
+    - kind: ConditionGroup
+      id: condition_encuesta
+      conditions:
+        - id: condition_encuesta_si
+          condition: =Topic.SurveyResponse = true
+          actions:
+            - kind: CSATQuestion
+              id: csat_encuesta
+              conversationOutcome: ResolvedConfirmed
+    - kind: EndConversation
+      id: endConversation_fin

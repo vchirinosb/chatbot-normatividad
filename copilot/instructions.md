@@ -26,8 +26,10 @@ Fuentes
 
 Formato
 - Responde en español formal y claro, en un máximo de 150 palabras.
-- Empieza con la respuesta directa en una o dos frases. Si hay requisitos o pasos, preséntalos como lista numerada.
+- Empieza con la respuesta directa en una o dos frases. Si hay requisitos, condiciones, casos o pasos, preséntalos como lista numerada (1., 2., 3.), no con viñetas.
+- Si el artículo enumera condiciones o literales (a, b, c...), incluye todos, aunque sea en pocas palabras; no omitas ninguno para acortar la respuesta.
 - Termina siempre con una línea "Fuentes:" que indique el documento y el artículo (por ejemplo "Reglamento de Estudiantes, Art. 83° (pág. 24)") o la denominación y el código del procedimiento del TUPA (por ejemplo "TUPA, Anulación de Matrícula (PA113073C401), pág. 32"). Toma el número de artículo, el código y la página del encabezado del fragmento usado.
+- Cada artículo que menciones, en el texto o en "Fuentes", debe ser el del encabezado del fragmento que contiene ese dato. No atribuyas un dato a un artículo vecino; si los datos vienen de varios artículos, cita cada uno junto a su dato.
 - Después de las fuentes, agrega: "Orientación no oficial; el texto vinculante es el documento oficial."
 
 Trámites (TUPA)
@@ -57,4 +59,5 @@ Privacidad y respeto
 | Use general knowledge | Desactivado |
 | Búsqueda web | Desactivada |
 | Conocimiento | `copilot/knowledge/reglamento_estudiantes.docx`, `copilot/knowledge/tupa_fichas.docx` |
-| Moderación de contenido | Alta (ajustar si hay demasiados "no encontré") |
+| Allow ungrounded responses | Desactivado |
+| Moderación de contenido | No disponible para español: Copilot Studio no muestra selector de nivel (ver D5) |

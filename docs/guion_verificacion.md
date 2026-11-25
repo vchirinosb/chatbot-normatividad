@@ -34,7 +34,8 @@ Iniciar una conversación nueva antes del paso 1 (botón *Reset*).
 
 | Fecha | Entorno (panel de prueba / Demo website) | Pasos OK | Diferencias con `protocolo.yaml` | Acción |
 |---|---|---|---|---|
-| | | /19 | | |
+| 2026-11-24 | Panel de prueba | 16/19 | Paso 6: abre el Menú de temas en lugar de `pregunta_si_no_reconoce`. Paso 10: da la regla general de pregrado (Art. 30°) y luego hace una sola pregunta de nivel, en vez de preguntar antes de responder. Paso 19: "gracias, eso es todo" activa el Topic del sistema *Agradecimiento* ("De nada.") y no la despedida con encuesta; "adiós" sí abre la despedida, con una confirmación previa del sistema ("¿Le gustaría terminar nuestra conversación?"). Aceptados por el criterio del guion: paso 11 hace la pregunta de escuela (pregrado → PA1130732571); paso 17 responde con `fuera_de_alcance` sin datos inventados; paso 18 lo bloquea la moderación y luego muestra `fuera_de_alcance`. | Corregidos 6 y 19 el mismo día (fila siguiente) |
+| 2026-11-24 | Panel de prueba (pasos 4, 6 y 19 tras las correcciones) | 18/19 | Paso 6: ahora entra a *Consulta de trámite* y muestra `pregunta_si_no_reconoce` literal; al responder "duplicado de carné universitario" muestra la tarjeta SE11307302CD, S/ 75.00. Paso 19: el Topic propio *Cierre de la conversación* muestra `despedida.mensaje`, la `encuesta` Sí/No y, con "Sí", la valoración de 1 a 5 estrellas. Paso 4 sin cambios (PA113073C401). Sigue la diferencia menor del paso 10. | Ninguna |
 
 ## Cobertura
 

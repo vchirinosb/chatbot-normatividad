@@ -1,59 +1,77 @@
 # Prueba de usabilidad (tarea 7.4)
 
 **Estado:** preparada; se ejecuta con el agente publicado (*Demo website*).
+Las 5 tareas se probaron en el agente el 2026-11-24 con redacción informal
+("si jalo un curso 3 veces que pasa") y todas llegan al criterio de éxito.
 
 ## Participantes
 
-Al menos 5 estudiantes (o docentes) de la UCSM que no hayan participado en
-la validación del protocolo. No se registran nombres ni datos personales:
-solo un identificador (P1…P5), carrera y semestre.
+- Al menos 5 estudiantes (o docentes) de la UCSM. Al menos uno usa celular.
+- No se registran nombres ni datos personales: cada uno recibe un
+  identificador (P1…P5) que usa en el formulario y que el facilitador anota
+  en `tareas.csv`.
+- Duración: 15–20 minutos por persona. Puede ser presencial o remota
+  (Teams o Meet, con el participante compartiendo pantalla).
 
-## Procedimiento
+## Antes de las sesiones
 
-1. Leer al participante: "Vas a usar un asistente que responde sobre el
-   Reglamento de Estudiantes y los trámites del TUPA. Realiza cada tarea
-   como lo harías normalmente; no hay respuestas incorrectas de tu parte."
-2. Abrir el link del agente en el dispositivo del participante (al menos
-   uno en celular).
-3. Leer cada tarea, medir el tiempo desde que empieza a escribir hasta que
-   dice haber encontrado la respuesta (máximo 3 minutos por tarea).
-4. Marcar éxito si la información obtenida coincide con el criterio.
-5. Al final, aplicar el cuestionario SUS en Microsoft Forms (10 ítems,
-   escala 1–5) y pedir comentarios abiertos.
+- [ ] Crear el formulario según `eval/formulario_sus.md` y probarlo con el
+      identificador `PRUEBA`.
+- [ ] Confirmar que el link del agente abre sin iniciar sesión, en una
+      ventana privada y en un celular. El link no se guarda en el
+      repositorio (incluye el identificador del inquilino); está en la
+      conversación de trabajo y en el canal *Demo website* de Copilot Studio.
+- [ ] Revisar que la prueba de Copilot Studio siga vigente (vence alrededor
+      del 2026-12-24).
+- [ ] Copiar `tareas_template.csv` como `tareas.csv` (una fila por
+      participante y tarea).
+- [ ] Tener un cronómetro y esta guía a mano.
+
+## Invitación (texto para enviar)
+
+> Hola. Estoy evaluando un asistente virtual que responde preguntas sobre
+> el Reglamento de Estudiantes y los trámites del TUPA de la UCSM, para un
+> trabajo de la maestría. ¿Me ayudas con una prueba de 15–20 minutos?
+> Solo necesitas un celular o una computadora con internet; no se pide
+> ningún dato personal. ¿Qué día y hora te acomoda?
+
+## Guion de la sesión
+
+1. **Presentación** (leer):
+   "Vas a usar un asistente que responde sobre el Reglamento de
+   Estudiantes y los trámites del TUPA de la UCSM. Te voy a leer cinco
+   tareas; resuélvelas como lo harías normalmente, escribiendo con tus
+   propias palabras. Estoy evaluando el asistente, no a ti: no hay
+   respuestas incorrectas de tu parte. No escribas datos personales. Tu
+   código para el cuestionario final es P__."
+2. Enviar el link del agente y esperar a que el participante vea la
+   bienvenida.
+3. Para cada tarea: leerla, iniciar el cronómetro cuando empieza a escribir
+   y detenerlo cuando dice haber encontrado la respuesta o se rinde
+   (máximo 3 minutos). No ayudar ni sugerir palabras; si pregunta, decir
+   "hazlo como te parezca".
+4. Anotar en `tareas.csv`: éxito (`sí`/`no`), segundos y lo observado
+   (rodeos, reformulaciones, botones usados, errores del asistente).
+5. Al terminar las tareas, enviar el link del formulario y esperar a que
+   lo envíe.
+6. Pregunta abierta (opcional): "¿Algo que te haya confundido?". Anotar la
+   respuesta en los comentarios de la última tarea.
 
 ## Tareas
 
-| Id | Tarea (leída al participante) | Criterio de éxito |
-|---|---|---|
-| T1 | Averigua qué pasa si un estudiante desaprueba el mismo curso tres veces. | Separación por un año (Art. 83°) |
-| T2 | Averigua cuánto cuesta y cuánto demora la copia autenticada de la resolución de tu título. | S/ 44.00 y 7 días hábiles |
-| T3 | Faltaste a un examen por enfermedad y estudias pregrado: averigua qué debes hacer y en qué plazo. | Solicitud dentro de 5 días hábiles; trámite PA1130732571 |
-| T4 | Averigua cuántas veces puedes reservar tu matrícula. | Hasta cinco semestres (Art. 28°) |
-| T5 | Pregunta algo que creas que el asistente no debería responder y observa qué hace. | El asistente rechaza o deriva sin inventar |
+| Id | Tarea (leída al participante) | Criterio de éxito | Qué observar |
+|---|---|---|---|
+| T1 | Averigua qué pasa si un estudiante desaprueba el mismo curso tres veces. | Separación por un año (Art. 83°) | Si lee la cita del artículo |
+| T2 | Averigua cuánto cuesta y cuánto demora la copia autenticada de la resolución de tu título. | S/ 44.00 y 7 días hábiles | Aparece una tarjeta y luego "¿Quieres que te detalle los requisitos…?"; si entiende la tarjeta y qué hace con la pregunta |
+| T3 | Faltaste a un examen por enfermedad y estudias pregrado: averigua qué debes hacer y en qué plazo. | Solicitud dentro de 5 días; trámite PA1130732571 | El asistente pregunta la escuela aunque el participante ya haya dicho "pregrado"; si usa el botón o escribe |
+| T4 | Averigua cuántas veces puedes reservar tu matrícula. | Hasta cinco semestres (Art. 28°) | — |
+| T5 | Pregunta algo que creas que el asistente no debería responder y observa qué hace. | El asistente rechaza o deriva sin inventar | Qué pregunta (anotarla) |
 
-## Cuestionario SUS (Microsoft Forms)
+## Después de las sesiones
 
-Escala: 1 = Totalmente en desacuerdo … 5 = Totalmente de acuerdo.
-
-1. Creo que me gustaría usar este asistente con frecuencia.
-2. Encontré el asistente innecesariamente complejo.
-3. Pensé que el asistente era fácil de usar.
-4. Creo que necesitaría ayuda de una persona con conocimientos técnicos
-   para usar este asistente.
-5. Encontré que las funciones del asistente estaban bien integradas.
-6. Pensé que había demasiada inconsistencia en el asistente.
-7. Imagino que la mayoría de las personas aprendería a usar este asistente
-   muy rápidamente.
-8. Encontré el asistente muy difícil de usar.
-9. Me sentí muy confiado al usar el asistente.
-10. Necesité aprender muchas cosas antes de poder usar el asistente.
-
-## Registro y cálculo
-
-- Copiar `sus_template.csv` como `sus.csv` y `tareas_template.csv` como
-  `tareas.csv`; llenar con las respuestas (éxito: `sí`/`no`; tiempo en
-  segundos).
-- Ejecutar `.venv/bin/python eval/compute_sus.py`: muestra el SUS por
-  participante, el promedio (meta ≥ 68), la tasa de éxito y el tiempo medio
-  por tarea.
-- Registrar los comentarios cualitativos y los resultados en el paper.
+1. Exportar el formulario y calcular el SUS (`eval/formulario_sus.md`,
+   sección *Exportar y calcular*).
+2. Completar `eval/usabilidad.md` con los resultados y los comentarios.
+3. Registrar en `docs/bitacora.md` las fechas, el número de participantes
+   y el resultado; marcar la tarea 7.4.
+4. Exportar la analítica del periodo de pruebas (tarea 7.5).

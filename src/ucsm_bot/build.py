@@ -8,6 +8,8 @@ import json
 from pathlib import Path
 from statistics import mean
 
+import yaml
+
 from ucsm_bot.chunking import Unit, segment_regulation, segment_tupa
 from ucsm_bot.chunking import split_into_chunks
 from ucsm_bot.cleaning import (
@@ -16,6 +18,7 @@ from ucsm_bot.cleaning import (
     clean_tupa,
     render_clean_text,
 )
+from ucsm_bot.copilot_dialogs import write_dialogs
 from ucsm_bot.copilot_topics import write_topics
 from ucsm_bot.corpus import (
     EXPECTED_ARTICLES,
@@ -24,6 +27,7 @@ from ucsm_bot.corpus import (
     EXPECTED_TUPA_ENTRIES,
     KNOWLEDGE_DIR,
     PROCESSED_DIR,
+    PROTOCOL_PATH,
     REGULATION_ID,
     TOPICS_DIR,
     TUPA_ID,
@@ -246,6 +250,8 @@ def main() -> None:
     )
     export_tupa_csv(entries, tupa, KNOWLEDGE_DIR / "tupa_fichas.csv")
     write_topics(entries, TOPICS_DIR)
+    protocol = yaml.safe_load(PROTOCOL_PATH.read_text(encoding="utf-8"))
+    write_dialogs(protocol, entries, TOPICS_DIR)
     print(f"Artículos: {articles}/{EXPECTED_ARTICLES}; "
           f"fichas: {fichas}/{EXPECTED_TUPA_ENTRIES}; "
           f"fragmentos: {len(chunks)}")

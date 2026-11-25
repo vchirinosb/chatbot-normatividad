@@ -1,0 +1,56 @@
+kind: AdaptiveDialog
+modelDisplayName: Evaluación extemporánea
+modelDescription: Responde cómo solicitar una evaluación extemporánea (examen rezagado por enfermedad u otro motivo). Pregunta si es para una Escuela Profesional (pregrado) o para la Escuela de Postgrado y muestra el trámite del TUPA correspondiente. No lo uses si el usuario también pregunta qué dice el Reglamento, esa consulta combinada se responde con los documentos de conocimiento.
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent: {}
+  actions:
+    - kind: Question
+      id: question_escuela
+      alwaysPrompt: true
+      variable: init:Topic.Escuela
+      prompt:
+        text:
+          - El TUPA tiene un trámite distinto según tu escuela. ¿Para cuál es la evaluación extemporánea?
+        quickReplies:
+          - kind: MessageBack
+            text: Escuela Profesional (pregrado)
+          - kind: MessageBack
+            text: Escuela de Postgrado
+      entity: StringPrebuiltEntity
+    - kind: ConditionGroup
+      id: condition_escuela
+      conditions:
+        - id: condition_postgrado
+          condition: ="Postgrado" in Topic.Escuela
+          actions:
+            - kind: SendActivity
+              id: sendMessage_PA1130731912
+              activity:
+                text:
+                  - |-
+                    Autorización para rendir evaluaciones extemporáneas por motivo de enfermedad u otros dentro de los cinco (05) días siguientes a la fecha del examen - Escuela de Postgrado (código PA1130731912).
+
+                    - Costo: Gratuito
+                    - Plazo de atención: 3 días hábiles
+                    - Dónde se presenta: Mesa de Partes Virtual : Escuela de Postgrado
+                    - Contacto: Teléfono 054-382038, anexo 1181, 1167, correo caepg@ucsm.edu.pe
+
+                    Fuente: TUPA UCSM, págs. 60
+      elseActions:
+        - kind: SendActivity
+          id: sendMessage_PA1130732571
+          activity:
+            text:
+              - |-
+                Autorización para rendir evaluaciones extemporáneas por motivo de enfermedad u otros dentro de los cinco (05) días siguientes a la omisión - Escuelas Profesionales (código PA1130732571).
+
+                - Costo: Gratuito
+                - Plazo de atención: 5 días hábiles
+                - Dónde se presenta: Mesa de Partes Virtual : Escuelas Profesionales
+                - Contacto: Teléfono 054-382038, anexo 6000, 6001 ó 6002
+
+                Fuente: TUPA UCSM, págs. 46
+    - kind: CancelAllDialogs
+      id: cancelAllDialogs_fin

@@ -180,11 +180,14 @@ def export_regulation(units: list[Unit], document: Document, path: Path) -> int:
             f"{format_pages(unit.pages)}. Ubicación: "
             f"{' > '.join(unit.heading_path)}. {document.source_url}",
         )
+        # Cada párrafo empieza con su artículo: así ningún fragmento que
+        # genere Copilot Studio separa un dato de su referencia.
+        reference = f"Art. {unit.article}°"
         for paragraph in unit.paragraphs:
-            docx.add_paragraph(paragraph)
+            docx.add_paragraph(f"{reference}: {paragraph}")
         for note in unit.notes:
-            docx.add_paragraph(f"Nota de modificación {note['number']}: "
-                               f"{note['text']}")
+            docx.add_paragraph(f"{reference}: Nota de modificación "
+                               f"{note['number']}: {note['text']}")
     save_deterministic(docx, path, document.title)
     return count
 

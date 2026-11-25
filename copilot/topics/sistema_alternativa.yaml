@@ -1,0 +1,10 @@
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnUnknownIntent
+  id: main
+  actions:
+    - kind: SendActivity
+      id: sendMessage_fuera_de_alcance
+      activity:
+        text:
+          - 'Esa consulta está fuera de mi alcance: solo respondo sobre el Reglamento de Estudiantes y el TUPA de la UCSM. Para otros temas, revisa https://ucsm.edu.pe/normatividad/ o comunícate con la oficina correspondiente.'

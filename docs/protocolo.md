@@ -96,4 +96,4 @@ salen de `copilot/topics/tabla_tupa.powerfx`, generada desde
 | Aviso de carácter no oficial | `avisos.no_oficial`, sección 6 |
 | Privacidad | `datos_personales`, sección 6 |
 | Fuente única de mensajes | `protocolo.yaml` + `guion_verificacion.md` |
-| Validación del protocolo | Diagrama (sección 2) + `validacion_protocolo.md` |
+| Validación del protocolo | Diagrama (sección 2) + guion de verificación, iteraciones (`eval/iteraciones.md`) y banco de preguntas (`eval/evaluacion_completa.md`) |

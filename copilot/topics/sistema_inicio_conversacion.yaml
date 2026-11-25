@@ -1,0 +1,30 @@
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnConversationStart
+  id: main
+  actions:
+    - kind: SendActivity
+      id: sendMessage_saludo
+      activity:
+        text:
+          - ¡Hola! Soy el asistente de normatividad estudiantil de la UCSM. Puedo explicarte el Reglamento de Estudiantes y los trámites del TUPA (requisitos, costos y plazos). No consulto notas, pagos ni datos personales.
+    - kind: SendActivity
+      id: sendMessage_menu
+      activity:
+        text:
+          - ¿Sobre qué tema quieres consultar?
+        quickReplies:
+          - kind: MessageBack
+            text: Matrícula y convalidaciones
+          - kind: MessageBack
+            text: Evaluación y notas
+          - kind: MessageBack
+            text: Deberes, derechos y sanciones
+          - kind: MessageBack
+            text: Becas y bienestar
+          - kind: MessageBack
+            text: Grados, títulos y certificados
+          - kind: MessageBack
+            text: Modalidades semipresencial y a distancia
+          - kind: MessageBack
+            text: Trámites (requisitos, costos y plazos)
