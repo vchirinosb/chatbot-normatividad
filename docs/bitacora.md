@@ -319,6 +319,54 @@ detienen los grupos 5 y 6 hasta que el autor decida cómo continuar.
 - 7.5: **pendiente.** La analítica del agente (*Monitor*) seguía en cero
   sesiones después del banco; Copilot Studio tarda en procesarlas, y el
   periodo de pruebas debe incluir la prueba de usabilidad.
+- 7.4 realizada (2026-11-25): 9 participantes (7 personal administrativo
+  de la UCSM, registrados como "Otro", y 2 estudiantes de pregrado; 4 en
+  celular y 5 en computadora). SUS promedio 85,8 (80,0–95,0; meta ≥ 68).
+  Éxito por tarea con el criterio estricto: T1 100 %, T2 44 %, T3 56 %,
+  T4 100 %, T5 100 %; no se cronometró el tiempo. Error principal: en T2
+  el agente mostró la ficha del acta de grados (S/ 55.00, 5 días) en vez
+  de la de la resolución del título (S/ 44.00, 7 días) cuando la consulta
+  no decía "resolución". En T3, 4 participantes no recibieron el código
+  del trámite. Detalle y cambios derivados en `eval/usabilidad.md`; datos
+  en `eval/sus.csv` y `eval/tareas.csv` (la exportación del formulario
+  queda fuera del repositorio).
+- 7.5 realizada (2026-11-25): resumen de *Monitor* y CSV de sesiones
+  (*Download Sessions*, últimos 30 días). 187 sesiones, todas por Direct
+  Line, entre el 2026-11-24 20:12 y el 2026-11-25 16:10 (UTC−5): 151 del
+  banco (ronda 3 y reintentos), 5 de la verificación de tareas y 31 de la
+  prueba de usabilidad. Resolved 138, Abandoned 30 (sobre todo rechazos
+  fuera de alcance), Escalated 0, sin engagement 19. Sin CSAT, temas ni
+  calidad de respuestas (agente generativo y bajo volumen); los temas se
+  derivaron del primer mensaje. Detalle en `eval/analitica.md`; el CSV no
+  se guarda (incluye transcripciones).
+- Corrección de T2 de la prueba de usabilidad (2026-11-25, aprobada por el
+  autor): el Topic *Consulta de trámite* elegía la ficha del acta de grados
+  ante "copia autenticada de mi título" porque empataba con la de la
+  resolución del título y ganaba la denominación más corta. Ahora desempata
+  también por palabras completas y, si siguen empatadas fichas de nombre
+  parecido, las lista con código, costo y plazo y pregunta cuál (textos
+  `varias_fichas` y `pregunta_cual` del protocolo). Simulado en Python
+  antes de aplicarlo (ninguna pregunta del banco cambia de ficha); YAML
+  regenerado (43 pruebas OK), pegado en el editor de código solo con el
+  cambio de la fórmula y los nodos nuevos (la tabla quedó idéntica),
+  guardado y agente republicado. Verificado por Direct Line con las
+  frases de la prueba: lista las dos fichas y "1", "la de la resolución" o
+  el código llevan a la tarjeta correcta. No se repitió la prueba con
+  participantes: el SUS y el éxito por tarea corresponden a la versión
+  1.0.0.3.
+- Ronda 4 del banco (después de la corrección): 44 correctas (100 %), 0
+  alucinadas; fuentes, montos y plazos al 100 %; rechazo 9/9 (NOANS-02
+  marcado a mano); p50 8,2 s y p90 12,3 s (meta < 10 s, no cumple). Las 13
+  tarjetas del TUPA son idénticas a la ronda 3; REG-14 y REG-17 pasaron a
+  correctas. La ronda 3 quedó en `eval/ronda3/`; detalle en
+  `eval/evaluacion_completa.md`.
+- Versionado después de la ronda 4 (aprobado por el autor): solución
+  exportada como no administrada, versión 1.0.0.4, en
+  `copilot/solution/NormatividadEstudiantilUCSM_1_0_0_4.zip` (47 archivos).
+  Diferencias con la 1.0.0.3: solo el Topic *Consulta de trámite* (nodos
+  de desambiguación iguales a `copilot/topics/consulta_tramite.yaml`) y el
+  número de versión; los dos `.docx` son idénticos byte a byte a los de
+  `copilot/knowledge/`. Se conservan las versiones anteriores.
 
 ## Consulta de licencias (tarea 2.3), 2026-11-24
 

@@ -77,6 +77,11 @@ intenciones:
         - {etiqueta: "Contacto", valor: "{Contact}"}
         - {etiqueta: "Fuente", valor: "TUPA UCSM, págs. {Pages}"}
     mensaje_despues: "¿Quieres que te detalle los requisitos de este trámite?"
+    # Si varias fichas coinciden igual de bien (p. ej. "copia autenticada de
+    # mi título": acta de grados o resolución del título), se listan y se
+    # pregunta cuál, en lugar de elegir una (prueba de usabilidad, T2).
+    varias_fichas: "Encontré varios trámites parecidos en el TUPA:"
+    pregunta_cual: "¿Cuál necesitas? Escribe el número, el código o el nombre."
 
   - id: desambiguacion_evaluacion_extemporanea
     topic: Evaluación extemporánea

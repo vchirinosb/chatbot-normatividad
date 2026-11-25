@@ -1,0 +1,46 @@
+participant,task,success,seconds,comments
+P01,T1,sí,,"Respondió bien (separación por un año, Art. 83°)"
+P01,T2,no,,Respondió S/ 55.00 y 5 días hábiles: confundió la copia autenticada de la resolución del título con otra ficha (copia autenticada del acta de grados)
+P01,T3,sí,,Respondió bien
+P01,T4,sí,,"Respondió bien (hasta cinco semestres, Art. 28°)"
+P01,T5,sí,,Rechazó o derivó sin inventar
+P02,T1,sí,,"Respondió bien (separación por un año, Art. 83°)"
+P02,T2,no,,Respondió S/ 55.00 y 5 días hábiles: confundió la copia autenticada de la resolución del título con otra ficha (copia autenticada del acta de grados)
+P02,T3,sí,,Preguntó la escuela; el participante eligió Escuela Profesional (pregrado) y respondió bien
+P02,T4,sí,,"Respondió bien (hasta cinco semestres, Art. 28°)"
+P02,T5,sí,,Rechazó o derivó sin inventar
+P03,T1,sí,,"Respondió bien (separación por un año, Art. 83°)"
+P03,T2,sí,,S/ 44.00 y 7 días hábiles
+P03,T3,no,,"Parcial: dio el plazo de 5 días y el procedimiento, pero no el número de trámite PA1130732571"
+P03,T4,sí,,"Respondió bien (hasta cinco semestres, Art. 28°)"
+P03,T5,sí,,Rechazó o derivó sin inventar
+P04,T1,sí,,"Respondió bien (separación por un año, Art. 83°)"
+P04,T2,sí,,S/ 44.00 y 7 días hábiles
+P04,T3,sí,,Preguntó la escuela; el participante eligió Escuela Profesional (pregrado) y respondió bien
+P04,T4,sí,,"Respondió bien (hasta cinco semestres, Art. 28°)"
+P04,T5,sí,,Rechazó o derivó sin inventar
+P05,T1,sí,,"Respondió bien (separación por un año, Art. 83°)"
+P05,T2,sí,,S/ 44.00 y 7 días hábiles
+P05,T3,sí,,Preguntó la escuela; el participante eligió Escuela Profesional (pregrado) y respondió bien
+P05,T4,sí,,"Respondió bien (hasta cinco semestres, Art. 28°)"
+P05,T5,sí,,Rechazó o derivó sin inventar
+P06,T1,sí,,"Respondió bien (separación por un año, Art. 83°)"
+P06,T2,no,,Respondió S/ 55.00 y 5 días hábiles: confundió la copia autenticada de la resolución del título con otra ficha (copia autenticada del acta de grados)
+P06,T3,no,,"Parcial: dio el plazo de 5 días y el procedimiento, pero no el número de trámite PA1130732571"
+P06,T4,sí,,"Respondió bien (hasta cinco semestres, Art. 28°)"
+P06,T5,sí,,Rechazó o derivó sin inventar
+P07,T1,sí,,"Respondió bien (separación por un año, Art. 83°)"
+P07,T2,no,,Respondió S/ 55.00 y 5 días hábiles: confundió la copia autenticada de la resolución del título con otra ficha (copia autenticada del acta de grados)
+P07,T3,no,,"Parcial: dio el plazo de 5 días y el procedimiento, pero no el número de trámite PA1130732571"
+P07,T4,sí,,"Respondió bien (hasta cinco semestres, Art. 28°)"
+P07,T5,sí,,Rechazó o derivó sin inventar
+P08,T1,sí,,"Respondió bien (separación por un año, Art. 83°)"
+P08,T2,no,,Respondió S/ 55.00 y 5 días hábiles: confundió la copia autenticada de la resolución del título con otra ficha (copia autenticada del acta de grados); lo detectó el propio participante
+P08,T3,no,,"Parcial: dio el plazo de 5 días y el procedimiento, pero no el número de trámite PA1130732571"
+P08,T4,sí,,"Respondió bien (hasta cinco semestres, Art. 28°)"
+P08,T5,sí,,Rechazó o derivó sin inventar
+P09,T1,sí,,"Respondió bien (separación por un año, Art. 83°)"
+P09,T2,sí,,S/ 44.00 y 7 días hábiles
+P09,T3,sí,,Preguntó la escuela; el participante eligió Escuela Profesional (pregrado) y respondió bien
+P09,T4,sí,,"Respondió bien (hasta cinco semestres, Art. 28°)"
+P09,T5,sí,,Rechazó o derivó sin inventar

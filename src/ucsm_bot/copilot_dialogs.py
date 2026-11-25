@@ -31,6 +31,11 @@ NORMALIZATION = (("á", "a"), ("é", "e"), ("í", "i"), ("ó", "o"), ("ú", "u")
 # Caracteres de cada palabra que se buscan en el nombre (raíz aproximada:
 # "adeudo" coincide con "adeudar" y "convalidar" con "Convalidación").
 STEM_LENGTH = 5
+# Dos fichas empatan si coinciden en las mismas palabras (por raíz y
+# completas) y el nombre de una no supera en más de este factor al de la
+# mejor; entonces se pregunta cuál, hasta MAX_OPTIONS opciones.
+SIMILAR_NAME_RATIO = 1.5
+MAX_OPTIONS = 4
 GRADUATE_KEYWORD = "Postgrado"
 CARD_PLACEHOLDER = re.compile(r"\{(\w+)\}")
 CARD_SCHEMA = "http://adaptivecards.io/schemas/adaptive-card.json"
@@ -409,28 +414,58 @@ def build_procedure_topic(protocol: dict, entries: list[dict]) -> dict:
     genéricas. Texto y nombre se comparan normalizados (sin tildes ni
     guiones) y cada palabra se busca por sus primeros ``STEM_LENGTH``
     caracteres. Debe coincidir más de la mitad de las palabras; a igual
-    número de coincidencias gana el nombre más corto (el más específico). Una
-    entidad de lista cerrada embebida no sirve: Copilot Studio le asigna un
-    tipo de conjunto de opciones que la entrada de texto no acepta.
+    número de coincidencias gana la que tiene más palabras completas en el
+    nombre ("titulo" está en "títulos" pero no en "Titular") y luego el
+    nombre más corto (el más específico). Si aun así varias fichas empatan
+    con nombres de largo parecido (por ejemplo "copia autenticada de mi
+    título": acta de grados o resolución del título), se listan con su costo
+    y plazo y se pregunta cuál, en lugar de elegir una. Una entidad de lista
+    cerrada embebida no sirve: Copilot Studio le asigna un tipo de conjunto
+    de opciones que la entrada de texto no acepta.
 
     :param protocol: contenido de ``protocolo.yaml``.
     :param entries: campos de las fichas del TUPA.
-    :return: diálogo con entrada, ``LookUp``, Adaptive Card y pregunta de
-        seguimiento.
+    :return: diálogo con entrada, búsqueda, desambiguación, Adaptive Card y
+        pregunta de seguimiento.
     """
     intent = find_intent(protocol, "consulta_tramite")
     no_evidence = find_intent(protocol, "sin_evidencia")
     table = build_powerfx_table(entries).strip()
     user_text = normalize_formula("Trim(Topic.Tramite)")
-    lookup = (
+    candidates = (
         f"=With({{palabras: Filter(Split({user_text}, \" \"), "
         f"Len(Value) > 3 && !(Value in [{IGNORED_WORDS}]))}}, "
-        "First(Filter(Sort(AddColumns(AddColumns(AddColumns("
+        "Sort(Filter(AddColumns(AddColumns(AddColumns(AddColumns("
         f"{table}, Key, {normalize_formula('Name')}), Hits, "
         "If(Code = Upper(Trim(Topic.Tramite)), 100, "
         f"CountIf(palabras, Left(Value, {STEM_LENGTH}) in Key))), "
-        "Score, Hits * 1000 - Len(Name)), Score, SortOrder.Descending), "
-        "Hits * 2 > CountRows(palabras))))"
+        "Exact, CountIf(palabras, Value in Key)), "
+        "Score, Hits * 100000 + Exact * 1000 - Len(Name)), "
+        "Hits * 2 > CountRows(palabras)), Score, SortOrder.Descending))"
+    )
+    similar = (
+        "=With({mejor: First(Topic.Candidatas)}, FirstN(Filter("
+        "Topic.Candidatas, Hits = mejor.Hits && Exact = mejor.Exact && "
+        f"Len(Name) <= Len(mejor.Name) * {SIMILAR_NAME_RATIO}), "
+        f"{MAX_OPTIONS}))"
+    )
+    option = "Index(Topic.Parecidas, Value)"
+    options_text = (
+        "=Concat(Sequence(CountRows(Topic.Parecidas)), Value & \". \" & "
+        f"{option}.Name & \" (\" & {option}.Code & \"): \" & "
+        f"{option}.Fee & \", \" & {option}.Term, Char(10))"
+    )
+    choice_text = normalize_formula("Trim(Topic.Eleccion)")
+    chosen = (
+        "=With({e: Trim(Topic.Eleccion), "
+        "n: IfError(Value(Trim(Topic.Eleccion)), 0)}, Coalesce("
+        "LookUp(Topic.Parecidas, Code = Upper(e)), "
+        "If(n >= 1 && n <= CountRows(Topic.Parecidas), "
+        "Index(Topic.Parecidas, n)), "
+        "First(DropColumns(Sort(AddColumns(Topic.Parecidas, Elegida, "
+        f"CountIf(Split({choice_text}, \" \"), Len(Value) > 3 && "
+        f"Left(Value, {STEM_LENGTH}) in Key)), Elegida, "
+        "SortOrder.Descending), Elegida))))"
     )
     input_description = (
         "Nombre del procedimiento o servicio del TUPA que el usuario quiere "
@@ -495,9 +530,58 @@ def build_procedure_topic(protocol: dict, entries: list[dict]) -> dict:
                 },
                 {
                     "kind": "SetVariable",
+                    "id": "setVariable_candidatas",
+                    "variable": "init:Topic.Candidatas",
+                    "value": candidates,
+                },
+                {
+                    "kind": "SetVariable",
+                    "id": "setVariable_parecidas",
+                    "variable": "init:Topic.Parecidas",
+                    "value": similar,
+                },
+                {
+                    "kind": "SetVariable",
                     "id": "setVariable_ficha",
                     "variable": "init:Topic.Ficha",
-                    "value": lookup,
+                    "value": "=First(Topic.Candidatas)",
+                },
+                # Varias fichas igual de probables: listarlas y preguntar.
+                {
+                    "kind": "ConditionGroup",
+                    "id": "condition_varias",
+                    "conditions": [
+                        {
+                            "id": "condition_varias_si",
+                            "condition": "=CountRows(Topic.Parecidas) > 1",
+                            "actions": [
+                                {
+                                    "kind": "SetVariable",
+                                    "id": "setVariable_opciones",
+                                    "variable": "init:Topic.Opciones",
+                                    "value": options_text,
+                                },
+                                build_message(
+                                    "sendMessage_varias",
+                                    f"{intent['varias_fichas']}\n\n"
+                                    "{Topic.Opciones}"),
+                                {
+                                    "kind": "Question",
+                                    "id": "question_ficha",
+                                    "alwaysPrompt": True,
+                                    "variable": "init:Topic.Eleccion",
+                                    "prompt": intent["pregunta_cual"],
+                                    "entity": "StringPrebuiltEntity",
+                                },
+                                {
+                                    "kind": "SetVariable",
+                                    "id": "setVariable_eleccion",
+                                    "variable": "Topic.Ficha",
+                                    "value": chosen,
+                                },
+                            ],
+                        },
+                    ],
                 },
                 {
                     "kind": "ConditionGroup",

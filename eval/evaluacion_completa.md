@@ -6,7 +6,11 @@ prueba de Copilot Studio (ver `docs/bitacora.md`, tarea 6.3). Se hicieron
 tres rondas: la ronda 1 detectó brechas en la búsqueda de trámites, que se
 corrigieron en el Topic *Consulta de trámite* (ronda 2); la ronda 2 dejó una
 respuesta alucinada (REG-17), que se corrigió en el documento de
-conocimiento del Reglamento. La ronda 3 es la medición final.
+conocimiento del Reglamento. La ronda 3 fue la medición final de la tarea
+7.3. El 2026-11-25, después de la prueba de usabilidad (tarea 7.4), se
+corrigió la elección de fichas del TUPA cuando varias empatan y se repitió
+el banco completo (ronda 4) para comprobar que el cambio no afectara otras
+respuestas.
 
 ## Método
 
@@ -23,8 +27,8 @@ conocimiento del Reglamento. La ronda 3 es la medición final.
 - **Registro:** respuestas en bruto en `transcripts.jsonl`; calificación
   manual en `calificacion.json`; ambas se combinan en `results.csv` con
   `to_results.py`, y `compute_metrics.py` genera `reporte.md`. La ronda 1
-  está en `eval/ronda1/`, la ronda 2 en `eval/ronda2/` y la ronda 3 en
-  `eval/` (archivos por defecto).
+  está en `eval/ronda1/`, la ronda 2 en `eval/ronda2/`, la ronda 3 en
+  `eval/ronda3/` y la ronda 4 en `eval/` (archivos por defecto).
 - **Calificación:** según `rubrica.md`. Cada artículo, código, monto y plazo
   citado se contrastó con `data/processed/units.jsonl` y `tupa.json`. Ante
   la duda se eligió el valor más bajo.
@@ -32,22 +36,28 @@ conocimiento del Reglamento. La ronda 3 es la medición final.
 
 ## Resultados
 
-| Métrica | Ronda 1 | Ronda 2 | Ronda 3 | Meta | ¿Cumple (ronda 3)? |
-|---|---|---|---|---|---|
-| Correctas o parciales | 39/44 (88,6 %) | 43/44 (97,7 %) | 43/44 (97,7 %) | ≥ 80 % | Sí |
-| Respuestas alucinadas | 1 | 1 (REG-17) | 0 | 0 | Sí |
-| Acierto de fuente | 31/35 (88,6 %) | 35/35 (100 %) | 34/35 (97,1 %) | — | — |
-| Exactitud de montos | 14/17 (82,4 %) | 17/17 (100 %) | 17/17 (100 %) | 100 % | Sí |
-| Exactitud de plazos | 15/17 (88,2 %) | 17/17 (100 %) | 17/17 (100 %) | 100 % | Sí |
-| Rechazo correcto | 9/9 (100 %) | 9/9 (100 %) | 9/9 (100 %) | — | — |
-| Latencia p50 | 8,2 s | 7,9 s | 7,3 s | — | — |
-| Latencia p90 | 10,2 s | 11,2 s | 10,8 s | < 10 s | **No** |
+| Métrica | Ronda 1 | Ronda 2 | Ronda 3 | Ronda 4 | Meta | ¿Cumple (ronda 4)? |
+|---|---|---|---|---|---|---|
+| Correctas o parciales | 39/44 (88,6 %) | 43/44 (97,7 %) | 43/44 (97,7 %) | 44/44 (100 %) | ≥ 80 % | Sí |
+| Correctas | — | — | 42/44 | 44/44 | — | — |
+| Respuestas alucinadas | 1 | 1 (REG-17) | 0 | 0 | 0 | Sí |
+| Acierto de fuente | 31/35 (88,6 %) | 35/35 (100 %) | 34/35 (97,1 %) | 35/35 (100 %) | — | — |
+| Exactitud de montos | 14/17 (82,4 %) | 17/17 (100 %) | 17/17 (100 %) | 17/17 (100 %) | 100 % | Sí |
+| Exactitud de plazos | 15/17 (88,2 %) | 17/17 (100 %) | 17/17 (100 %) | 17/17 (100 %) | 100 % | Sí |
+| Rechazo correcto | 9/9 (100 %) | 9/9 (100 %) | 9/9 (100 %) | 9/9 (100 %)¹ | — | — |
+| Latencia p50 | 8,2 s | 7,9 s | 7,3 s | 8,2 s | — | — |
+| Latencia p90 | 10,2 s | 11,2 s | 10,8 s | 12,3 s | < 10 s | **No** |
 
-Rúbrica de la ronda 3 por categoría:
+¹ NOANS-02 se marcó a mano como rechazo en `calificacion.json`: dice que
+la fecha no está en el Reglamento y deriva, pero con una frase que
+`compute_metrics.py` no detecta (sin la marca, 8/9).
+
+Rúbrica de la ronda 4 por categoría (en la ronda 3, Reglamento: 16
+correctas, 1 parcial y 1 incorrecta):
 
 | Categoría | Preguntas | Correctas | Parcial | Incorrectas | Alucinadas |
 |---|---|---|---|---|---|
-| Reglamento | 18 | 16 | 1 | 1 | 0 |
+| Reglamento | 18 | 18 | 0 | 0 | 0 |
 | TUPA | 13 | 13 | 0 | 0 | 0 |
 | Combinadas | 4 | 4 | 0 | 0 | 0 |
 | Fuera de alcance | 5 | 5 | 0 | 0 | 0 |
@@ -85,6 +95,39 @@ podrá autorizar…") y se reemplazó el documento de conocimiento. REG-17 qued�
 bien atribuida en los 3 intentos previos y en la ronda 3. REG-02 también
 pasó a correcta (incluye el literal a del Art. 82°).
 
+**Entre la ronda 3 y la 4** se corrigió el error principal de la prueba de
+usabilidad (`usabilidad.md`, T2): ante "copia autenticada de mi título" el
+agente mostraba la ficha del acta de grados (S/ 55.00, 5 días) en vez de la
+de la resolución del título (S/ 44.00, 7 días). Las dos fichas coincidían
+en las mismas tres palabras y el empate se resolvía por la denominación más
+corta. Cambios en `src/ucsm_bot/copilot_dialogs.py`:
+
+1. Segundo criterio de desempate: palabras completas contenidas en la
+   denominación ("titulo" está en "títulos" pero no en "Titular"; antes,
+   por raíz, empataba con *Copia autenticada de Resolución expedida por la
+   Universidad (…Titular…)*).
+2. Si aun así empatan fichas con denominaciones de largo parecido (hasta
+   1,5 veces la mejor), el agente las lista (hasta cuatro) con código,
+   costo y plazo y pregunta cuál; el usuario responde con el número, el
+   código o el nombre.
+
+Se simuló en Python con las 13 preguntas de TUPA y otras consultas: todas
+las del banco conservan su ficha y solo preguntan las ambiguas ("copia
+autenticada de mi título", "duplicado de carné", "evaluación
+extemporánea"). Después de publicar se verificó por Direct Line: "copia
+autenticada de mi título" lista las dos fichas y "1", "la de la
+resolución" o el código llevan a la tarjeta correcta; con "resolución" en
+la pregunta muestra directamente PA113073E0FC. En la ronda 4 las 13
+tarjetas del TUPA son idénticas a las de la ronda 3 y ninguna pregunta del
+banco activó la desambiguación. REG-14 y REG-17 pasaron a correctas sin
+cambios en el Reglamento (variación de la recuperación).
+
+## Brechas (ronda 4)
+
+| Id | Rúbrica | Causa | Mejora propuesta |
+|---|---|---|---|
+| Latencia | p90 12,3 s | Las respuestas generativas tardan 7–16 s (COMB-04: 15,6 s; NOANS-01: 15,2 s); las tarjetas del TUPA, 2–3 s. | Depende de la plataforma (p90 entre 10,2 s y 12,3 s en las cuatro rondas). |
+
 ## Brechas (ronda 3)
 
 | Id | Rúbrica | Causa | Mejora propuesta |
@@ -110,7 +153,7 @@ comparación causó regresiones en la simulación, por lo que no se aplicó.
 ## Pendiente
 
 - **Revisión por una segunda persona** (`rubrica.md`, paso 3): revisar al
-  menos 10 respuestas al azar de `results.csv` (ronda 3) y registrar aquí el
+  menos 10 respuestas al azar de `results.csv` (ronda 4) y registrar aquí el
   acuerdo o la calificación acordada.
 
 | Id | Calificación original | Calificación del revisor | Acordada |

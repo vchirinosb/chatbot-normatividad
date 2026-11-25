@@ -25,10 +25,10 @@ beginDialog:
               prompt: ¿Qué trámite deseas consultar? Escribe su nombre, por ejemplo "anulación de matrícula" o "constancia de estudios".
               entity: StringPrebuiltEntity
     - kind: SetVariable
-      id: setVariable_ficha
-      variable: init:Topic.Ficha
+      id: setVariable_candidatas
+      variable: init:Topic.Candidatas
       value: |-
-        =With({palabras: Filter(Split(Substitute(Substitute(Substitute(Substitute(Substitute(Substitute(Substitute(Substitute(Lower(Trim(Topic.Tramite)), "á", "a"), "é", "e"), "í", "i"), "ó", "o"), "ú", "u"), "ü", "u"), "-", ""), "rr", "r"), " "), Len(Value) > 3 && !(Value in ["tramite", "tramites", "quiero", "cuanto", "cuesta", "costo", "demora", "plazo", "hacer", "pedir", "solicitar"]))}, First(Filter(Sort(AddColumns(AddColumns(AddColumns(Table(
+        =With({palabras: Filter(Split(Substitute(Substitute(Substitute(Substitute(Substitute(Substitute(Substitute(Substitute(Lower(Trim(Topic.Tramite)), "á", "a"), "é", "e"), "í", "i"), "ó", "o"), "ú", "u"), "ü", "u"), "-", ""), "rr", "r"), " "), Len(Value) > 3 && !(Value in ["tramite", "tramites", "quiero", "cuanto", "cuesta", "costo", "demora", "plazo", "hacer", "pedir", "solicitar"]))}, Sort(Filter(AddColumns(AddColumns(AddColumns(AddColumns(Table(
             {Code: "PE123299E43", Name: "Acceso a la Información Pública creada u obtenida por la entidad, que se encuentre en su posesión o bajo su control", Fee: "Copia simple formato A4 (por unidad): S/ 0.10; Información en CD (por unidad): S/ 1.00; Información por Correo Electrónico: S/ 0.00", Term: "10 días hábiles", Office: "Dirección de Informática", Contact: "Teléfono 054 382038, anexo 1009, correo oinformatica@ucsm.edu.pe", Pages: "6, 7"},
             {Code: "PA113073E0FC", Name: "Copia autenticada de Resolución que aprueba el Grado Académico o Título Profesional", Fee: "S/ 44.00", Term: "7 días hábiles", Office: "Portal web Trámites en Línea : Secretaría General", Contact: "Teléfono 054-382038, anexo 1003, 6000, 6001 ó 6002, correo osecgen@ucsm.edu.pe", Pages: "8, 9"},
             {Code: "PA1130737036", Name: "Lacrado de sobre con documentos expedidos por la Universidad para su remisión a Instituciones del extranjero (en caso de copias, deben de estar autenticadas por la Universidad)", Fee: "S/ 49.50", Term: "7 días hábiles", Office: "Portal web Trámites en Línea : Secretaría General", Contact: "Teléfono 054-382038, anexo 1003, correo osecgen@ucsm.edu.pe", Pages: "10, 11"},
@@ -92,7 +92,43 @@ beginDialog:
             {Code: "SE11307302CD", Name: "Duplicado de Carné Universitario", Fee: "S/ 75.00", Term: "30 días hábiles", Office: "Portal web Trámites en Línea : Dirección de Informática", Contact: "Teléfono 054 382038, anexo 1009, correo dinformatica2@ucsm.edu.pe", Pages: "96"},
             {Code: "SE1130730F26", Name: "Duplicado de Carné de Representante Estudiantil", Fee: "Gratuito", Term: "5 días hábiles", Office: "Dirección de Informática", Contact: "anexo 1020, correo osecgen3@ucsm.edu.pe", Pages: "97"},
             {Code: "SE113073D0B2", Name: "Búsqueda con ubicación y escaneo de documentos del Archivo Central - UCSM", Fee: "S/ 11.50", Term: "7 días hábiles", Office: "Portal web Trámites en Línea : Dirección de Registro y Archivo Académico", Contact: "Teléfono 054-382038, anexo 1103 ó 1104, correo oraa@ucsm.edu.pe", Pages: "98"}
-        ), Key, Substitute(Substitute(Substitute(Substitute(Substitute(Substitute(Substitute(Substitute(Lower(Name), "á", "a"), "é", "e"), "í", "i"), "ó", "o"), "ú", "u"), "ü", "u"), "-", ""), "rr", "r")), Hits, If(Code = Upper(Trim(Topic.Tramite)), 100, CountIf(palabras, Left(Value, 5) in Key))), Score, Hits * 1000 - Len(Name)), Score, SortOrder.Descending), Hits * 2 > CountRows(palabras))))
+        ), Key, Substitute(Substitute(Substitute(Substitute(Substitute(Substitute(Substitute(Substitute(Lower(Name), "á", "a"), "é", "e"), "í", "i"), "ó", "o"), "ú", "u"), "ü", "u"), "-", ""), "rr", "r")), Hits, If(Code = Upper(Trim(Topic.Tramite)), 100, CountIf(palabras, Left(Value, 5) in Key))), Exact, CountIf(palabras, Value in Key)), Score, Hits * 100000 + Exact * 1000 - Len(Name)), Hits * 2 > CountRows(palabras)), Score, SortOrder.Descending))
+    - kind: SetVariable
+      id: setVariable_parecidas
+      variable: init:Topic.Parecidas
+      value: '=With({mejor: First(Topic.Candidatas)}, FirstN(Filter(Topic.Candidatas, Hits = mejor.Hits && Exact = mejor.Exact && Len(Name) <= Len(mejor.Name) * 1.5), 4))'
+    - kind: SetVariable
+      id: setVariable_ficha
+      variable: init:Topic.Ficha
+      value: =First(Topic.Candidatas)
+    - kind: ConditionGroup
+      id: condition_varias
+      conditions:
+        - id: condition_varias_si
+          condition: =CountRows(Topic.Parecidas) > 1
+          actions:
+            - kind: SetVariable
+              id: setVariable_opciones
+              variable: init:Topic.Opciones
+              value: '=Concat(Sequence(CountRows(Topic.Parecidas)), Value & ". " & Index(Topic.Parecidas, Value).Name & " (" & Index(Topic.Parecidas, Value).Code & "): " & Index(Topic.Parecidas, Value).Fee & ", " & Index(Topic.Parecidas, Value).Term, Char(10))'
+            - kind: SendActivity
+              id: sendMessage_varias
+              activity:
+                text:
+                  - |-
+                    Encontré varios trámites parecidos en el TUPA:
+
+                    {Topic.Opciones}
+            - kind: Question
+              id: question_ficha
+              alwaysPrompt: true
+              variable: init:Topic.Eleccion
+              prompt: ¿Cuál necesitas? Escribe el número, el código o el nombre.
+              entity: StringPrebuiltEntity
+            - kind: SetVariable
+              id: setVariable_eleccion
+              variable: Topic.Ficha
+              value: '=With({e: Trim(Topic.Eleccion), n: IfError(Value(Trim(Topic.Eleccion)), 0)}, Coalesce(LookUp(Topic.Parecidas, Code = Upper(e)), If(n >= 1 && n <= CountRows(Topic.Parecidas), Index(Topic.Parecidas, n)), First(DropColumns(Sort(AddColumns(Topic.Parecidas, Elegida, CountIf(Split(Substitute(Substitute(Substitute(Substitute(Substitute(Substitute(Substitute(Substitute(Lower(Trim(Topic.Eleccion)), "á", "a"), "é", "e"), "í", "i"), "ó", "o"), "ú", "u"), "ü", "u"), "-", ""), "rr", "r"), " "), Len(Value) > 3 && Left(Value, 5) in Key)), Elegida, SortOrder.Descending), Elegida))))'
     - kind: ConditionGroup
       id: condition_ficha
       conditions:

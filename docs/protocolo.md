@@ -58,6 +58,13 @@ Los identificadores entre paréntesis son los `id` de `protocolo.yaml`.
    distancia?" cuando la regla cambia según eso.
 3. **Trámite no reconocido:** si la entidad `Procedimiento TUPA` no
    reconoce el nombre, el Topic pide el nombre del trámite con un ejemplo.
+4. **Varias fichas igual de probables:** si la búsqueda del Topic *Consulta
+   de trámite* empata entre fichas de nombre parecido (por ejemplo "copia
+   autenticada de mi título": acta de grados o resolución del título), el
+   agente las lista con código, costo y plazo (hasta cuatro) y pregunta
+   cuál; el usuario responde con el número, el código o el nombre
+   (`varias_fichas` y `pregunta_cual`). Se agregó después de la prueba de
+   usabilidad, donde el agente elegía una sin preguntar.
 
 ## 5. Formato de respuesta
 

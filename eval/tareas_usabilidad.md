@@ -1,6 +1,7 @@
 # Prueba de usabilidad (tarea 7.4)
 
-**Estado:** preparada; se ejecuta con el agente publicado (*Demo website*).
+**Estado:** realizada el 2026-11-25 con 9 participantes; resultados en
+`usabilidad.md`. Se ejecutó con el agente publicado (*Demo website*).
 Las 5 tareas se probaron en el agente el 2026-11-24 con redacción informal
 ("si jalo un curso 3 veces que pasa") y todas llegan al criterio de éxito.
 

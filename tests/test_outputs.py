@@ -98,7 +98,25 @@ def test_procedure_lookup_normalizes_text():
         (TOPICS_DIR / "consulta_tramite.yaml").read_text("utf-8"))
     lookup = next(
         action["value"] for action in dialog["beginDialog"]["actions"]
-        if action.get("id") == "setVariable_ficha"
+        if action.get("id") == "setVariable_candidatas"
     )
     assert f"Left(Value, {STEM_LENGTH}) in Key" in lookup
+    assert "Exact, CountIf(palabras, Value in Key)" in lookup
     assert "Score, SortOrder.Descending" in lookup
+
+
+def test_procedure_topic_asks_when_cards_tie():
+    dialog = yaml.safe_load(
+        (TOPICS_DIR / "consulta_tramite.yaml").read_text("utf-8"))
+    actions = {action["id"]: action
+               for action in dialog["beginDialog"]["actions"]}
+    assert actions["setVariable_ficha"]["value"] == "=First(Topic.Candidatas)"
+    branch = actions["condition_varias"]["conditions"][0]
+    assert branch["condition"] == "=CountRows(Topic.Parecidas) > 1"
+    steps = [step["id"] for step in branch["actions"]]
+    assert steps == ["setVariable_opciones", "sendMessage_varias",
+                     "question_ficha", "setVariable_eleccion"]
+    # La ficha elegida reemplaza a la primera antes de mostrar la tarjeta.
+    order = list(actions)
+    assert order.index("condition_varias") < order.index("condition_ficha")
+    assert branch["actions"][-1]["variable"] == "Topic.Ficha"
