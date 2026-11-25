@@ -41,19 +41,22 @@ RUBRIC_LEVELS = ("correcta", "parcial", "incorrecta", "alucinada")
 RUBRIC_TARGET = 0.80
 LATENCY_TARGET_P90 = 10.0
 SUS_TARGET = 68.0
-# Ítems del SUS en español (Brooke, 1996), en el orden original: impares en
-# positivo, pares en negativo. El formulario de Forms usa este mismo texto.
+# Ítems del SUS (Brooke, 1996) adaptados al español: se evitan los calcos
+# "Pensé que"/"Encontré" y el ítem 6 explica "inconsistencia". Orden y
+# polaridad originales: impares en positivo, pares en negativo. El
+# formulario de Forms usa este mismo texto.
 SUS_ITEMS = (
     "Creo que me gustaría usar este asistente con frecuencia.",
-    "Encontré el asistente innecesariamente complejo.",
-    "Pensé que el asistente era fácil de usar.",
+    "El asistente me pareció innecesariamente complicado.",
+    "El asistente me resultó fácil de usar.",
     "Creo que necesitaría ayuda de una persona con conocimientos técnicos "
     "para usar este asistente.",
-    "Encontré que las funciones del asistente estaban bien integradas.",
-    "Pensé que había demasiada inconsistencia en el asistente.",
+    "Las funciones del asistente me parecieron bien integradas.",
+    "El asistente se comportaba de forma poco coherente (por ejemplo, "
+    "respondía de manera distinta a preguntas parecidas).",
     "Imagino que la mayoría de las personas aprendería a usar este "
     "asistente muy rápidamente.",
-    "Encontré el asistente muy difícil de usar.",
+    "El asistente me resultó muy difícil de usar.",
     "Me sentí con mucha confianza al usar el asistente.",
     "Necesité aprender muchas cosas antes de poder usar el asistente.",
 )

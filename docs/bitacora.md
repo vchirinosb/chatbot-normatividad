@@ -309,6 +309,13 @@ detienen los grupos 5 y 6 hasta que el autor decida cómo continuar.
   `.xlsx` directamente (`read_xlsx`, solo biblioteca estándar; 42 pruebas
   OK). La respuesta de prueba se borró (el formulario quedó en 0
   respuestas). **Pendiente:** la prueba con ≥ 5 participantes.
+- Redacción del SUS ajustada (2026-11-25), antes de la primera sesión: los
+  ítems 2, 3, 5, 6 y 8 se reformularon para evitar los calcos del inglés
+  ("Pensé que…", "Encontré…") y el 6 explica "inconsistencia" con un
+  ejemplo; sentido y polaridad se mantienen. Se actualizaron el
+  formulario, `SUS_ITEMS` y `eval/formulario_sus.md` (42 pruebas OK). Se
+  repitió la prueba de punta a punta con `PRUEBA` (SUS 80,0, esperado) y
+  se borró la respuesta (0 respuestas).
 - 7.5: **pendiente.** La analítica del agente (*Monitor*) seguía en cero
   sesiones después del banco; Copilot Studio tarda en procesarlas, y el
   periodo de pruebas debe incluir la prueba de usabilidad.
