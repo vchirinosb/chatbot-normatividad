@@ -32,7 +32,7 @@ Topics de Copilot Studio se generan a partir de ese archivo.
 | Consulta combinada | Respuesta generativa (ambos documentos) | "Falté a un examen por enfermedad, ¿qué hago?" | Regla del Reglamento y trámite del TUPA |
 | Trámite con variantes | *Evaluación extemporánea* | "¿Cómo pido una evaluación extemporánea?" | Pregunta Escuela Profesional o Escuela de Postgrado |
 | Nivel o modalidad | Instrucciones del agente | "¿Cuántos créditos puedo llevar?" | Pregunta pregrado/postgrado o modalidad |
-| Datos personales | *Datos personales* | "mi DNI es …" | Advierte que no hace falta y retoma la consulta |
+| Datos personales | *Datos personales* (por su descripción) | "mi DNI es …" | Advierte que no hace falta y retoma la consulta |
 | Fuera de alcance | Topic alternativo (sistema) e instrucciones | "¿Cuál es mi nota?" | Explica el alcance y deriva al sitio de normatividad |
 | Sin evidencia | Respuesta generativa sin resultados | Pregunta del dominio sin respuesta en el corpus | "No encontré…" y derivación |
 | Despedida | *Cierre de la conversación* | "gracias, eso es todo" | Despedida y encuesta "¿Te fue útil?" |
@@ -66,6 +66,13 @@ Orientación no oficial; el texto vinculante es el documento oficial.
 ```
 
 ![Respuesta con cita](images/agente_respuesta_cita.jpg)
+
+## Privacidad
+
+La orquestación activa el Topic *Datos personales* por su descripción
+cuando el usuario escribe su DNI (8 dígitos), su código de estudiante (10
+dígitos), sus notas o una contraseña. El Topic advierte que no hace falta
+compartirlos, retoma la consulta y no guarda el dato en variables.
 
 ## Verificación
 

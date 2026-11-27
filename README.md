@@ -26,7 +26,7 @@ flowchart LR
     C --> D[tupa_fields.py<br/>campos del TUPA]
     C --> E[knowledge_export.py<br/>.docx de conocimiento]
     D --> E
-    D --> F[copilot_topics.py<br/>entidad + tabla Power Fx]
+    D --> F[copilot_topics.py<br/>tabla Power Fx]
     E --> G[Copilot Studio<br/>respuestas generativas con cita]
     F --> H[Copilot Studio<br/>Topic de trámite + Adaptive Card]
     G --> I[Demo website<br/>link público]
@@ -87,7 +87,7 @@ Otros comandos:
 | `.venv/bin/python eval/check_questions.py` | Verifica los mínimos del banco de preguntas y que montos y plazos coincidan con el TUPA |
 | `.venv/bin/python eval/compute_metrics.py` | Calcula las métricas desde `eval/results.csv` y escribe `eval/reporte.md` |
 | `.venv/bin/python eval/compute_sus.py` | Calcula el SUS y las métricas de tareas desde `eval/sus.csv` y `eval/tareas.csv` |
-| `.venv/bin/python scripts/generate_copilot_topics.py` | Regenera solo la entidad y la tabla Power Fx desde `tupa.json` |
+| `.venv/bin/python scripts/generate_copilot_topics.py` | Regenera solo la tabla Power Fx desde `tupa.json` |
 | `scripts/publish_wiki.sh` | Publica `docs/wiki/` y las figuras en la Wiki de GitHub (`--no-push` para revisar antes) |
 
 ## Estructura
@@ -109,17 +109,17 @@ Otros comandos:
 │   ├── chunking.py             segmentación en artículos y fichas
 │   ├── tupa_fields.py          campos de cada ficha del TUPA
 │   ├── knowledge_export.py     .docx y .csv de conocimiento
-│   ├── copilot_topics.py       entidad y tabla Power Fx del TUPA
+│   ├── copilot_topics.py       tabla Power Fx del TUPA
 │   ├── copilot_dialogs.py      YAML de los Topics desde protocolo.yaml
 │   ├── evaluation.py           métricas del banco y SUS
 │   └── build.py                comando único de generación
 ├── scripts/
-│   ├── generate_copilot_topics.py   regenera solo la entidad y la tabla
+│   ├── generate_copilot_topics.py   regenera solo la tabla Power Fx
 │   └── publish_wiki.sh              publica docs/wiki/ en la Wiki de GitHub
 ├── copilot/
 │   ├── instructions.md         instrucciones del agente
 │   ├── knowledge/              documentos cargados en Knowledge
-│   ├── topics/                 Topics (YAML), entidad y tabla Power Fx
+│   ├── topics/                 Topics (YAML) y tabla Power Fx
 │   └── solution/               solución exportada (versión 1.0.0.4)
 ├── docs/
 │   ├── alcance.md

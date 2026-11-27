@@ -21,7 +21,7 @@ Términos usados en esta wiki y en el repositorio, en orden alfabético.
 | **Demo website** | Canal de Copilot Studio que publica el agente en una página web con un link. En este proyecto funciona sin iniciar sesión. |
 | **Desambiguación** | Pregunta de aclaración que hace el agente cuando la respuesta depende del nivel, la modalidad o de cuál trámite se trata. Ver [Protocolo conversacional](Protocolo-conversacional). |
 | **Direct Line** | Canal de Microsoft para conversar con el agente desde un programa. `eval/run_bank.py` lo usa con un token anónimo para ejecutar el banco de preguntas. |
-| **Entidad** | Lista de valores que Copilot Studio reconoce en el mensaje del usuario. `entity_procedimientos.yaml` contiene los 63 procedimientos y servicios del TUPA con sus sinónimos. |
+| **Entidad** | Lista de valores que Copilot Studio reconoce en el mensaje del usuario. El agente usa las predefinidas de texto y de sí/no; el trámite se reconoce con la búsqueda en la tabla Power Fx. |
 | **Entorno** | Espacio de Power Platform donde vive el agente. Este agente está en un entorno de prueba, que vence. |
 | **Ficha** | Bloque del TUPA que describe un procedimiento o servicio con campos fijos: requisitos, costo, plazo, unidades, contacto y recursos. Hay 63. |
 | **Fragmento (*chunk*)** | Trozo de texto en que se divide una unidad para la búsqueda. El build genera 186 del Reglamento y 120 del TUPA (`chunks.jsonl`). |

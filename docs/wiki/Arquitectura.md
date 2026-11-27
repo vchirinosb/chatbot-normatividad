@@ -17,7 +17,7 @@ flowchart LR
     C --> D[tupa_fields.py<br/>campos del TUPA]
     C --> E[knowledge_export.py<br/>.docx de conocimiento]
     D --> E
-    D --> F[copilot_topics.py<br/>entidad + tabla Power Fx]
+    D --> F[copilot_topics.py<br/>tabla Power Fx]
     P[docs/protocolo.yaml<br/>mensajes fijos] --> G[copilot_dialogs.py<br/>YAML de los Topics]
     F --> G
     E --> H[Copilot Studio<br/>respuestas generativas con cita]
@@ -35,7 +35,7 @@ flowchart LR
 | `chunking.py` | Segmenta el Reglamento por artículo y el TUPA por ficha |
 | `tupa_fields.py` | Extrae de cada ficha código, costo, plazo, unidades, contacto y páginas |
 | `knowledge_export.py` | Escribe los `.docx` y el `.csv` que se cargan en *Knowledge* |
-| `copilot_topics.py` | Genera la entidad de procedimientos y la tabla Power Fx del TUPA |
+| `copilot_topics.py` | Genera la tabla Power Fx del TUPA |
 | `copilot_dialogs.py` | Genera el YAML de los Topics a partir de `docs/protocolo.yaml` |
 | `evaluation.py` | Métricas del banco de preguntas y cálculo del SUS |
 | `build.py` | Comando único que genera todos los artefactos |

@@ -35,7 +35,11 @@ no pedir datos personales.
 ## Topics
 
 Los Topics se generan en `copilot/topics/` y se pegan en *Topic → Open code
-editor*:
+editor*. Los Topics propios no tienen frases de activación ni entidades
+propias: la orquestación generativa los elige por su descripción. Por
+ejemplo, *Datos personales* se activa cuando el usuario escribe su DNI (8
+dígitos), su código de estudiante (10 dígitos), sus notas o una contraseña.
+
 
 | Archivo | Topic |
 |---|---|
@@ -47,12 +51,15 @@ editor*:
 | `cierre_conversacion.yaml` | Despedida y encuesta |
 | `sistema_alternativa.yaml` | Mensaje cuando no se reconoce la consulta |
 | `sistema_fin_conversacion.yaml` | Fin de la conversación con la encuesta de satisfacción |
-| `entity_procedimientos.yaml`, `tabla_tupa.powerfx` | Entidad de procedimientos y tabla del TUPA que usa la tarjeta |
+| `tabla_tupa.powerfx` | Tabla de las 63 fichas que usa la tarjeta (va incluida en `consulta_tramite.yaml`) |
 
 ![Lienzo del Topic de trámite](images/agente_lienzo_topic_tramite.jpg)
 
-La búsqueda de *Consulta de trámite* compara la consulta con la
-denominación de cada ficha sin tildes ni guiones y por los primeros cinco
+*Consulta de trámite* recibe el trámite como texto libre y lo busca en la
+tabla Power Fx de las 63 fichas, por código o por denominación. Una
+entidad de lista cerrada no sirve: Copilot Studio le asigna un tipo que la
+entrada de texto del Topic no acepta. La búsqueda compara la consulta con
+la denominación de cada ficha sin tildes ni guiones y por los primeros cinco
 caracteres de cada palabra. Desempata por palabras completas y por la
 denominación más corta; si aún empatan fichas parecidas, pregunta cuál.
 

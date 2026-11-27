@@ -68,15 +68,6 @@ def test_tupa_csv_matches_json(tupa_json):
     ]
 
 
-def test_entity_has_63_items(tupa_json):
-    entity = yaml.safe_load(
-        (TOPICS_DIR / "entity_procedimientos.yaml").read_text("utf-8")
-    )
-    assert [item["id"] for item in entity["items"]] == [
-        e["code"] for e in tupa_json
-    ]
-
-
 def test_powerfx_table_fees_match_json(tupa_json):
     table = (TOPICS_DIR / "tabla_tupa.powerfx").read_text("utf-8")
     fees = re.findall(r'Fee: "((?:[^"]|"")*)"', table)

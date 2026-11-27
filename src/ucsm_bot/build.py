@@ -19,7 +19,7 @@ from ucsm_bot.cleaning import (
     render_clean_text,
 )
 from ucsm_bot.copilot_dialogs import write_dialogs
-from ucsm_bot.copilot_topics import write_topics
+from ucsm_bot.copilot_topics import write_tupa_table
 from ucsm_bot.corpus import (
     EXPECTED_ARTICLES,
     EXPECTED_PROCEDURES,
@@ -249,7 +249,7 @@ def main() -> None:
         tupa_units, entries, tupa, KNOWLEDGE_DIR / "tupa_fichas.docx"
     )
     export_tupa_csv(entries, tupa, KNOWLEDGE_DIR / "tupa_fichas.csv")
-    write_topics(entries, TOPICS_DIR)
+    write_tupa_table(entries, TOPICS_DIR)
     protocol = yaml.safe_load(PROTOCOL_PATH.read_text(encoding="utf-8"))
     write_dialogs(protocol, entries, TOPICS_DIR)
     print(f"Artículos: {articles}/{EXPECTED_ARTICLES}; "

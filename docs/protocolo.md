@@ -40,7 +40,7 @@ Fuente del diagrama: [`figuras/protocolo_flujo.mmd`](figuras/protocolo_flujo.mmd
 | Consulta combinada | Respuesta generativa (ambos documentos) | "Falté a un examen por enfermedad, ¿qué hago?" | Regla (Art. 74°) + trámite TUPA tras desambiguar la escuela |
 | Desambiguación de trámite | Evaluación extemporánea | "¿Cómo pido una evaluación extemporánea?" | Pregunta Escuela Profesional / Escuela de Postgrado (PA1130732571 / PA1130731912) |
 | Desambiguación de nivel o modalidad | Instrucción del agente | "¿Cuántos créditos puedo llevar?" | Pregunta pregrado/postgrado o presencial/semipresencial/a distancia |
-| Datos personales | Datos personales (entidad regex 8 o 10 dígitos) | "mi DNI es 45678912" | Advertencia y retoma de la consulta (`datos_personales`) |
+| Datos personales | Datos personales (por su descripción) | "mi DNI es 45678912" | Advertencia y retoma de la consulta (`datos_personales`) |
 | Fuera de alcance | Fallback (sistema) | "¿Cuál es mi nota?", "admisión", "reglamento docente" | Explica el alcance y deriva a https://ucsm.edu.pe/normatividad/ (`fuera_de_alcance`) |
 | Sin evidencia | Respuesta generativa sin resultados | pregunta del dominio sin respuesta en el corpus | "No encontré…" + derivación (`sin_evidencia`) |
 | Contenido inapropiado | Moderación de contenido (sistema) | insultos, contenido ofensivo | Mensaje de respeto y retoma (`contenido_inapropiado`) |
@@ -56,8 +56,8 @@ Los identificadores entre paréntesis son los `id` de `protocolo.yaml`.
 2. **Nivel y modalidad:** las instrucciones del agente le piden preguntar
    una sola vez "¿pregrado o postgrado?" o "¿presencial, semipresencial o a
    distancia?" cuando la regla cambia según eso.
-3. **Trámite no reconocido:** si la entidad `Procedimiento TUPA` no
-   reconoce el nombre, el Topic pide el nombre del trámite con un ejemplo.
+3. **Trámite no reconocido:** si el Topic no reconoce el trámite en la
+   consulta, pide el nombre del trámite con un ejemplo.
 4. **Varias fichas igual de probables:** si la búsqueda del Topic *Consulta
    de trámite* empata entre fichas de nombre parecido (por ejemplo "copia
    autenticada de mi título": acta de grados o resolución del título), el
@@ -87,10 +87,10 @@ salen de `copilot/topics/tabla_tupa.powerfx`, generada desde
 
 - Aviso no oficial: `avisos.no_oficial` en la bienvenida y en la
   descripción del agente (visible en el Demo website).
-- Privacidad: el Topic `Datos personales` se activa con frases ("mi DNI
-  es…") o con la entidad regex de 8 dígitos (DNI) o 10 dígitos (código de
-  estudiante). Responde con `datos_personales.mensaje` y no guarda el dato
-  en variables.
+- Privacidad: la orquestación activa el Topic `Datos personales` por su
+  descripción, cuando el usuario escribe su DNI (8 dígitos), su código de
+  estudiante (10 dígitos), sus notas o una contraseña. Responde con
+  `datos_personales.mensaje` y no guarda el dato en variables.
 
 ## 7. Cobertura del protocolo
 
