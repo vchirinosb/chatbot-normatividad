@@ -88,6 +88,7 @@ Otros comandos:
 | `.venv/bin/python eval/compute_metrics.py` | Calcula las métricas desde `eval/results.csv` y escribe `eval/reporte.md` |
 | `.venv/bin/python eval/compute_sus.py` | Calcula el SUS y las métricas de tareas desde `eval/sus.csv` y `eval/tareas.csv` |
 | `.venv/bin/python scripts/generate_copilot_topics.py` | Regenera solo la entidad y la tabla Power Fx desde `tupa.json` |
+| `scripts/publish_wiki.sh` | Publica `docs/wiki/` y las figuras en la Wiki de GitHub (`--no-push` para revisar antes) |
 
 ## Estructura
 
@@ -113,7 +114,8 @@ Otros comandos:
 │   ├── evaluation.py           métricas del banco y SUS
 │   └── build.py                comando único de generación
 ├── scripts/
-│   └── generate_copilot_topics.py   regenera solo la entidad y la tabla
+│   ├── generate_copilot_topics.py   regenera solo la entidad y la tabla
+│   └── publish_wiki.sh              publica docs/wiki/ en la Wiki de GitHub
 ├── copilot/
 │   ├── instructions.md         instrucciones del agente
 │   ├── knowledge/              documentos cargados en Knowledge
@@ -125,7 +127,8 @@ Otros comandos:
 │   ├── protocolo.md, protocolo.yaml
 │   ├── guion_verificacion.md
 │   ├── bitacora.md             decisiones, iteraciones y versiones
-│   └── figuras/                diagrama del protocolo y capturas del agente
+│   ├── figuras/                diagrama del protocolo y capturas del agente
+│   └── wiki/                   páginas de la Wiki de GitHub
 ├── eval/
 │   ├── questions.yaml, check_questions.py      banco de preguntas
 │   ├── run_bank.py, to_results.py              ejecución por Direct Line
@@ -153,6 +156,7 @@ Otros comandos:
 - [Evaluación](eval/README.md): [resultados del banco](eval/evaluacion_completa.md)
   y [usabilidad](eval/usabilidad.md)
 - [Bitácora](docs/bitacora.md)
+- [Wiki](docs/wiki/Home.md): resumen del proyecto para la Wiki de GitHub
 
 ## Fuentes
 
