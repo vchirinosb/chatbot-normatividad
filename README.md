@@ -27,17 +27,25 @@ flowchart LR
     C --> E[knowledge_export.py<br/>.docx de conocimiento]
     D --> E
     D --> F[copilot_topics.py<br/>tabla Power Fx]
-    E --> G[Copilot Studio<br/>respuestas generativas con cita]
-    F --> H[Copilot Studio<br/>Topic de trámite + Adaptive Card]
-    G --> I[Demo website<br/>link público]
-    H --> I
+    P[docs/protocolo.yaml<br/>mensajes fijos] --> G[copilot_dialogs.py<br/>YAML de los Topics]
+    F --> G
+    E --> H[Copilot Studio<br/>respuestas generativas con cita]
+    G --> I[Copilot Studio<br/>Topics + Adaptive Card]
+    H --> J[Demo website<br/>link público]
+    I --> J
 ```
 
 - Las **preguntas normativas** se responden con respuestas generativas
   restringidas a los dos documentos de conocimiento, citando el artículo o
   el código del procedimiento.
 - Los **montos y plazos de trámites** se muestran desde una tabla generada a
-  partir del TUPA, por lo que son exactos por construcción.
+  partir del TUPA, por lo que son exactos por construcción. El Topic
+  *Consulta de trámite* recibe el trámite como texto libre y lo busca en esa
+  tabla por código o por denominación.
+- Los **Topics propios** no tienen frases de activación ni entidades propias:
+  la orquestación generativa los elige por su descripción. Por ejemplo,
+  *Datos personales* se activa cuando el usuario escribe su DNI, su código
+  de estudiante, sus notas o una contraseña, y no guarda el dato.
 
 ## Estado
 
@@ -88,7 +96,6 @@ Otros comandos:
 | `.venv/bin/python eval/compute_metrics.py` | Calcula las métricas desde `eval/results.csv` y escribe `eval/reporte.md` |
 | `.venv/bin/python eval/compute_sus.py` | Calcula el SUS y las métricas de tareas desde `eval/sus.csv` y `eval/tareas.csv` |
 | `.venv/bin/python scripts/generate_copilot_topics.py` | Regenera solo la tabla Power Fx desde `tupa.json` |
-| `scripts/publish_wiki.sh` | Publica `docs/wiki/` y las figuras en la Wiki de GitHub (`--no-push` para revisar antes) |
 
 ## Estructura
 
@@ -114,8 +121,7 @@ Otros comandos:
 │   ├── evaluation.py           métricas del banco y SUS
 │   └── build.py                comando único de generación
 ├── scripts/
-│   ├── generate_copilot_topics.py   regenera solo la tabla Power Fx
-│   └── publish_wiki.sh              publica docs/wiki/ en la Wiki de GitHub
+│   └── generate_copilot_topics.py   regenera solo la tabla Power Fx
 ├── copilot/
 │   ├── instructions.md         instrucciones del agente
 │   ├── knowledge/              documentos cargados en Knowledge
