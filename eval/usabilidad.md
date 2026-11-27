@@ -1,4 +1,4 @@
-# Resultados de la prueba de usabilidad (tarea 7.4)
+# Resultados de la prueba de usabilidad
 
 **Estado:** realizada el 2026-11-25 con 9 participantes (procedimiento en
 `tareas_usabilidad.md`). Datos: `eval/sus.csv` (exportación del formulario

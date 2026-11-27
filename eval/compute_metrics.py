@@ -1,4 +1,4 @@
-"""Calcular las métricas del agente y escribir eval/reporte.md (tarea 7.2).
+"""Calcular las métricas del agente y escribir eval/reporte.md.
 
 Uso: ``.venv/bin/python eval/compute_metrics.py [results.csv]``
 """

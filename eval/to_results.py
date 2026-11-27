@@ -1,4 +1,4 @@
-"""Convertir las transcripciones del banco en ``results.csv`` (tareas 7.1 y 7.3).
+"""Convertir las transcripciones del banco en ``results.csv``.
 
 Uso::
 
@@ -23,7 +23,7 @@ FIELDS = ["id", "question", "answer", "sources_cited", "card_shown",
 
 
 def format_sources(text: str) -> str:
-    """Listar las fuentes citadas en el formato de ``results_template.csv``."""
+    """Listar las fuentes citadas como la columna ``sources_cited``."""
     sources = cited_sources(text)
     articles = sorted(int(s.split(":")[1]) for s in sources
                       if s.startswith("art:"))

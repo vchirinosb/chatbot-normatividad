@@ -1,4 +1,4 @@
-"""Verificar los mínimos del banco de preguntas (tarea 6.1).
+"""Verificar los mínimos del banco de preguntas.
 
 Uso: ``.venv/bin/python eval/check_questions.py``
 """

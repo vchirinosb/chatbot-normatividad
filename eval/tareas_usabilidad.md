@@ -1,4 +1,4 @@
-# Prueba de usabilidad (tarea 7.4)
+# Prueba de usabilidad
 
 **Estado:** realizada el 2026-11-25 con 9 participantes; resultados en
 `usabilidad.md`. Se ejecutó con el agente publicado (*Demo website*).
@@ -24,8 +24,8 @@ Las 5 tareas se probaron en el agente el 2026-11-24 con redacción informal
       conversación de trabajo y en el canal *Demo website* de Copilot Studio.
 - [ ] Revisar que la prueba de Copilot Studio siga vigente (vence alrededor
       del 2026-12-24).
-- [ ] Copiar `tareas_template.csv` como `tareas.csv` (una fila por
-      participante y tarea).
+- [ ] Preparar `tareas.csv` con las columnas `participant,task,success,seconds,comments`
+      (una fila por participante y tarea).
 - [ ] Tener un cronómetro y esta guía a mano.
 
 ## Invitación (texto para enviar)
@@ -74,5 +74,5 @@ Las 5 tareas se probaron en el agente el 2026-11-24 con redacción informal
    sección *Exportar y calcular*).
 2. Completar `eval/usabilidad.md` con los resultados y los comentarios.
 3. Registrar en `docs/bitacora.md` las fechas, el número de participantes
-   y el resultado; marcar la tarea 7.4.
-4. Exportar la analítica del periodo de pruebas (tarea 7.5).
+   y el resultado.
+4. Exportar la analítica del periodo de pruebas.

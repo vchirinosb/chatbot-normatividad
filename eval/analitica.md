@@ -1,4 +1,4 @@
-# Analítica de Copilot Studio (tarea 7.5)
+# Analítica de Copilot Studio
 
 **Agente:** Normatividad Estudiantil UCSM (entorno de prueba).
 **Fuente:** Copilot Studio → *Monitor* (resumen y *Conversation outcomes*)
@@ -91,7 +91,7 @@ que no se escribió nada; por eso hay más sesiones que participantes.
   respuestas para este agente: no se activó la encuesta de satisfacción,
   el agente es generativo (sin *topics*) y el volumen diario no alcanza el
   mínimo para medir la calidad. Esas dimensiones se cubren con la rúbrica
-  (tarea 7.3) y el SUS (tarea 7.4).
+  y el SUS.
 - La analítica confirma el principal error de la prueba de usabilidad:
   la ambigüedad entre las fichas de copia autenticada (ver
   `eval/usabilidad.md`).

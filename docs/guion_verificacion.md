@@ -1,6 +1,6 @@
 # Guion de verificación del protocolo
 
-Recorrido para ejecutar en el panel de prueba de Copilot Studio (grupo 5) y
+Recorrido para ejecutar en el panel de prueba de Copilot Studio y
 en el Demo website publicado. Cada paso indica la intención de
 [`protocolo.yaml`](protocolo.yaml) y lo que debe aparecer. Los mensajes
 fijos deben coincidir **literalmente** con el YAML; las respuestas

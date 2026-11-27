@@ -1,10 +1,10 @@
 # Instrucciones del agente
 
-Texto para pegar en **Copilot Studio → Agente → Overview → Instructions**
-(tarea 5.1). Los mensajes fijos de los Topics salen de
+Texto para pegar en **Copilot Studio → Agente → Overview → Instructions**.
+Los mensajes fijos de los Topics salen de
 `docs/protocolo.yaml`; aquí solo va el comportamiento de las respuestas
 generativas. Cambios: editar este archivo y volver a pegarlo, registrando la
-iteración en `eval/iteraciones.md`.
+iteración en `docs/bitacora.md`.
 
 ## Descripción del agente (campo *Description*)
 
@@ -50,7 +50,7 @@ Privacidad y respeto
 - Mantén siempre un tono respetuoso.
 ```
 
-## Configuración asociada (D5)
+## Configuración asociada
 
 | Opción | Valor |
 |---|---|
@@ -60,4 +60,4 @@ Privacidad y respeto
 | Búsqueda web | Desactivada |
 | Conocimiento | `copilot/knowledge/reglamento_estudiantes.docx`, `copilot/knowledge/tupa_fichas.docx` |
 | Allow ungrounded responses | Desactivado |
-| Moderación de contenido | No disponible para español: Copilot Studio no muestra selector de nivel (ver D5) |
+| Moderación de contenido | No disponible para español: Copilot Studio no muestra selector de nivel |

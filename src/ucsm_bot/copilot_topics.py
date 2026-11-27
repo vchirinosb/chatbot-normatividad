@@ -1,7 +1,7 @@
 """Generación de la entidad y la tabla Power Fx para el Topic de trámites.
 
 El formato exacto que acepta el editor de Copilot Studio se verifica al
-construir el agente (grupo 5); aquí se genera texto listo para pegar.
+construir el agente; aquí se genera texto listo para pegar.
 """
 
 import unicodedata

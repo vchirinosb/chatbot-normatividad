@@ -1,4 +1,4 @@
-# Formulario SUS en Microsoft Forms (tarea 7.4)
+# Formulario SUS en Microsoft Forms
 
 Guía para crear el cuestionario que cada participante responde al terminar
 las tareas. Los textos deben copiarse tal cual: `eval/forms_to_sus.py` ubica

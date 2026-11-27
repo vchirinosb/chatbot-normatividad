@@ -1,4 +1,4 @@
-"""Convertir la exportación de Microsoft Forms a ``eval/sus.csv`` (tarea 7.4).
+"""Convertir la exportación de Microsoft Forms a ``eval/sus.csv``.
 
 Uso: ``.venv/bin/python eval/forms_to_sus.py <exportacion.xlsx>``
 

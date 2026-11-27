@@ -1,24 +1,20 @@
 # Evaluación
 
-| Archivo | Tarea | Uso |
-|---|---|---|
-| `questions.yaml` | 6.1 | Banco de 44 preguntas. Verificar con `.venv/bin/python eval/check_questions.py` |
-| `results_template.csv` | 7.1 | Copiar como `results.csv` y llenar una fila por pregunta al ejecutar el banco en el agente publicado |
-| `run_bank.py` | 7.1 | Ejecuta el banco en el agente publicado por Direct Line (token anónimo, una conversación por pregunta) → `transcripts.jsonl`. Requiere la variable `UCSM_BOT_TOKEN_URL` |
-| `to_results.py` | 7.1, 7.3 | Combina `transcripts.jsonl` y la calificación manual `calificacion.json` → `results.csv` |
-| `evaluacion_completa.md` | 7.1–7.3 | Método, resultados de las cuatro rondas, brechas y revisión pendiente |
-| `ronda1/` | 7.1–7.3 | Transcripciones, calificación, resultados y reporte de la ronda 1 (antes de corregir la búsqueda de trámites) |
-| `ronda2/` | 7.1–7.3 | Lo mismo para la ronda 2 (antes de anteponer el artículo a cada párrafo del Reglamento) |
-| `ronda3/` | 7.1–7.3 | Lo mismo para la ronda 3 (antes de la desambiguación de fichas del TUPA); los archivos de `eval/` son la ronda 4 |
-| `compute_metrics.py` | 7.2 | `.venv/bin/python eval/compute_metrics.py` → `reporte.md` |
-| `rubrica.md` | 7.3 | Criterios para la columna `rubric` |
-| `tareas_usabilidad.md` | 7.4 | Preparación, invitación, guion de la sesión y tareas |
-| `formulario_sus.md` | 7.4 | Cómo crear el cuestionario SUS en Microsoft Forms y exportarlo |
-| `forms_to_sus.py` | 7.4 | Exportación de Forms (`.xlsx` o CSV) → `sus.csv` |
-| `sus_template.csv`, `tareas_template.csv` | 7.4 | `tareas.csv` se llena en la sesión; `sus.csv` sale de `forms_to_sus.py` (o a mano); calcular con `eval/compute_sus.py` |
-| `sus.csv`, `tareas.csv` | 7.4 | Datos de la prueba (9 participantes): respuestas SUS anónimas y éxito por tarea según las notas del facilitador |
-| `usabilidad.md` | 7.4 | Resultados de la prueba: SUS 85,8, éxito por tarea, comentarios y cambios derivados |
-| `analitica.md` | 7.5 | Analítica de Copilot Studio (187 sesiones, resultados, temas por fase); el CSV de sesiones no se guarda (incluye transcripciones) |
+| Archivo | Uso |
+|---|---|
+| `questions.yaml` | Banco de 44 preguntas. Verificar con `.venv/bin/python eval/check_questions.py` |
+| `results.csv` | Una fila por pregunta del banco ejecutado en el agente publicado (columnas abajo) |
+| `run_bank.py` | Ejecuta el banco en el agente publicado por Direct Line (token anónimo, una conversación por pregunta) → `transcripts.jsonl`. Requiere la variable `UCSM_BOT_TOKEN_URL` |
+| `to_results.py` | Combina `transcripts.jsonl` y la calificación manual `calificacion.json` → `results.csv` |
+| `evaluacion_completa.md` | Método, resultados de las cuatro rondas, brechas y revisión pendiente; los archivos de `eval/` son la ronda 4 |
+| `compute_metrics.py` | `.venv/bin/python eval/compute_metrics.py` → `reporte.md` |
+| `rubrica.md` | Criterios para la columna `rubric` |
+| `tareas_usabilidad.md` | Preparación, invitación, guion de la sesión y tareas |
+| `formulario_sus.md` | Cómo crear el cuestionario SUS en Microsoft Forms y exportarlo |
+| `forms_to_sus.py` | Exportación de Forms (`.xlsx` o CSV) → `sus.csv` |
+| `sus.csv`, `tareas.csv` | Datos de la prueba (9 participantes): respuestas SUS anónimas (salen de `forms_to_sus.py`) y éxito por tarea según las notas del facilitador; calcular con `eval/compute_sus.py` |
+| `usabilidad.md` | Resultados de la prueba: SUS 85,8, éxito por tarea, comentarios y cambios derivados |
+| `analitica.md` | Analítica de Copilot Studio (187 sesiones, resultados, temas por fase); el CSV de sesiones no se guarda (incluye transcripciones) |
 
 Columnas de `results.csv`: `answer` (texto de la respuesta),
 `sources_cited` (citas mostradas, p. ej. "Art. 83°; PA113073C401"),

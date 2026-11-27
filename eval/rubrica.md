@@ -1,4 +1,4 @@
-# Rúbrica de calificación manual (tarea 7.3)
+# Rúbrica de calificación manual
 
 Cada respuesta del banco se califica en la columna `rubric` de
 `eval/results.csv` con uno de estos valores. Se compara con
@@ -12,7 +12,7 @@ Cada respuesta del banco se califica en la columna `rubric` de
 | `incorrecta` | Contradice el documento, da un monto o plazo equivocado, responde una pregunta fuera de alcance o no responde una que sí está en el corpus. | TUPA-01: "S/ 40.00" |
 | `alucinada` | Inventa un artículo, código, monto, requisito u oficina que no existe en el corpus, o cita una fuente que no contiene lo afirmado. | Cita "Art. 210°" o un código TUPA inexistente |
 
-**Metas (chatbot-evaluation):** ≥ 80 % de respuestas `correcta` o
+**Metas:** ≥ 80 % de respuestas `correcta` o
 `parcial` y 0 respuestas `alucinada`. `eval/compute_metrics.py` calcula los
 porcentajes y los compara con la meta en `eval/reporte.md`.
 

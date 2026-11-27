@@ -1,13 +1,13 @@
-# Evaluación completa del agente (tareas 7.1–7.3)
+# Evaluación completa del agente
 
 Ejecución del banco de 44 preguntas (`questions.yaml`) sobre el agente
 publicado *Normatividad Estudiantil UCSM*, el 2026-11-24, en el entorno de
-prueba de Copilot Studio (ver `docs/bitacora.md`, tarea 6.3). Se hicieron
+prueba de Copilot Studio (ver `docs/bitacora.md`). Se hicieron
 tres rondas: la ronda 1 detectó brechas en la búsqueda de trámites, que se
 corrigieron en el Topic *Consulta de trámite* (ronda 2); la ronda 2 dejó una
 respuesta alucinada (REG-17), que se corrigió en el documento de
-conocimiento del Reglamento. La ronda 3 fue la medición final de la tarea
-7.3. El 2026-11-25, después de la prueba de usabilidad (tarea 7.4), se
+conocimiento del Reglamento. La ronda 3 fue la medición final
+prevista. El 2026-11-25, después de la prueba de usabilidad, se
 corrigió la elección de fichas del TUPA cuando varias empatan y se repitió
 el banco completo (ronda 4) para comprobar que el cambio no afectara otras
 respuestas.
@@ -18,7 +18,7 @@ respuestas.
   website sin sesión de Microsoft (`eval/run_bank.py`). La URL del token no
   se guarda en el repositorio porque identifica el entorno.
 - **Una conversación nueva por pregunta**, para que ninguna respuesta
-  dependa de la anterior. En las iteraciones de la tarea 6.2 las 15
+  dependa de la anterior. En las iteraciones de ajuste las 15
   preguntas se hicieron en una misma sesión.
 - **Latencia:** diferencia entre la marca de tiempo del servidor del
   mensaje del usuario y la del último mensaje del agente. Incluye la
@@ -26,13 +26,13 @@ respuestas.
   requisitos…?").
 - **Registro:** respuestas en bruto en `transcripts.jsonl`; calificación
   manual en `calificacion.json`; ambas se combinan en `results.csv` con
-  `to_results.py`, y `compute_metrics.py` genera `reporte.md`. La ronda 1
-  está en `eval/ronda1/`, la ronda 2 en `eval/ronda2/`, la ronda 3 en
-  `eval/ronda3/` y la ronda 4 en `eval/` (archivos por defecto).
+  `to_results.py`, y `compute_metrics.py` genera `reporte.md`. Solo se
+  conservan los archivos de la ronda 4, en `eval/`; las rondas 1–3 se
+  resumen en este documento.
 - **Calificación:** según `rubrica.md`. Cada artículo, código, monto y plazo
   citado se contrastó con `data/processed/units.jsonl` y `tupa.json`. Ante
   la duda se eligió el valor más bajo.
-- **Moderación:** no configurable para español (D5).
+- **Moderación:** no configurable para español.
 
 ## Resultados
 
@@ -141,7 +141,7 @@ Brechas de la ronda 2, ya corregidas o cambiadas en la ronda 3:
 | Id | Rúbrica | Causa | Mejora propuesta |
 |---|---|---|---|
 | REG-17 | alucinada | En las dos rondas el dato (20 %) es correcto, pero el texto lo atribuye al Art. 137° (tutoría), que no lo contiene; está en el Art. 136°, también citado en *Fuentes*, y las condiciones en el Art. 135°, no citado. El fragmento del documento de conocimiento está bien etiquetado, así que el error es del modelo al redactar. | Reforzar en las instrucciones que el número de artículo se copie del encabezado del fragmento que contiene cada dato, y no se infiera de fragmentos vecinos; volver a medir REG-17. |
-| REG-02 | parcial | En las dos rondas omite el literal a del Art. 82° (asistencia al 100 %), que sí incluía en las iteraciones 2 y 3 de la tarea 6.2. | Vigilar; la instrucción de incluir todos los literales ya existe. |
+| REG-02 | parcial | En las dos rondas omite el literal a del Art. 82° (asistencia al 100 %), que sí incluía en las iteraciones 2 y 3 de ajuste. | Vigilar; la instrucción de incluir todos los literales ya existe. |
 | Latencia | p90 11,2 s | Las respuestas generativas tardan 6–16 s (NOANS-01: 15,7 s; NOANS-04: 14,3 s); las tarjetas del TUPA tardan 2–3 s. | Depende de la plataforma y varía entre rondas (p90 10,2 s en la ronda 1). |
 
 **Limitación conocida, fuera del banco:** "constancia de estudios" muestra

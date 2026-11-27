@@ -1,4 +1,4 @@
-"""Ejecutar el banco de preguntas en el agente publicado (tarea 7.1).
+"""Ejecutar el banco de preguntas en el agente publicado.
 
 Cada pregunta se envía en una conversación nueva de Direct Line con un token
 anónimo, igual que un visitante del Demo website sin sesión de Microsoft.

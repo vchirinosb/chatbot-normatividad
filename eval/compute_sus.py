@@ -1,4 +1,4 @@
-"""Calcular el SUS y las métricas de tareas de usabilidad (tarea 7.4).
+"""Calcular el SUS y las métricas de tareas de usabilidad.
 
 Uso: ``.venv/bin/python eval/compute_sus.py`` (lee eval/sus.csv y
 eval/tareas.csv).

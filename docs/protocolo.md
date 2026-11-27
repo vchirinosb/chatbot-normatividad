@@ -92,9 +92,9 @@ salen de `copilot/topics/tabla_tupa.powerfx`, generada desde
   estudiante). Responde con `datos_personales.mensaje` y no guarda el dato
   en variables.
 
-## 7. Cobertura de los requisitos de `conversation-protocol`
+## 7. Cobertura del protocolo
 
-| Requisito | Dónde se cumple |
+| Aspecto | Dónde se cumple |
 |---|---|
 | Bienvenida y presentación del alcance | `saludo`, `avisos.alcance`, `menu` |
 | Clasificación de intenciones | Tabla de intenciones (sección 3) |
@@ -103,4 +103,4 @@ salen de `copilot/topics/tabla_tupa.powerfx`, generada desde
 | Aviso de carácter no oficial | `avisos.no_oficial`, sección 6 |
 | Privacidad | `datos_personales`, sección 6 |
 | Fuente única de mensajes | `protocolo.yaml` + `guion_verificacion.md` |
-| Validación del protocolo | Diagrama (sección 2) + guion de verificación, iteraciones (`eval/iteraciones.md`) y banco de preguntas (`eval/evaluacion_completa.md`) |
+| Validación del protocolo | Diagrama (sección 2) + guion de verificación, iteraciones (`docs/bitacora.md`) y banco de preguntas (`eval/evaluacion_completa.md`) |
