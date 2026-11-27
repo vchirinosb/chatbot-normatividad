@@ -7,5 +7,4 @@
 - [Protocolo conversacional](Protocolo-conversacional)
 - [Agente en Copilot Studio](Agente-en-Copilot-Studio)
 - [Evaluación](Evaluacion)
-- [Guía de desarrollo](Guia-de-desarrollo)
 - [Glosario](Glosario)

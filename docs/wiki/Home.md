@@ -38,5 +38,4 @@ del Reglamento o el código del procedimiento del TUPA.
 | [Protocolo conversacional](Protocolo-conversacional) | Intenciones, flujo, desambiguación y formato de respuesta |
 | [Agente en Copilot Studio](Agente-en-Copilot-Studio) | Instrucciones, conocimiento, Topics, publicación y versiones |
 | [Evaluación](Evaluacion) | Banco de preguntas, métricas, rondas, usabilidad y analítica |
-| [Guía de desarrollo](Guia-de-desarrollo) | Instalación, comandos, estructura del repositorio y pruebas |
 | [Glosario](Glosario) | Términos de Copilot Studio, del corpus y de la evaluación |

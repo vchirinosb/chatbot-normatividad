@@ -50,7 +50,7 @@ https://ucsm.edu.pe/normatividad/.
 - **No oficial:** el asistente orienta; manda el documento oficial.
 - **Vigencia:** el corpus corresponde a las versiones de 2026. Si la UCSM
   cambia los documentos, hay que regenerar el conocimiento y volver a
-  cargarlo (ver [Guía de desarrollo](Guia-de-desarrollo)).
+  cargarlo en Copilot Studio.
 - **Texto fuente:** la limpieza repara automáticamente la mayoría de las
   listas del Reglamento; quedan 5 literales sueltos. Una ficha del TUPA
   (Duplicado de Carné de Representante Estudiantil) no indica la unidad
